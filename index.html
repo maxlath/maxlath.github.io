@@ -1,13 +1,51 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <title>Maxime</title>
-</head>
-<body>
-  <main>
-    <h1>Maxime</h1>
-
-  </main>
+<body vocab="http://schema.org/">
+<div typeof="Person">
+  <h1 property="name">Maxime Lathuilière</h1>
+  <img property="image" src="http://wwelves.org/images/elf-pavlik.jpg" />
+  <p property="description">working on P2P-resources managment: get information on resources out of businesses hand!</p>
+  <h2>social profiles</h2>
+  <ul>
+    <li><a property="sameAs" href="https://github.com/maxlath">github</a></li>
+    <li><a property="sameAs" href="https://twitter.com/maxlath">twitter</a></li>
+    <li><a property="sameAs" href="https://facebook.com/maxime.lathuiliere">facebook</a></li>
+  </ul>
+  <h2>friends</h2>
+  <ul>
+    <li><a property="knows" href="http://samsemilio.github.io"><span about="http://samsemilio.github.io" property="name">Samuel Andert</span></a></li>
+    <li><a property="knows" href="http://auli.haldjas.org/"><span about="http://auli.haldjas.org/"property="name">Auli Kütt</span></a></li>
+    <li><a property="knows" href="http://profile.daha.co.uk"><span about="http://profile.daha.co.uk" property="name">Daniel Harris</span></a></li>
+    <li><a property="knows" href="http://alvaro.onclic.es"><span about="http://alvaro.onclic.es" property="name">Álvaro Saco</span></a></li>
+    <li><a property="knows" href="http://y.chn.io/"><span about="http://y.chn.io/" property="name">Jon Richter</span></a></li>
+    <li><a property="knows" href="http://box.projectdanube.org/"><span about="http://box.projectdanube.org/" property="name">Markus Sabadello</span></a></li>
+  </ul>
+  <h2>wishlist</h2>
+  <h3>seeks</h3>
+  <ul>
+    <li rel="seeks">
+    <div typeof="Demand" about="/requests/123">
+      <div rel="itemOffered">
+        <div typeof="Product http://www.productontology.org/id/Book" about="https://www.wikidata.org/wiki/Q2563786">
+          <a href="https://www.wikidata.org/wiki/Q2563786">
+            <span property="name">A Thousand Plateaus</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    </li>
+  </ul>
+  <h3>offers</h3>
+  <ul>
+    <li rel="makesOffer">
+    <div typeof="Offer" about="/offers/432">
+      <div rel="itemOffered">
+        <div typeof="Product http://www.productontology.org/id/Cours">
+          <p property="name">introduction to French contemporary thinkers work: Bernard Stiegler, Frédéric Lordon, Etienne Chouard</p>
+        </div>
+      </div>
+    </div>
+    </li>
+  </ul>
+</div>
 </body>
 </html>
