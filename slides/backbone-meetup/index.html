@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Stratégie d'apprentissage et optimisation pour la flexibilité au service de l'utopie numérique</title>
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/serif.css" id="theme">
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+          document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+        </script>
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides"><section  data-markdown><script type="text/template">
+### Stratégie d'apprentissage et optimisation pour la flexibilité au service de l'utopie numérique
+*"the only constant is change"*
+
+--
+
+#### Meetup Backbone 17/02/2015
+[Maxime Lathuilière](http://maxlath.eu)
+[@maxlath](https://twitter.com/maxlath)
+
+<aside class="notes" data-markdown>retour d'XP. résumer 4 ans de travail en 15 minutes</aside></script></section><section  data-markdown><script type="text/template">
+
+### Origine du projet
+repenser le marketing dans l'intéret des consommateurs/citoyens
+
+
+--
+
+
+mémoire: [maxlath.eu/paper-ethical-marketing](http://maxlath.eu/paper-ethical-marketing/)
+
+<aside class="notes" data-markdown>quelques mots sur mon parcours: master en management / mémoire de fin d'étude</aside></script></section><section  data-markdown><script type="text/template">
+publicité : les débuts
+
+![poisson](img/marketing-poisson.jpg)
+
+<aside class="notes" data-markdown>frais ou pas frais, on parle du produit</aside></script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="img/free.jpg" -->
+
+<aside class="notes" data-markdown>peut-on remplacer la pub par des flux de données sur les ressources disponibles ? => peut-être résumé par la formule (next)</aside></script></section><section  data-markdown><script type="text/template">
+s/marketing/information sur les ressources disponibles/g
+
+<aside class="notes" data-markdown>s'inscrit dans un mouvement existant: les systèmes de VRM</aside></script></section><section  data-markdown><script type="text/template">
+### VRM
+*Vendor Relationship Management*
+
+outiller le consommateur pour rééquilibrer la relation commerciale
+
+<aside class="notes" data-markdown></aside></script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="img/donnees-vendeur-consommateur-1.jpg" -->
+
+<aside class="notes" data-markdown>carte de fidelité = tracker client</aside></script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="img/donnees-vendeur-consommateur-2.jpg" -->
+
+<aside class="notes" data-markdown></aside></script></section><section  data-markdown><script type="text/template">
+yaka demander (gentillement) aux entreprises d'ouvrir leurs **données-produits en format standard**, d'en rendre l'**usage libre**, et de nous envoyer le **lien** quand on passe à la caisse (plutôt qu'un bout de papier *so* XXième siècle), pour qu'on puisse **réutiliser/recroiser les données** via des outils dont ils n'ont pas le contrôle !
+
+
+<div style="display:flex; flex-direction: row;">
+
+![receipt](img/cheers_cadbury-receipt1-small.jpg)
+<span style="margin-top:3em">
+  =>
+</span>
+![json](img/json.png)
+</div>
+
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="img/fuckallthat.gif" -->
+
+<aside class="notes" data-markdown>essais infructueux: entreprises radines en données / vous avez déjà fait un hackathon open data d'un grand groupe ?</aside></script></section><section  data-markdown><script type="text/template">
+### P2P-RM
+*P2P Resources Management*
+
+l'économie collaborative/horizontale comme laboratoire de transaction avec échanges de données ouvertes
+
+
+--
+
+article: [maxlath.eu/p2p-rm](http://maxlath.eu/p2p-rm/)
+
+<aside class="notes" data-markdown>contourner le problème du manque d'incentive tant que pas d'usage</aside></script></section>
+<section  data-markdown><script type="text/template">
+### Objectifs du projet
+
+Cartographier les ressources disponibles entre pairs avec des données ouvertes
+
+
+= en faire l'**inventaire**
+
+
+
+</script></section>
+<section  data-markdown><script type="text/template">
+### Specs d'un outil garantissant l'intéret du citoyen
+
+
+libre/open source <!-- { .element: style="text-align:left;" class="fragment roll-in"} -->
+
+savoir libre <!-- { .element: style="text-align:left;" class="fragment roll-in"} -->
+
+données en formats standard <!-- { .element: style="text-align:left;" class="fragment roll-in"} -->
+
+contrôle des données par l'utilisateur <!-- { .element: style="text-align:left;" class="fragment roll-in"} -->
+
+outil decentralisé <!-- { .element: style="text-align:left;" class="fragment roll-in"} -->
+
+outil développé par une organisation ouverte et indépendante <!-- { .element: style="text-align:left;" class="fragment roll-"} -->
+
+top of ze pop UX <!-- { .element: style="text-align:left;" class="fragment roll-in"} -->
+
+<aside class="notes" data-markdown>inscrire l'incorruptabilité dans la structure. pas de revente des données, pas de pub. vendor-lockin impossible : les utilisateurs restent parcequ'ils ont envie de rester</aside></script></section><section  data-markdown><script type="text/template">
+#Full-Stack Bisounours
+![au pays des bisous](http://bluebird.b.l.pic.centerblog.net/lg1c46sv.gif)
+</script></section><section  data-markdown><script type="text/template">
+“A prototype is worth a thousand meetings.”
+
+~ Mike Davidson, VP of Design, Twitter <!-- .element: style="color:#aaa" -->
+
+<aside class="notes" data-markdown>yapluka</aside></script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="img/weeds.gif" -->
+
+### "bonjour, je sors d'école de commerce et j'ai une super idée, tu veux être mon CTO?" <!-- { .element: style="color: #222"} -->
+
+<aside class="notes" data-markdown>pas de cash, pas d'experience, pas de clients. des difficultés de réaliser un proto quand on est pas dev</aside></script></section><section  data-markdown><script type="text/template">
+### devenir son propre associé technique
+
+<aside class="notes" data-markdown>pas de cash => investissement en temps</aside></script></section><section  data-markdown><script type="text/template">
+expérience technique : 0
+
+don de voyance : 0
+
+### sur quelles technos parier ?
+</script></section><section  data-markdown><script type="text/template">
+### "startegie d'apprentissage"
+
+![dog](img/startegie-dapprentissage.gif)
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="img/warfog.jpg" -->
+
+# tâtonner <!-- .element: style="color:#fff" -->
+</script></section><section  data-markdown><script type="text/template">
+
+### Bouillonnement des technos décentralisées
+
+Social Web : RWW, WebID  <!-- { .element: class="fragment roll-in"} -->
+
+Unhosted : RemoteStorage, PouchDB  <!-- { .element: class="fragment roll-in"} -->
+
+Personal Clouds : CozyCloud, OwnCloud...  <!-- { .element: class="fragment roll-in"} -->
+
+Internet reboots: Etherium, MaidSafe...  <!-- { .element: class="fragment roll-in"} -->
+
+<aside class="notes" data-markdown>des difficultés de réaliser un proto quand on est pas dev</aside></script></section><section  data-markdown><script type="text/template">
+### web décentralisé : faible adoption / immaturité
+=> commencer en web classique / centraliser autour d'un server, mais en gardant la possibilité d'évoluer
+
+</script></section><section  data-markdown><script type="text/template">
+# Javascript
+
+- language standard du web
+- unhosted, server-less, read-write-web, node-webkit, cordova/phonegap : JS comme point commun
+
+<aside class="notes" data-markdown>Unhosted, clients lourds => JS. + avantage structurel comme language standard du web + flexibilité server-less, node-webkit...</aside></script></section><section  data-markdown><script type="text/template">
+“A prototype is worth a thousand meetings.”
+
+~ Mike Davidson, VP of Design, Twitter <!-- .element: style="color:#aaa" -->
+
+<aside class="notes" data-markdown>et comme un proto blablabla (next)</aside></script></section><section  data-markdown><script type="text/template">
+## Vite Vite Vite !!
+
+
+*fail early fail often*
+
+~ sagesse Lean <!-- .element: style="color:#444" -->
+
+<aside class="notes" data-markdown>apprentissage JS // proto</aside></script></section><section  data-markdown><script type="text/template">
+1er proto: Meteor
+![meteor](img/meteor.jpg)
+
+
+<aside class="notes" data-markdown>avant la 1.0, evolution chaque semaine</aside></script></section><section  data-markdown><script type="text/template">
+*"facile même pour les débutants"*
+
+![magic](img/magic.gif)
+</script></section><section  data-markdown><script type="text/template">
+j'ai essayer de lire le code de Meteor
+
+![dents](img/boxing-1.jpg) <!-- { .element: class="fragment roll-in"} -->
+
+je m'y suis cassé les dents <!-- { .element: class="fragment roll-in"} -->
+
+<aside class="notes" data-markdown>tout va bien tant que ça va. pas fait pour être compris, juste utilisé et que tout marche comme par magie</aside></script></section><section  data-markdown><script type="text/template">
+# culte du cargo
+</script></section><section  data-markdown><script type="text/template">
+fail early fail often: mon cul
+
+<aside class="notes" data-markdown>apprendre, ça prend du temps</aside></script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="img/backbone.png" -->
+
+
+### lesson learned <!-- .element: style="margin-top:10em" -->
+
+<aside class="notes" data-markdown>là, le storytelling devrai me faire dire que je me suis résolu à ne prendre plus que des petits outils, au code lisible et que je suis tombé amoureux de Backbone.js, que nous vécure heureux et eurent beaucoup d'enfants</aside></script></section><section  data-markdown><script type="text/template">
+# FAUX
+
+<aside class="notes" data-markdown>dans ce brouillard général, j'ai été très chanceux</aside></script></section><section  data-markdown><script type="text/template">
+## app CozyCloud
+
+Stack: <!-- { .element: style="text-align:left"} -->
+
+Coffeescript <!-- { .element: class="fragment roll-in" style="text-align:left"} -->
+
+NodeJs / ExpressJs <!-- { .element: class="fragment roll-in" style="text-align:left"} -->
+
+BackboneJs <!-- { .element: class="fragment roll-in" style="text-align:left"} -->
+
+Brunch <!-- { .element: class="fragment roll-in" style="text-align:left"} -->
+
+CouchDB <!-- { .element: class="fragment roll-in" style="text-align:left"} -->
+
+<aside class="notes" data-markdown>concours MesInfos (VRM). Cozy en 2 mots. j'ai tout pompé</aside></script></section><section  data-markdown><script type="text/template">
+tip a posteriori:
+
+*qu'utilisent ceux qui essayent de résoudre les mêmes problèmes ?*
+</script></section><section  data-markdown><script type="text/template">
+### Full Stack bernard l'hermite
+![end](img/bernard.jpg)
+
+<aside class="notes" data-markdown>Les bernard l'hermite se caractérisent par le fait qu'ils possèdent en général un abdomen mou dépourvu de carapace. Par conséquent, ils occupent pour se protéger des abris qui, pour la majorité des espèces, sont formés par des coquilles de gastéropode mais aussi des éponges ou des bambous.*</aside></script></section><section  data-markdown><script type="text/template">
+
+Et là, tout s'est bien passé
+
+![end](img/the-end-2.jpg)
+
+</script></section><section  data-markdown><script type="text/template">
+
+Ou presque
+
+![dents](img/fightclub-theet.gif)
+
+concepts MVC - *this* - *hoisting* - *async* - *prototypal inheritence*...
+
+<aside class="notes" data-markdown>3 mois de galère. dans le doute, j'attachais tout à *window*. Mais au moins, j'apprends javascript, pas un framework</aside></script></section><section  data-markdown><script type="text/template">
+### Reprendre cette base pour un nouveau proto et étoffer
+
+=> aménager la coquille
+
+<aside class="notes" data-markdown>le concours passé, commence le proto Inventaire</aside></script></section><section  data-markdown><script type="text/template">
+![marionette](img/marionette.png)
+
+- faciliter les layouts
+- modulariser / découpler
+
+<aside class="notes" data-markdown>choix par la doc trouvée / importance de la communauté / maturité</aside></script></section><section  data-markdown><script type="text/template">
+### L'été/automne à bidouiller
+
+</script></section><section  data-markdown><script type="text/template">
+### créer un système d'authentification
+
+![dents](img/fightclub-theet.gif) <!-- { .element: class="fragment roll-in" } -->
+
+<aside class="notes" data-markdown>Persona vs unknown crypto</aside></script></section><section  data-markdown><script type="text/template">
+### créer un réseau social
+
+![dents](img/fightclub-theet.gif) <!-- { .element: class="fragment roll-in" } -->
+
+<aside class="notes" data-markdown>Neo4J propaganda "you need a graphDB to do graphs". LevelGraph => pb réplication Levelup => retour CouchDB</aside></script></section><section  data-markdown><script type="text/template">
+### créer une UX top of the pop
+
+framework CSS/JS <!-- .element: class="fragment roll-in" -->
+
+VS <!-- .element: class="fragment roll-in" -->
+
+lib MVC <!-- .element: class="fragment roll-in" -->
+
+<aside class="notes" data-markdown>Foundation topbar vs $el => Flexbox => problème de compatibilité</aside></script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="img/anneau.jpg" -->
+
+### un DOM pour les gouverner tous <!-- .element: style="color:white" -->
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="#222" -->
+
+![li-before](img/top-bar-ul-2.png)
+
+![li-before](img/li-before.png)
+
+![insert-after](img/insert-after.png)
+
+
+<aside class="notes" data-markdown>exemple: attacher des views à la top bars Foundation</aside></script></section><section  data-markdown><script type="text/template">
+### plug&play task-runner plugins
+
+![magic](img/magic.gif)
+
+<aside class="notes" data-markdown>Remplacer les wrap de wrap d'outil par les outils dans un script. (ex: browserify, gzip, cssnext...) la docu des plugins présupposent que vous connaissez déjà l'outil. maitenance hasardeuse</aside></script></section><section  data-markdown><script type="text/template">
+### rule of thumb
+*plus un outil est packagé, plus vous êtes dépendant de mainteneurs de projets*
+
+=> retourner à la source
+
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="#000" -->
+
+### package.json: <!-- .element: style="color:#666" -->
+
+"build": "./scripts/build" <!-- .element: style="text-align:left; color:white" -->
+
+### ./scripts/build: <!-- .element: style="color:#666" -->
+
+brunch build --production <!-- .element: style="text-align:left; color:white" -->
+
+./scripts/minify <!-- .element: style="text-align:left; color:white" -->
+
+./scripts/gzip <!-- .element: style="text-align:left; color:white" -->
+
+./scripts/update_i18n_files <!-- .element: style="text-align:left; color:white" -->
+</script></section><section  data-markdown><script type="text/template">
+### héberger le site: les PAAS
+
+![magic](img/magic.gif)
+</script></section><section  data-markdown><script type="text/template">
+### héberger le site: les PAAS
+
+![baby-control](img/paas.jpg)
+
+<aside class="notes" data-markdown>Nodejitsu $48/mois pour un SSL => VPS // Nginx // apt-get // Couchdb</aside></script></section><section  data-markdown><script type="text/template">
+
+<!-- .slide: data-background="img/seul-au-monde.jpg" -->
+
+###  l'apprentissage peut parfois sembler un peu long <!-- .element: style="color:white; text-shadow: 2px 0 0 #222; padding-top: 10em; " -->
+
+<aside class="notes" data-markdown>8 mois de prototypage</aside></script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="img/stack.png" -->
+
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="img/inventaire.png" -->
+
+<div style="display:flex; flex-direction:column; justify-content:flex-end; height: 18em;">
+[Inventaire.io](https://inventaire.io) <!-- .element: style="color:white" -->
+
+[@inventaire_io](https://twitter.com/inventaire_io) <!-- .element: style="color:white" -->
+</div>
+
+<aside class="notes" data-markdown>aperçu de https://inventaire.io/inventory/</aside></script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="img/inventory.png" -->
+</script></section><section  data-markdown><script type="text/template">
+### Status du respect des specs
+
+* libre/open source <!-- .element: class="fragment roll-in" style="color:green" -->
+* savoir libre <!-- .element: class="fragment roll-in" style="color:#ffd000" -->
+* données en formats standard <!-- .element: class="fragment roll-in" style="color:red" -->
+* contrôle des données par l'utilisateur <!-- .element: class="fragment roll-in" style="color:#ffd000" -->
+* outil decentralisé <!-- .element: class="fragment roll-in" style="color:red" -->
+* outil développé par une organisation ouverte et indépendante <!-- .element: class="fragment roll-in" style="color:green" -->
+* top of ze pop UX <!-- .element: class="fragment roll-in" style="color:#ffd000" -->
+
+<aside class="notes" data-markdown>AGPL3/repo github public. Peut faire mieux</aside></script></section><section  data-markdown><script type="text/template">
+
+### savoir libre
+
+![wikidata](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/800px-Wikidata-logo.svg.png)
+
+[wikidata](https://wikidata.org)
+
+<aside class="notes" data-markdown>[Q535](https://wikidata.org/entity/Q535) et [wd:Q535](https://inventaire.io/entity/wd:Q535)</aside></script></section><section  data-markdown><script type="text/template">
+### encore tellement de fonctionnalités manquantes
+
+- groupes
+- real-time
+- messageries
+- suivi des transactions
+- intégration continue
+...
+</script></section><section  data-markdown><script type="text/template">
+### prendre son temps
+
+(mais en allant vite)
+
+<aside class="notes" data-markdown>la facilité mêne au coté obscure de la complexité</aside></script></section><section  data-markdown><script type="text/template">
+les plus du zero-magic: la configurabilité
+
+les moins du zero-magic: la configurabilité <!-- { .element: class="fragment roll-in"} -->
+
+<aside class="notes" data-markdown>voir analytics couchdb view / http</aside></script></section><section  data-markdown><script type="text/template">
+### apprendre en mode bourrin
+
+réaliser un projet de A à Z  <!-- { .element: style="text-align:left" class="fragment roll-in"} -->
+
+regarder des conf au ptit dej  <!-- { .element: style="text-align:left" class="fragment roll-in"} -->
+
+aller à des meetups  <!-- { .element: style="text-align:left" class="fragment roll-in"} -->
+
+lire la doc / des bouquins/ le code  <!-- { .element: style="text-align:left" class="fragment roll-in"} -->
+
+lire les articles de dev expérimenté(e)s  <!-- { .element: style="text-align:left" class="fragment roll-in"} -->
+
+lire des dev expérimenté(e)s blablater sur twitter  <!-- { .element: style="text-align:left" class="fragment roll-in"} -->
+
+lire lire lire  <!-- { .element: style="text-align:left" class="fragment roll-in"} -->
+
+essayer essayer essayer  <!-- { .element: style="text-align:left" class="fragment roll-in"} -->
+</script></section><section  data-markdown><script type="text/template">
+on ne peut pas comprendre un outil sans avoir fait l'experience du problème qu'il tente de résoudre
+
+<aside class="notes" data-markdown>pour comprendre un problème et les solutions techniques packagé par tel ou tel framework, il faut l'avoir affronté, sinon c'est de la magie. Une grande partie de la notre métier consiste à comprendre le contexte dans lequel s'articule les outils : ne laisser pas les frameworks vous voler l'occasion d'apprendre ('fin c'est un équilibre à trouver)</aside></script></section><section  data-markdown><script type="text/template">
+### du coup je commence à voir venir les arnaques
+
+*"get your facebook-killer app working in minutes"* <!-- { .element: class="fragment roll-in"} -->
+
+*"focus on doing what you like, while we care for the rest"* <!-- { .element: class="fragment roll-in"} -->
+
+![magic](img/magic.gif) <!-- { .element: class="fragment roll-in"} -->
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="img/dentist.gif" -->
+
+### vous avez le bonjour de mon dentiste <!-- .element: style="color:white" -->
+
+<aside class="notes" data-markdown>beaucoup de cassage de dents plus tard</aside></script></section><section  data-markdown><script type="text/template">
+![inv](img/inventorize-all-the-things.jpg)
+
+If you like it put a PR on it: [github.com/maxlath/inventaire](https://github.com/maxlath/inventaire)
+
+--
+
+[Maxime Lathuilière](http://maxlath.eu) - [@maxlath](https://twitter.com/maxlath)
+
+[Inventaire.io](https://inventaire.io) - [@inventaire_io](https://twitter.com/inventaire_io)
+
+
+<aside class="notes" data-markdown>questions ?</aside></script></section></div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            function extend() {
+              var target = {};
+              for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                  if (source.hasOwnProperty(key)) {
+                    target[key] = source[key];
+                  }
+                }
+              }
+              return target;
+            }
+
+            // Optional libraries used to extend on reveal.js
+            var deps = [
+              { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+            ];
+
+            // default options to init reveal.js
+            var defaultOptions = {
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'default',
+              dependencies: deps
+            };
+
+            // options from URL query string
+            var queryOptions = Reveal.getQueryHash() || {};
+
+            var options = {};
+            options = extend(defaultOptions, options, queryOptions);
+            Reveal.initialize(options);
+        </script>
+    </body>
+</html>
