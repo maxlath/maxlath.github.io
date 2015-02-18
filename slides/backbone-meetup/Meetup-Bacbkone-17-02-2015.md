@@ -14,6 +14,10 @@ Note: retour d'XP. résumer 4 ans de travail en 15 minutes
 
 ---
 
+Faites 's' pour ouvrir la popup avec les notes
+
+---
+
 
 ### Origine du projet
 repenser le marketing dans l'intéret des consommateurs/citoyens
