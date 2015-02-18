@@ -1,5 +1,5 @@
 
-### Stratégie d'apprentissage et optimisation pour la flexibilité au service de l'utopie numérique
+### Stratégies d'apprentissage et optimisation pour la flexibilité au service de l'utopie numérique
 *"the only constant is change"*
 
 --
@@ -7,6 +7,8 @@
 #### Meetup Backbone 17/02/2015
 [Maxime Lathuilière](http://maxlath.eu)
 [@maxlath](https://twitter.com/maxlath)
+
+retour sur la génèse d'[Inventaire](https://inventaire.io)
 
 Note: retour d'XP. résumer 4 ans de travail en 15 minutes
 
