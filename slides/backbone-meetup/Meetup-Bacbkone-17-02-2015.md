@@ -506,6 +506,14 @@ Note: [Q535](https://wikidata.org/entity/Q535) et [wd:Q535](https://inventaire.i
 
 ---
 
+<!-- .slide: data-background="img/Q535.png" -->
+
+---
+
+<!-- .slide: data-background="img/wd-Q535.png" -->
+
+---
+
 ### encore tellement de fonctionnalités manquantes
 
 - groupes
