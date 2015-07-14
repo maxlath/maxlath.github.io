@@ -6,6 +6,7 @@ _ = require 'lodash'
 folders = [
   '../backbone-meetup/img'
   '../ouishare-labs-camp-3/img'
+  '../captions/img'
 ]
 
 allowedExtensions = [ 'jpg', 'png', 'gif' ]

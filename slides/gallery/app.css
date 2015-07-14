@@ -1,6 +1,8 @@
 #gallery{
   display: flex;
   flex-direction: row;
+}
+#gallery:not(.one-line){
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
