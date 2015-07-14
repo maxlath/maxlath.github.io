@@ -1,0 +1,12 @@
+#gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  flex: 1 1 auto;
+  max-width: 20em;
+  max-height: 20em;
+}
