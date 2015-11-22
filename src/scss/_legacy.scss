@@ -1,0 +1,148 @@
+// main.scss
+
+$linkcolor: #ED6913;
+$menulinkcolor: #369100;
+$menubg: #D0D0D0;
+$datecolor: #222;
+
+$smallwidth:  900px;
+$smallheight: 580px;
+$xlargewidth: 1400px;
+
+$verticalmenuwidth: 270px;
+$horizontalmenuheight: 354px;
+$layoutsidemarginlarge: 50px;
+$layoutsidemarginsmall: 15px;
+
+a{
+  color: $linkcolor;
+  &:hover{
+    color: lighten($linkcolor, 15%);
+  }
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2, h3, h4, h5, h6{
+  color: darken($menulinkcolor, 10%);
+}
+
+h1, .highlight{
+  color: #fff;
+  background-color: rgba(20,20,20,0.4);
+  padding: 3px;
+}
+
+.date{
+  color: $datecolor;
+  text-align: center;
+}
+
+.article{
+  max-width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa {
+  font-size: 64px;
+  margin-bottom: 10px;
+}
+
+.code{
+  font-family: "courier";
+}
+
+p.code{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-left: 1.5em;
+}
+
+span.code{
+  color: #111;
+}
+
+
+.legend{
+  font-size: 0.8em;
+  margin-left: 3em;
+  background-position: #ccc;
+}
+
+.quote {
+  font-family: "Times New Roman", Times, serif;
+  font-weight:300;
+  color: #171717;
+  background-color: rgb(241,241,241);
+  padding: 1em;
+  margin-left: 1.5em;
+  .fa {
+    font-size: 1.8em;
+    color: #aaa;
+    margin: 0.2em 0.6em 0.2em 0.6em;
+  }
+}
+
+.lang{
+  font-family: "Times New Roman", Times, serif;
+}
+
+#about{
+  padding-bottom: 2em;
+}
+
+// articles.scss
+$linkcolor: #ED6913;
+
+.panel{
+  background-color: #eee;
+  @include radius;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.item{
+  .deeplinking {
+    line-height:2em;
+  }
+  .fa-link{
+    font-size: 1.6em;
+    margin-left: 0.3em;
+    color: rgba($linkcolor, 0.5);
+    &:hover{
+      color: rgba($linkcolor, 1);
+    }
+  }
+  h3{
+    display: inline;
+  }
+}
+
+
+.footer{
+  font-size: 0.8em;
+  text-align: center;
+}
+
+
+// paperethicalmarketing.scss
+.titletab{
+  margin-left: 0.6em;
+}
+
+.header2{
+    margin-top: 0.6em;
+}
+
+.header3{
+    margin-top: 0.3em;
+}

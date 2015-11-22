@@ -1,0 +1,5 @@
+# intermediary files
+src/css/main.css
+
+# excluded for now
+assets/font/open-sans-semibold.woff2

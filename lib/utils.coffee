@@ -43,6 +43,13 @@ module.exports = _ =
     console.log message.red, context
     throw new Error(message)
 
+  getIdFromTitle: (title)->
+    title
+    .toLowerCase()
+    .replace /\s/g, '-'
+
+  attributeString: (name, val)-> if val? then "#{name}='#{val}'" else ''
+
 FileOpCb = (label, path)->
   return cb = (err, res)->
     if err? then logOp label, path, err, 'red'

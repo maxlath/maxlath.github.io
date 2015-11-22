@@ -1,10 +1,15 @@
 module.exports = (data)->
-  { title, description, image } = data
-  preview = """
-    <div class='cover' style='background-image: url(#{image})'>
-      <h3>#{title}</h3>
-    </div>
-    """
-  if description? then preview += "<p>#{description}</p>"
+  { title, subtitle, description, image } = data
 
-  return preview
+  innerPreview = "<h3 class='title'>#{title}</h3>"
+  if subtitle? then innerPreview += "<span class='subtitle'>#{subtitle}</span>"
+
+  if description?
+    description = description[0..200] + '...'
+    innerPreview += "<p class='description'>#{description}</p>"
+
+  """
+  <div class='preview-cover' style='background-image: url(#{image})'>
+    <div class='inner-preview'>#{innerPreview}</div>
+  </div>
+  """

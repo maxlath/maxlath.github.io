@@ -20,5 +20,5 @@ addLink = (innerWrap, link)->
   return innerWrap
 
 wrapItAll = (title, innerWrap)->
-  id = title.replace ' ', '-'
+  id = _.getIdFromTitle title
   "<section id='#{id}'>#{innerWrap}</section>"

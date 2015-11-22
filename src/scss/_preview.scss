@@ -1,8 +1,25 @@
-a{
-  text-decoration: none;
-  font-size: 2em;
+.inner-preview{
+  padding: 0.2em;
+  margin: 1em;
+  background-color: rgba(white, 0.9);
+  color: $dark-grey;
+  .title{
+    font-size: 1.4em;
+    margin: 0;
+    padding: 0;
+  }
+  .subtitle{
+    font-weight: bold;
+    font-size: 0.8em;
+    max-width: 50%;
+    color: lighten($dark-grey, 5%);
+  }
+  .description{
+    font-size: 0.8em;
+    color: lighten($dark-grey, 10%);
+  }
 }
-.cover{
+.preview-cover{
   background-size: cover;
   background-position: center center;
   @include display-flex(column, center, center);
@@ -10,9 +27,4 @@ a{
   &:hover{
     @include inner-shadow;
   }
-}
-h2, h3{
-  color: white;
-  @include shy-text-border;
-  font-weight: bold;
 }

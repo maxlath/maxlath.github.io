@@ -1,5 +1,9 @@
-module.exports = (data, main='', classes='')->
-  { title } = data
+_ = require './utils'
+
+module.exports = (data, main='', classes)->
+  { id, title } = data
+  idStr = _.attributeString 'id', id
+  classesStr = _.attributeString 'class', classes
   """
   <!DOCTYPE html>
   <html>
@@ -12,7 +16,7 @@ module.exports = (data, main='', classes='')->
     <nav>
       <a href="/" title="home"><i class="fa fa-home"></i></a>
     </nav>
-    <main class="#{classes}">#{main}</main>
+    <main #{idStr} #{classesStr}>#{main}</main>
   </body>
   </html>
   """
