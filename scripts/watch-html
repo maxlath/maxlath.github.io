@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+# start by building
+./scripts/build-html
+# then watch
+echo "starting to watch html"
+onchange '(articles|posts|lib)/**' -- ./scripts/build-html

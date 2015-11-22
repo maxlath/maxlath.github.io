@@ -1,0 +1,24 @@
+#!/usr/bin/env coffee
+
+fs = require 'fs'
+buildList = require '../lib/build_list'
+updatePart = require '../lib/update_part'
+buildIndex = require '../lib/build_index'
+wrapList = require '../lib/wrap_list'
+{ sections, sectionsList } = require 'config'
+
+
+content = sectionsList
+  .map (section)->
+    # build list
+    html = buildList section
+    # build sub indexes / SIDE EFFECT /
+    buildIndex section, html
+    # wrap lists for main index
+    return wrapList html, 2, section, "/#{section}"
+  .join '\n'
+
+
+separator = '<!-- AUTOLIST -->'
+# add wrap lists to main index
+updatePart './index.html', separator, content

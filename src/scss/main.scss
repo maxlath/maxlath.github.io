@@ -1,0 +1,48 @@
+@import 'fonts';
+@import 'colors';
+@import 'mixins';
+body{
+  text-align: center;
+  color: $dark-grey;
+  font-family: 'Open Sans', sans-serif;
+}
+main{
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+#pic{
+  margin: 0 auto;
+  background-color: #222;
+  border-radius: 50em;
+  padding: 5px;
+  @include shadow-box;
+}
+
+// RESET
+body{
+  ul, ul li, ul li ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    margin: 0;
+  }
+  p{
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    outline: 0;
+  }
+}
+
+small{
+  @include shy(0.7);
+}
+
+@import 'nav';
+@import 'item';
+@import 'lists';
+@import 'footer';

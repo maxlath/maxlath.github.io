@@ -1,0 +1,1 @@
+live-server . & ./scripts/watch-css &./scripts/watch-html

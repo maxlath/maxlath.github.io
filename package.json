@@ -1,0 +1,35 @@
+{
+  "name": "personal-hub",
+  "description": "A static website to publish articles, posts and other blabla about myself, hosted as a Github Page and accessible at http://maxlath.eu",
+  "author": "maxlath",
+  "version": "0.0.1",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxlath/maxlath.github.io"
+  },
+  "scripts": {
+    "start": "./scripts/start",
+    "new-article": "./scripts/scaffold-item articles",
+    "new-post": "./scripts/scaffold-item posts",
+    "build-items": "./scripts/build-items",
+    "build-lists": "./scripts/build-lists",
+    "build-css": "./scripts/build-css",
+    "build": "./scripts/build",
+    "watch-items": "./scripts/watch-items",
+    "watch-lists": "./scripts/watch-lists",
+    "watch-css": "./scripts/watch-css",
+    "watch": "./scripts/watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "config": "^1.17.1",
+    "live-server": "^0.8.2",
+    "marked": "^0.3.5",
+    "mkdirp": "^0.5.1",
+    "node-sass": "^3.4.2",
+    "onchange": "^2.0.0",
+    "readdir-recursive": "0.0.4"
+  }
+}

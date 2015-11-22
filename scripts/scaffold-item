@@ -1,0 +1,3 @@
+#!/usr/bin/env coffee
+scaffoldItem = require '../lib/scaffold_item'
+scaffoldItem.apply null, process.argv.slice(2)

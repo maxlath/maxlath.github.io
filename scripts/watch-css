@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+# start by building
+./scripts/build-css
+# then watch
+echo "starting to watch css"
+onchange './src/scss/*' -- ./scripts/build-css

@@ -1,0 +1,49 @@
+footer{
+  .links{
+    max-width: 45em;
+    margin: 0.5em auto;
+    @include display-flex(row, center, center, wrap);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    a{
+      width: 10em;
+      height: 6em;
+      margin: 0.2em;
+      @include display-flex(column, center, center);
+      text-decoration: none;
+      .fa{
+        font-size: 3em;
+      }
+      span{
+        font-weight: bold;
+        white-space: nowrap;
+      }
+      color: rgba($dark-grey, 0.9);
+      @include transition(color);
+      &:hover{
+        &.inventory{ color: #FFD402; }
+        &.gratipay{ color: #FE313A; }
+        &.email{ color: #39B54A; }
+        &.twitter{ color: #55ACEE; }
+        &.wikidata{ color: #990000; }
+        &.wikipedia{ color: #B3B4B6; }
+        &.commons{ color: #00649A; }
+        &.openstreetmap{ color: #9BCE81; }
+        &.github{ color: #333333; }
+        &.transifex{ color: #125A8C; }
+        &.linkedin{ color: #1C87BD; }
+        &.stackoverflow{ color: #F48024; }
+        // GROW ICONS
+        // .fa, span{
+          // @include transition(font-size, 0.4s);
+        // }
+        // .fa{
+        //   font-size: 4em;
+        // }
+        // span{
+        //   font-size: 1.4em;
+        // }
+      }
+    }
+  }
+}

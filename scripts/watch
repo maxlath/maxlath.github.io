@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+./scripts/watch-css & ./scripts/watch-lists

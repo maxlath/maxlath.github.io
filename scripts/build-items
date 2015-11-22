@@ -1,0 +1,14 @@
+#!/usr/bin/env coffee
+
+{ sectionsList, contentFile } = require 'config'
+buildItem = require '../lib/build_item'
+rread = require 'readdir-recursive'
+
+sectionsList.forEach (section)->
+  rread.file "./#{section}", (file)->
+    if isContentFile file
+      itemFolderPath = getFolderPath file
+      buildItem itemFolderPath
+
+isContentFile = (file)-> file.split('/').slice(-1)[0] is contentFile
+getFolderPath = (file)-> file.split('/')[0...-1].join('/')

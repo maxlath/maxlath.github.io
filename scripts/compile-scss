@@ -1,0 +1,10 @@
+#!/usr/bin/env coffee
+
+sass = require 'node-sass'
+fs = require 'fs'
+require 'colors'
+_ = require '../lib/utils'
+
+sass.render { file: 'src/scss/main.scss' }, (err, res)->
+  if err? then console.log 'compile-scss err'.red, err
+  else _.writeFile 'src/css/main.css', res.css

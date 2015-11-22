@@ -1,0 +1,10 @@
+nav{
+  text-align: left;
+  a{
+    @include shy(0.4);
+    color: grey;
+  }
+  .fa{
+    font-size: 2.5em;
+  }
+}

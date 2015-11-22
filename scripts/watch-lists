@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+# start by building
+./scripts/build-lists
+# then watch
+pattern='(articles|posts)/**'
+echo "starting to watch: $pattern -> build-lists"
+onchange $pattern -- ./scripts/build-lists

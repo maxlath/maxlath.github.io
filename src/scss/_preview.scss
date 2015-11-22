@@ -1,0 +1,18 @@
+a{
+  text-decoration: none;
+  font-size: 2em;
+}
+.cover{
+  background-size: cover;
+  background-position: center center;
+  @include display-flex(column, center, center);
+  @include transition(box-shadow);
+  &:hover{
+    @include inner-shadow;
+  }
+}
+h2, h3{
+  color: white;
+  @include shy-text-border;
+  font-weight: bold;
+}
