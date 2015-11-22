@@ -1,0 +1,12 @@
+# Usage
+
+# To redirect a page from /foo, add the following to the top of the page:
+
+# ---
+# redirect_from: "/foo"
+# ---
+
+# source: https://help.github.com/articles/redirects-on-github-pages/
+
+gems:
+  - jekyll-redirect-from
