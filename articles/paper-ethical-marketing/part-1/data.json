@@ -1,0 +1,10 @@
+{
+  "id": "part-1",
+  "title": "part-1",
+  "subtitle": null,
+  "description": null,
+  "image": null,
+  "date": "2015-11-24T13:49:42.093Z",
+  "parent": "articles/paper-ethical-marketing",
+  "partials": "../partials/masterplan.html"
+}

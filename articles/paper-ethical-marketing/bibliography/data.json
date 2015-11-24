@@ -1,0 +1,10 @@
+{
+  "id": "bibliography",
+  "title": "bibliography",
+  "subtitle": null,
+  "description": null,
+  "image": null,
+  "date": "2015-11-24T14:38:32.623Z",
+  "parent": "articles/paper-ethical-marketing",
+  "partials": "../partials/masterplan.html"
+}

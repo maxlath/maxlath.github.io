@@ -1,0 +1,10 @@
+{
+  "id": "lexic",
+  "title": "lexic",
+  "subtitle": null,
+  "description": null,
+  "image": null,
+  "date": "2015-11-24T14:38:39.167Z",
+  "parent": "articles/paper-ethical-marketing",
+  "partials": "../partials/masterplan.html"
+}

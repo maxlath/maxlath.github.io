@@ -1,0 +1,193 @@
+<!-- MASTERPLAN -->
+<!-- MASTERPLAN -->
+<hr>
+  <h2 class="highlight">Bibliography</h2>
+<p> </p>
+<p>Adam Curtis, 2002. <em>The Century of Self</em>, BBC Four.</p>
+<p> </p>
+<p>American Marketing Association, 2007. Definition of Marketing - American Marketing Association. Available at: <a href="http://www.marketingpower.com/AboutAMA/Pages/DefinitionofMarketing.aspx">http://www.marketingpower.com/AboutAMA/Pages/DefinitionofMarketing.aspx</a> [Accessed August 1, 2012].</p>
+<p> </p>
+<p>Anderson, P.F., 1983. Marketing, Scientific Progress, and Scientific Method. <em>Journal of Marketing</em>, 47, pp.18–31. Available at: <a href="http://www.jstor.org/discover/10.2307/1251395?uid=3738016&amp;uid=2&amp;uid=4&amp;sid=21101067363483">http://www.jstor.org/discover/10.2307/1251395?uid=3738016&amp;uid=2&amp;uid=4&amp;sid=21101067363483</a></p>
+<p> </p>
+<p>Arndt, J., 1985. On Making Marketing Science More Scientific: Role of Orientations, Paradigms, Metaphors, and Puzzle Solving. <em>Journal of Marketing</em>, 49(3), pp.11–23. Available at: <a href="http://www.jstor.org/discover/10.2307/1251612?uid=3738016&amp;uid=2&amp;uid=4&amp;sid=21101178947531">http://www.jstor.org/discover/10.2307/1251612?uid=3738016&amp;uid=2&amp;uid=4&amp;sid=21101178947531</a></p>
+<p> </p>
+<p>Ars Industrialis, 2012a. Désir. Available at: <a href="http://www.arsindustrialis.org/d">http://www.arsindustrialis.org/d</a>ésir. [Quotation translated from French to English by Maxime Lathuilière]</p>
+<p> </p>
+<p>Ars Industrialis, 2012b. Economie libidinale. Available at: <a href="http://www.arsindustrialis.org/economie-libidinale">http://www.arsindustrialis.org/economie-libidinale</a> [Quotation translated from French to English by Maxime Lathuilière]</p>
+<p> </p>
+<p>Ars Industrialis, 2012c. Glossaire. Available at: <a href="http://www.arsindustrialis.org/glossary">http://www.arsindustrialis.org/glossary</a> </p>
+<p> </p>
+<p>Ars Industrialis, 2012d. Grammatisation. Available at: <a href="http://www.arsindustrialis.org/grammatisation">http://www.arsindustrialis.org/grammatisation</a> [Quotation translated from French to English by Maxime Lathuilière]</p>
+<p> </p>
+<p>Ars Industrialis, 2009. Nootechnique. Available at: <a href="http://www.arsindustrialis.org/nootechnique">http://www.arsindustrialis.org/nootechnique</a> [Quotation translated from French to English by Maxime Lathuilière]</p>
+<p> </p>
+<p>Ars Industrialis, 2010. Pharmakon. Available at: <a href="http://www.arsindustrialis.org/pharmakon">http://www.arsindustrialis.org/pharmakon</a> [Quotation translated from French to English by Maxime Lathuilière]</p>
+<p> </p>
+<p>Bain, P. &amp; Taylor, P., 2000. Entrapped by the “electronic panopticon”? Worker resistance in the call centre. <em>New Technology, Work and Employment</em>, 15(1), pp.2–18. Available at: <a href="http://doi.wiley.com/10.1111/1468-005X.00061">http://doi.wiley.com/10.1111/1468-005X.00061</a> [Accessed September 18, 2012].Bakan, J., Achbar, M. &amp; Abbott, J., 2003. <em>The Corporation</em>, Available at: <a href="http://www.imdb.com/title/tt0379225/">http://www.imdb.com/title/tt0379225/</a></p>
+<p> </p>
+<p>Barison, D. &amp; Ross, D., 2004. <em>The Ister</em>, Black Box Sound and Image.</p>
+<p> </p>
+<p>Barney, J.B., 2011. <em>Gaining and sustaining competitve advantage, 4th ed.</em> PHI Learni. A. K. Ghosh, ed.,</p>
+<p> </p>
+<p>Bartels, R., 1976. <em>The History of Marketing Thought</em>, Available at: <a href="http://people.missouristate.edu/ChuckHermans/Bartels.htm">http://people.missouristate.edu/ChuckHermans/Bartels.htm</a></p>
+<p> </p>
+<p>Bauwens, M. et al., 2012. <em>Synthetic overview of the collaborative economy</em>, Available at: <a href="http://p2p.coop/files/reports/collaborative-economy-2012.pdf">http://p2p.coop/files/reports/collaborative-economy-2012.pdf</a></p>
+<p> </p>
+<p>Berger, P.L. &amp; Luckmann, T., 1966. <em>The Social Construction of Reality: A Treatise in the Sociology of Knowledge</em>, Open Road Media. Available at: <a href="http://books.google.com/books?id=Jcma84waN3AC&amp;pgis=1">http://books.google.com/books?id=Jcma84waN3AC&amp;pgis=1</a> [Accessed August 28, 2012].</p>
+<p> </p>
+<p>Bernays, E.L., 1928. <em>Propaganda</em> H. Liveright, ed., New-York. Available at: <a href="http://ia600804.us.archive.org/4/items/Porpaganda/PropagandaedwardBernays1928.pdf">http://ia600804.us.archive.org/4/items/Porpaganda/PropagandaedwardBernays1928.pdf</a> [Accessed August 1, 2012].</p>
+<p> </p>
+<p>Brennan, M., 1991. Is There More to Ethical Marketing than Marketing Ethics ? <em>Journal of Business</em>, pp.8–17.</p>
+<p> </p>
+<p>van den Broek, W., 2012. Avez-vous dit Homo Economicus ? <em>Blog Mutin <a href="http://Mutinerie.org">Mutinerie.org</a></em>. Available at: <a href="http://www.mutinerie.org/avez-vous-dit-homo-economicus/">http://www.mutinerie.org/avez-vous-dit-homo-economicus/</a></p>
+<p> </p>
+<p>Burgoyne, P., 2007. São Paulo: The City That Said No To Advertising. <em>Businessweek</em>. Available at: <a href="http://www.businessweek.com/stories/2007-06-18/s-o-paulo-the-city-that-said-no-to-advertisingbusinessweek-business-news-stock-market-and-financial-advice">http://www.businessweek.com/stories/2007-06-18/s-o-paulo-the-city-that-said-no-to-advertisingbusinessweek-business-news-stock-market-and-financial-advice</a></p>
+<p> </p>
+<p>Camenisch, P.F., 1991. Marketing ethics: Some dimensions of the challenge. <em>Journal of Business Ethics</em>, 10(4), pp.245–248. Available at: <a href="http://www.springerlink.com/content/u3n5r8184421t817/?MUD=MP">http://www.springerlink.com/content/u3n5r8184421t817/?MUD=MP</a> [Accessed July 13, 2012].</p>
+<p> </p>
+<p>Carey, A., 1996. <em>Taking the Risk Out of Democracy: Corporate Propaganda versus Freedom and Liberty</em>, University of Illinois Press. Available at: <a href="http://books.google.com/books?id=_UrtQ89Kp3YC&amp;pgis=1">http://books.google.com/books?id=_UrtQ89Kp3YC&amp;pgis=1</a> [Accessed September 8, 2012].</p>
+<p> </p>
+<p>Carroll, A.B., 1999. Corporate Social Responsibility. Evolution of a Definitional Construct. <em>Business &amp; society</em>, 38, pp.268–295. Available at: <a href="http://www.cs.unitn.it/~andreaus/bs1011/BS_L3_carroll.pdf">http://www.cs.unitn.it/~andreaus/bs1011/BS_L3_carroll.pdf</a></p>
+<p> </p>
+<p>Chomsky, N., 1997. What Makes Mainstream Media Mainstream.</p>
+<p> </p>
+<p>Dahlsrud, A., 2008. How Corporate Social Responsibility is Defined : an Analysis of 37 Definitions. , 13(November 2006), pp.1–13. Available at: <a href="http://onlinelibrary.wiley.com/doi/10.1002/csr.132/pdf">http://onlinelibrary.wiley.com/doi/10.1002/csr.132/pdf</a></p>
+<p> </p>
+<p>Davenport, T.H. &amp; Beck, J.C., 2001. <em>The Attention Economy: Understanding the New Currency of Business</em>, Harvard Business Press. Available at: <a href="http://books.google.com/books?hl=en&amp;lr=&amp;id=FuuKd3on9psC&amp;pgis=1">http://books.google.com/books?hl=en&amp;lr=&amp;id=FuuKd3on9psC&amp;pgis=1</a> [Accessed September 24, 2012].</p>
+<p> </p>
+<p>Deleuze, G., 2001. Review of Gilbert Simondon’s L'individu et sa genèse phsico-biologique. <em>Pli</em>, 12, pp.43–49. Available at: <a href="http://web.warwick.ac.uk/philosophy/pli_journal/pdfs/Vol_12/12_4_Deleuze.pdf">http://web.warwick.ac.uk/philosophy/pli_journal/pdfs/Vol_12/12_4_Deleuze.pdf</a></p>
+<p> </p>
+<p>Deleuze, G., 1990. Society of Control. <em>L’autre journal</em>, I. Available at: <a href="http://www.blogs.bloodedbythought.org/tech/wp-content/uploads/deleuze_postcript-societies-of-control.pdf">http://www.blogs.bloodedbythought.org/tech/wp-content/uploads/deleuze_postcript-societies-of-control.pdf</a></p>
+<p> </p>
+<p>Dumas, G. et al., 2012. La publicité peut avoir des effets nocifs sur la société. <em>Le Monde</em>. Available at: <a href="http://abonnes.lemonde.fr/idees/article/2012/06/26/la-publicite-peut-avoir-des-effets-nocifs-sur-la-societe_1724489_3232.html">http://abonnes.lemonde.fr/idees/article/2012/06/26/la-publicite-peut-avoir-des-effets-nocifs-sur-la-societe_1724489_3232.html</a> [Accessed September 25, 2012]. [Quotation translated from French to English by Maxime Lathuilière]</p>
+<p> </p>
+<p>Eckersley, R., 2009. Social change movements. <em>ECOS</em>, 2009(150), p.30. Available at: <a href="http://www.ecosmagazine.com/?paper=EC150p30">http://www.ecosmagazine.com/?paper=EC150p30</a> [Accessed September 26, 2012].</p>
+<p> </p>
+<p>Floris, B. &amp; Ledun, M., 2005. Le marketing, technologie politique et forme symbolique du contrôle social. <em>Études de communication</em>, (28), pp.125–140. Available at: <a href="http://edc.revues.org/index303.html">http://edc.revues.org/index303.html</a> [Accessed September 9, 2012]. [Quotation translated from French to English by Maxime Lathuilière]</p>
+<p> </p>
+<p>Ford, H. &amp; Crowther, S., 1922. <em>My Life and Work</em>, Doubleday, Page. Available at: <a href="http://books.google.com/books?id=4K82efXzn10C&amp;pgis=1">http://books.google.com/books?id=4K82efXzn10C&amp;pgis=1</a> [Accessed September 10, 2012].</p>
+<p> </p>
+<p>Foucault, M., 1979. <em>The History of Sexuality Vol.1: The Will to Knowledge</em>, London: Allen Lane. Available at: <a href="http://en.wikipedia.org/wiki/The_History_of_Sexuality">http://en.wikipedia.org/wiki/The_History_of_Sexuality</a> [Accessed September 3, 2012].</p>
+<p> </p>
+<p>Frank, T., 1998. <em>The Conquest of Cool: Business Culture, Counterculture, and the Rise of Hip Consumerism</em>, University of Chicago Press. Available at: <a href="http://books.google.com/books?hl=en&amp;lr=&amp;id=KHyIY2cctQIC&amp;pgis=1">http://books.google.com/books?hl=en&amp;lr=&amp;id=KHyIY2cctQIC&amp;pgis=1</a> [Accessed September 25, 2012].</p>
+<p> </p>
+<p>Freud, S., 1949. <em>Group Psychology and the Analysis of the Ego</em>, Mundus Publishing. Available at: <a href="http://books.google.com/books?id=RpPF5gqTeqwC&amp;pgis=1">http://books.google.com/books?id=RpPF5gqTeqwC&amp;pgis=1</a> [Accessed September 7, 2012].</p>
+<p> </p>
+<p>Freudenberg, N., 2012. The manufacture of lifestyle: the role of corporations in unhealthy living. <em>Journal of public health policy</em>, 33(2), pp.244–56. Available at: <a href="http://www.palgrave-journals.com/jphp/journal/v33/n2/abs/jphp201160a.html">http://www.palgrave-journals.com/jphp/journal/v33/n2/abs/jphp201160a.html</a> [Accessed September 25, 2012].</p>
+<p> </p>
+<p>Friedman, M., 1970. The Social Responsibility of Business is to Increase its Profits. <em>The New York Times Magazine</em>. Available at: <a href="http://www.colorado.edu/studentgroups/libertarians/issues/friedman-soc-resp-business.html">http://www.colorado.edu/studentgroups/libertarians/issues/friedman-soc-resp-business.html</a></p>
+<p> </p>
+<p>Fullerton, R.A., 2011. The birth of the consumer behaviour: Motivation research in the 1950s. , pp.61–68. Available at: <a href="http://faculty.quinnipiac.edu/charm/CHARM">http://faculty.quinnipiac.edu/charm/CHARM</a> proceedings/CHARM article archive pdf format/Volume 15 2011/The birth of the consumer behaviour.pdf.</p>
+<p> </p>
+<p>Gates, S., 2012. American Obesity In 2030: Most U.S. Residents Will Be Obese Within Next 2 Decades. <em>The Huffington Post</em>. Available at: <a href="http://www.huffingtonpost.com/2012/09/18/us-obesity-2030-americans-obese_n_1893578.html?ncid=edlinkusaolp00000003#slide=1537756">http://www.huffingtonpost.com/2012/09/18/us-obesity-2030-americans-obese_n_1893578.html?ncid=edlinkusaolp00000003#slide=1537756</a></p>
+<p> </p>
+<p>Habisch, A., R., &amp; Jonker, J., 2005. <em>Corporate Social Responsibility Across Europe</em> A. Habisch et al., eds., Berlin/Heidelberg: Springer-Verlag. Available at: <a href="http://www.springerlink.com/index/10.1007/b138371">http://www.springerlink.com/index/10.1007/b138371</a></p>
+<p> </p>
+<p>Hartston, H., 2012. The Case for Compulsive Shopping as an Addiction. <em>Journal of Psychoactive Drugs</em>, 44(1), pp.64–67. Available at: <a href="http://dx.doi.org/10.1080/02791072.2012.660110">http://dx.doi.org/10.1080/02791072.2012.660110</a> [Accessed September 25, 2012].</p>
+<p> </p>
+<p>Holovat, J.R., 2006. Profit over People - The Corporate Greed Motive as the Case for CSR. , (December). Available at: <a href="http://150.210.155.246/facultyhandbook/documents/Briloff_Grad_06.doc">http://150.210.155.246/facultyhandbook/documents/Briloff_Grad_06.doc</a></p>
+<p> </p>
+<p>Horel, S. &amp; Rossigneux, B., 2012. <em>Les alimenteurs</em>, France Television. Available at: <a href="http://documentaires.france5.fr/documentaires/les-alimenteurs">http://documentaires.france5.fr/documentaires/les-alimenteurs</a> [Quotation translated from French to English by Maxime Lathuilière]</p>
+<p> </p>
+<p>Irving, S., Harrison, R. &amp; Rayner, M., 2002. Ethical Consumerism - Democracy through the Wallet. <em>Journal of Research for Consumers</em>, (3). Available at: <a href="http://sponsored.uwa.edu.au/jrconsumers/__data/page/3024/IrvingHarrisonRayner.pdf">http://sponsored.uwa.edu.au/jrconsumers/__data/page/3024/IrvingHarrisonRayner.pdf</a></p>
+<p> </p>
+<p>Johnson, C.A., 2009. Cutting Through Advertising Clutter. <em>CBS News</em>. Available at: <a href="http://www.cbsnews.com/2100-3445_162-2015684.html">http://www.cbsnews.com/2100-3445_162-2015684.html</a></p>
+<p> </p>
+<p>Kambil, A., Friesen, G.B. &amp; Sundaram, A., 1999. Co-creation: A new source of value. <em>Outlook</em>, pp.38–43. Available at: <a href="http://www.launch-now.net/SiteCollectionDocuments/PDF/cocreation2.pdf">http://www.launch-now.net/SiteCollectionDocuments/PDF/cocreation2.pdf</a></p>
+<p> </p>
+<p>Kotler, P. et al., 2005. <em>Principles of Marketing</em> 4th Europe., Pearson Education.</p>
+<p> </p>
+<p>Lardeux, A. &amp; Beth, S., 2011. La part du reste : pour une économie de la contribution Un entretien avec Bernard Stiegler. <em>Altérités</em>, 8(1), pp.26–47. Available at: <a href="http://www.alterites.ca/vol8no1/pdf/STIEGLER_81.pdf">http://www.alterites.ca/vol8no1/pdf/STIEGLER_81.pdf</a></p>
+<p> </p>
+<p>Lebow, V., 1955. Price Competition in 1955. <em>Journal of retailing</em>, XXXI. Available at: <a href="http://www.scribd.com/doc/965920/LebowArticle">http://www.scribd.com/doc/965920/LebowArticle</a></p>
+<p> </p>
+<p>Lordon, F., 2010. <em>Capitalisme, désir et servitude</em>, La Fabrique éditions.</p>
+<p> </p>
+<p>Lordon, F., 2009. Economie du désir et désir en économie 2. <em>Ars Industrialis</em>. Available at: <a href="http://www.arsindustrialis.org/economie-du-d">http://www.arsindustrialis.org/economie-du-d</a>ésir-et-désir-en-économie-2-0. [Quotation translated from French to English by Maxime Lathuilière]</p>
+<p> </p>
+<p>Les associés d’EIM, 2004. <em>Les Dirigeants français et le Changement : Baromètre 2004</em> Huitième Jour, ed.,</p>
+<p> </p>
+<p>Léonard, A. &amp; OuiShare, 2011. 100 sites de consommation collaborative. Available at: <a href="http://consocollaborative.com/1704-100-sites-de-consommation-collaborative.html">http://consocollaborative.com/1704-100-sites-de-consommation-collaborative.html</a></p>
+<p> </p>
+<p>MacWhinney, B., 2005. Language Evolution and Human Development. In <em>Origins of the Social Mind: Evolutionary Psychology and Child Development</em>. New York: Guilford Press, pp. 383–410. Available at: <a href="http://psyling.psy.cmu.edu/papers/years/2005/evoldev.pdf">http://psyling.psy.cmu.edu/papers/years/2005/evoldev.pdf</a></p>
+<p> </p>
+<p>Maignan, I., Ferrell, O.C. &amp; Ferrell, L., 2005. A stakeholder model for implementing social responsibility in marketing. <em>European Journal of Marketing</em>, 39(9/10), pp.956–977. Available at: <a href="http://www.emeraldinsight.com/10.1108/03090560510610662">http://www.emeraldinsight.com/10.1108/03090560510610662</a></p>
+<p> </p>
+<p>Manning, P., 2011. Review of Freud on Madison Avenue: Motivation Research and Subliminal Advertising in America, by Lawrence R. Samuel. Available at: <a href="http://engagedscholarship.csuohio.edu/cgi/viewcontent.cgi?article=1011&amp;context=clsoc_crim_facpub">http://engagedscholarship.csuohio.edu/cgi/viewcontent.cgi?article=1011&amp;context=clsoc_crim_facpub</a></p>
+<p> </p>
+<p>McLaughlin, R.L. &amp; Parry, S.E., 2006. <em>We’ll Always Have the Movies: American Cinema during World War II</em>, University Press of Kentucky. Available at: <a href="http://books.google.com/books?hl=en&amp;lr=&amp;id=_FhXmwiyHqAC&amp;pgis=1">http://books.google.com/books?hl=en&amp;lr=&amp;id=_FhXmwiyHqAC&amp;pgis=1</a> [Accessed September 11, 2012].</p>
+<p> </p>
+<p>Morin, C., 2011. Neuromarketing: The New Science of Consumer Behavior. <em>Society</em>, 48(2), pp.131–135. Available at: <a href="http://www.springerlink.com/content/l008038078x70166/">http://www.springerlink.com/content/l008038078x70166/</a> [Accessed July 17, 2012].</p>
+<p> </p>
+<p>P2P Foundation, 2012. Trust. Available at: <a href="http://p2pfoundation.net/Trust">http://p2pfoundation.net/Trust</a></p>
+<p> </p>
+<p>Packard, V., 1957. <em>The Hidden Persuaders</em>, Available at: <a href="http://www.wrijneveld.nl/Boekenplank/BoekenOverDeNieuweWereldOrde/1957-Vance-Packard-The-Hidden-Persuaders.pdf">http://www.wrijneveld.nl/Boekenplank/BoekenOverDeNieuweWereldOrde/1957-Vance-Packard-The-Hidden-Persuaders.pdf</a></p>
+<p> </p>
+<p>Pettegrew, J., 1992. A Post-Modernist Moment: 1980s. Commercial Culture &amp; The Founding of MTV. <em>The Journal of American Culture</em>, 15(4), pp.57–65. Available at: <a href="http://www.blackwell-synergy.com/links/doi/10.1111/j.1542-734X.1992.1504_57.x">http://www.blackwell-synergy.com/links/doi/10.1111/j.1542-734X.1992.1504_57.x</a> [Accessed September 10, 2012].</p>
+<p> </p>
+<p>Phan, V., 2010. Neuromarketing: Who Decides What You Buy? <em>The science in society review</em>, 6. Available at: <a href="http://lincolncenter-dev.asu.edu/files/documents/sponsor_tthSpring2010.pdf#page=8">http://lincolncenter-dev.asu.edu/files/documents/sponsor_tthSpring2010.pdf#page=8</a></p>
+<p> </p>
+<p>Pope, D., 2003. Making Sense of Advertisements. Available at: <a href="http://historymatters.gmu.edu/mse/ads/ads.pdf">http://historymatters.gmu.edu/mse/ads/ads.pdf</a></p>
+<p> </p>
+<p>Project VRM, 2012. Project VRM - Main Page. Available at: <a href="http://cyber.law.harvard.edu/projectvrm/Main_Page">http://cyber.law.harvard.edu/projectvrm/Main_Page</a></p>
+<p> </p>
+<p>Rifkin, J., 2010. <em>The Empathic Civilization: The Race to Global Consciousness in a World in Crisis</em> J. P. Tarcher, ed., Jeremy P. Tarcher. Available at: <a href="http://www.amazon.fr/The-Empathic-Civilization-Global-Consciousness/dp/1585427659">http://www.amazon.fr/The-Empathic-Civilization-Global-Consciousness/dp/1585427659</a> [Accessed September 26, 2012].</p>
+<p> </p>
+<p>Runnalls, D., 2011. Environment and Economy: joined at the hip or just strange bedfellows? <em>S.A.P.I.EN.S</em>, (4.2). Available at: <a href="http://sapiens.revues.org/1150">http://sapiens.revues.org/1150</a> [Accessed September 26, 2012].</p>
+<p> </p>
+<p>Salzmann, N., 1994. Pensée systémique de Gilbert Simondon. Individuations technique, psychique et collective. Available at: <a href="http://www.niksnews.com/editions/oeuvres/gilbertsimondon.pdf">http://www.niksnews.com/editions/oeuvres/gilbertsimondon.pdf</a> [Quotation translated from French to English by Maxime Lathuilière]</p>
+<p> </p>
+<p>Searls, D., 2006. The Intention Economy. <em>Linux Journal</em>. Available at: <a href="http://www.linuxjournal.com/node/1000035">http://www.linuxjournal.com/node/1000035</a></p>
+<p> </p>
+<p>Searls, D., 2012. <em>The Intention Economy: When Customers Take Charge</em> Harvard Business Review Press, ed.,</p>
+<p> </p>
+<p>Sen, A., 2000. <em>Development as Freedom</em>, Anchor.</p>
+<p> </p>
+<p>Simondon, G., 1989. <em>L’individuation psychique et collective</em> Aubier, ed.,</p>
+<p> </p>
+<p>Stauber, J. &amp; Rampton, S., 1999. Book review: The Father of Spin: Edward L. Bernays and the Birth of PR. <em>PR Watch</em>. Available at: <a href="http://www.prwatch.org/prwissues/1999Q2/bernays.html">http://www.prwatch.org/prwissues/1999Q2/bernays.html</a></p>
+<p> </p>
+<p>Stiegler, B., 2005. <em>De la misère symbolique : Tome 2, La catastrophe du sensible</em>, Editions Galilée</p>
+<p> </p>
+<p>Stiegler, B., 2006a. Spirit, Capitalism and Superego. In Ars Industrialis. Available at: <a href="http://www.arsindustrialis.org/node/2928">http://www.arsindustrialis.org/node/2928</a></p>
+<p> </p>
+<p>Stiegler, B., 2006b. The Disaffected Individual in the Process of Psychic and Collective Disindividuation. Available at: <a href="http://www.arsindustrialis.org/disaffected-individual-process-psychic-and-collective-disindividuation">http://www.arsindustrialis.org/disaffected-individual-process-psychic-and-collective-disindividuation</a></p>
+<p> </p>
+<p>Stiegler, B., 2008a. Biopower, psychopower and the logic of the scapegoat. Available at: <a href="http://www.arsindustrialis.org/node/2924">http://www.arsindustrialis.org/node/2924</a></p>
+<p> </p>
+<p>Stiegler, B., 2008b. <em>La télécratie contre la démocratie</em>, Flammarion [Quotation translated from French to English by Maxime Lathuilière]</p>
+<p> </p>
+<p>Stiegler, B., 2008c. <em>Prendre soin : Tome 1, De la jeunesse et des générations</em>, Flammarion. [Quotation translated from French to English by Maxime Lathuilière]</p>
+<p> </p>
+<p>Stiegler, B., 2008d. Within the limits of capitalism, economizing means taking care. Available at: <a href="http://www.arsindustrialis.org/node/2922">http://www.arsindustrialis.org/node/2922</a></p>
+<p> </p>
+<p>Stiegler, B., 2009. Anamnesis and Hypomnesis. Available at: <a href="http://www.arsindustrialis.org/anamnesis-and-hypomnesis">http://www.arsindustrialis.org/anamnesis-and-hypomnesis</a></p>
+<p> </p>
+<p>Stiegler, B., 2010a. L’avenir de la croissance. Available at: <a href="http://www.arsindustrialis.org/divers-lavenir-de-la-croissance">http://www.arsindustrialis.org/divers-lavenir-de-la-croissance</a></p>
+<p> </p>
+<p>Stiegler, B., 2010b. Socrate et les hackers. Available at: <a href="http://www.arsindustrialis.org/node/3399">http://www.arsindustrialis.org/node/3399</a></p>
+<p> </p>
+<p>Stiegler, B., 2010c. Telecracy Against Democracy. <em>Cultural Politics an International Journal</em>, 6(2), pp.171–180. Available at: <a href="http://openurl.ingenta.com/content/xref?genre=article&amp;issn=1743-2197&amp;volume=6&amp;issue=2&amp;spage=171">http://openurl.ingenta.com/content/xref?genre=article&amp;issn=1743-2197&amp;volume=6&amp;issue=2&amp;spage=171</a></p>
+<p> </p>
+<p>Stiegler, B., 2012a. Marx et Simondon. In <em>Ars Industrialis</em>. Available at: <a href="http://www.arsindustrialis.org/marx-et-simondon">http://www.arsindustrialis.org/marx-et-simondon</a> [Quotation translated from French to English by Maxime Lathuilière]</p>
+<p> </p>
+<p>Stiegler, B., 2012b. Relational Ecology and the Digital Pharmakon. <em>Culture Machine</em>, 13. Available at: <a href="http://www.culturemachine.net/index.php/cm/article/view/464/501">http://www.culturemachine.net/index.php/cm/article/view/464/501</a> [Accessed September 19, 2012].</p>
+<p> </p>
+<p>The Economist, 2010. Schumpeter: Down with fun. Available at: <a href="http://www.economist.com/node/17035923?story_id=17035923&amp;CFID=144334867&amp;CFTOKEN=25154858">http://www.economist.com/node/17035923?story_id=17035923&amp;CFID=144334867&amp;CFTOKEN=25154858</a></p>
+<p> </p>
+<p>Trentmann, F., 2004. Beyond Consumerism: New Historical Perspectives on Consumption. <em>Journal of Contemporary History</em>, 39(3), pp.373–401. Available at: <a href="http://eprints.bbk.ac.uk/56/1/trentmann04.pdf">http://eprints.bbk.ac.uk/56/1/trentmann04.pdf</a> [Accessed September 10, 2012].</p>
+<p> </p>
+<p>Twitchell, J., 1999. <em>Two Cheers for Materialism</em>, Available at: <a href="https://files.nyu.edu/gmp1/public/twitch.htm">https://files.nyu.edu/gmp1/public/twitch.htm</a></p>
+<p> </p>
+<p>Tye, L., 1998. <em>The Father of Spin: Edward L. Bernays and the Birth of Public Relations</em>,</p>
+<p> </p>
+<p>Valéry, P., 1931. <em>Regards sur le monde actuel</em> Gallimard, ed., Paris. Available at: <a href="http://classiques.uqac.ca/classiques/Valery_paul/regards_monde_actuel_autres_essais/valery_regards_monde_actuel.pdf">http://classiques.uqac.ca/classiques/Valery_paul/regards_monde_actuel_autres_essais/valery_regards_monde_actuel.pdf</a></p>
+<p> </p>
+<p>Veerman, J.L. et al., 2009. By how much would limiting TV food advertising reduce childhood obesity? <em>European journal of public health</em>, 19(4), pp.365–9. Available at: <a href="http://eurpub.oxfordjournals.org/content/19/4/365.abstract">http://eurpub.oxfordjournals.org/content/19/4/365.abstract</a> [Accessed July 22, 2012].</p>
+<p> </p>
+<p>Vincent Bevins, 2010. São Paulo advertising goes underground. <em><a href="http://FT.com">FT.com</a></em>. Available at: <a href="http://www.ft.com/intl/cms/s/0/5ad26f14-b9e6-11df-8804-00144feabdc0.html#axzz246r0ZI11">http://www.ft.com/intl/cms/s/0/5ad26f14-b9e6-11df-8804-00144feabdc0.html#axzz246r0ZI11</a></p>
+<p> </p>
+<p>Vranica, S. &amp; Raice, S., 2012. The Big Doubt Over Facebook’s IPO. <em><a href="http://WSJ.com">WSJ.com</a></em>. Available at: <a href="http://online.wsj.com/article/SB10001424052702304868004577378122958515302.html">http://online.wsj.com/article/SB10001424052702304868004577378122958515302.html</a></p>
+<hr>
+<!-- MASTERPLAN -->
+<!-- MASTERPLAN -->
