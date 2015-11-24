@@ -1,15 +1,19 @@
 _ = require './utils'
 
-module.exports = (content, level, title, link)->
-  innerWrap = buildInnerWrap content, level, title
+module.exports = (content, level, data, link)->
+  { title } = data
+  innerWrap = buildInnerWrap content, level, data
   return wrapItAll title, addLink(innerWrap, link)
 
-buildInnerWrap = (content, level, title)->
+buildInnerWrap = (content, level, data)->
+  { title, subtitle } = data
   title = _.capitalizeFirstLetter title
-  """
-    <h#{level}>#{title}</h#{level}>
-    #{content}
-  """
+  innerWrap = "<h#{level} class='title'>#{title}</h#{level}>"
+  if subtitle?
+    innerWrap += "<span class='legend'>#{subtitle}</span>"
+
+  innerWrap += content
+  return innerWrap
 
 addLink = (innerWrap, link)->
   if link? then innerWrap += """

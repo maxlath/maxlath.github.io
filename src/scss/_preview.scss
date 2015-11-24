@@ -1,30 +1,64 @@
-.inner-preview{
-  padding: 0.2em;
+$previewMaxWidth: 30em;
+$previewHeaderColor: white;
+// $previewHeaderBg: rgba(white, 0.9);
+$previewHeaderBg: #444;
+
+li{
   margin: 1em;
-  background-color: rgba(white, 0.9);
-  color: $dark-grey;
+  max-width: $previewMaxWidth;
+  margin: 0 auto;
+  &:hover{
+    .preview-cover{
+      @include transition(box-shadow);
+      @include inner-shadow;
+    }
+    .preview-header{
+      @include transition(background-color);
+      background-color: darken($previewHeaderBg, 10%);
+    }
+  }
+}
+
+.preview-cover{
+  @include radius-top;
+  margin-top: 0.5em;
+  background-size: cover;
+  background-position: center center;
+  @include display-flex(column, center, center);
+  height: 15em;
+  // width: $previewMaxWidth;
+  // margin: 0 auto;
+}
+
+.preview-header{
+  @include radius-bottom;
+  padding: 1em;
+  color: $previewHeaderColor;
+  background-color: $previewHeaderBg;
+  position: relative;
+  // width: $previewMaxWidth;
+  // margin: 0 auto;
   .title{
     font-size: 1.4em;
-    margin: 0;
     padding: 0;
+    // prevent the title from messing with the date
+    max-width: 19em;
+    margin: 0 auto;
   }
   .subtitle{
     font-weight: bold;
     font-size: 0.8em;
     max-width: 50%;
-    color: lighten($dark-grey, 5%);
+    color: darken($previewHeaderColor, 30%);
   }
   .description{
     font-size: 0.8em;
-    color: lighten($dark-grey, 10%);
+    color: darken($previewHeaderColor, 50%);
   }
-}
-.preview-cover{
-  background-size: cover;
-  background-position: center center;
-  @include display-flex(column, center, center);
-  @include transition(box-shadow);
-  &:hover{
-    @include inner-shadow;
+  .date{
+    position: absolute;
+    top: 0;
+    right: 0.4em;
+    font-size: 0.7em;
   }
 }

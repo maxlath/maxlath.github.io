@@ -50,6 +50,10 @@ module.exports = _ =
 
   attributeString: (name, val)-> if val? then "#{name}='#{val}'" else ''
 
+  toLogicalDayFormat: (date)->
+    d = new Date date
+    d.toISOString().split('T')[0].split('-').reverse().join('-')
+
 FileOpCb = (label, path)->
   return cb = (err, res)->
     if err? then logOp label, path, err, 'red'
