@@ -1,0 +1,15 @@
+$panel-color: #eee;
+.panel{
+  background-color: $panel-color;
+  @include radius;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+a{
+  .panel:hover{
+    @include transition(background-color);
+    background-color: darken($panel-color, 5%);
+  }
+}

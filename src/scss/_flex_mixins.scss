@@ -53,3 +53,10 @@
 @mixin align-self($value) {
   @include vendor-prefix(align-self, $value);
 }
+
+.row{
+  @include display-flex(row, center, space-around, wrap);
+  .centered{
+    @include justify-content(center);
+  }
+}

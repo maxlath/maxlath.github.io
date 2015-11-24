@@ -46,8 +46,11 @@ small{
   @include shy(0.7);
 }
 
+
+
 @import 'nav';
 @import 'item';
 @import 'lists';
 @import 'articles';
 @import 'footer';
+@import 'panel';
