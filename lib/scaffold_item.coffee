@@ -10,14 +10,25 @@ module.exports = (folder, title)->
 
   id = _.getIdFromTitle title
 
-  newFolderPath = "./#{folder}/#{id}"
   # create item sub-directory
+  url = "/#{folder}/#{id}"
+  newFolderPath = ".#{url}"
   _.mkdirSync newFolderPath
+  _.log 'created folder', newFolderPath
+
   # add content file
-  _.writeFileSync "#{newFolderPath}/#{contentFile}", "<-- content -->"
+  contentPath = "#{newFolderPath}/#{contentFile}"
+  _.writeFileSync contentPath, "<-- content -->"
+  _.log 'created content file', contentPath
+
   # add data.json
   data = buildDataBase id, title, folder
-  _.writeJsonSync "#{newFolderPath}/data.json", data
+  dataPath = "#{newFolderPath}/data.json"
+  _.writeJsonSync dataPath, data
+  _.log 'created data file', dataPath
+
+  _.cb url
+
   # index.html will be built on next ./scripts/build-items
 
 
