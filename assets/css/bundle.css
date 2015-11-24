@@ -2108,11 +2108,19 @@ main.item {
   text-align: left; }
 
 #articles, #posts {
+  width: 30em;
+  margin: 0 auto;
   background-color: #eee;
   border-radius: 2px;
   margin-top: 1em;
   margin-bottom: 1em;
   padding: 0.5em; }
+  #articles > .title, #posts > .title {
+    margin: 0; }
+  #articles .legend, #posts .legend {
+    margin: 0;
+    font-size: 0.7em;
+    opacity: 0.6; }
   #articles .more, #posts .more {
     margin-top: 0.6em;
     width: 100%;
@@ -2130,24 +2138,20 @@ main.item {
       text-decoration: none; }
     #articles .more .fa, #posts .more .fa {
       margin-right: 0.3em; }
-  #articles li .inner-preview, #posts li .inner-preview {
-    padding: 0.2em;
+  #articles li, #posts li {
     margin: 1em;
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #35393B; }
-    #articles li .inner-preview .title, #posts li .inner-preview .title {
-      font-size: 1.4em;
-      margin: 0;
-      padding: 0; }
-    #articles li .inner-preview .subtitle, #posts li .inner-preview .subtitle {
-      font-weight: bold;
-      font-size: 0.8em;
-      max-width: 50%;
-      color: #414648; }
-    #articles li .inner-preview .description, #posts li .inner-preview .description {
-      font-size: 0.8em;
-      color: #4d5356; }
-  #articles li .preview-cover, #posts li .preview-cover {
+    max-width: 30em;
+    margin: 0 auto; }
+    #articles li:hover .preview-cover, #posts li:hover .preview-cover {
+      transition: box-shadow 0.5s ease;
+      box-shadow: -1px 1px 8px 3px rgba(0, 0, 0, 0.3) inset, 1px -1px 8px 3px rgba(0, 0, 0, 0.3) inset; }
+    #articles li:hover .preview-header, #posts li:hover .preview-header {
+      transition: background-color 0.5s ease;
+      background-color: #2b2b2b; }
+  #articles .preview-cover, #posts .preview-cover {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    margin-top: 0.5em;
     background-size: cover;
     background-position: center center;
     display: -webkit-box;
@@ -2180,9 +2184,32 @@ main.item {
     -ms-justify-content: center;
     -o-justify-content: center;
     justify-content: center;
-    transition: box-shadow 0.5s ease; }
-    #articles li .preview-cover:hover, #posts li .preview-cover:hover {
-      box-shadow: -1px 1px 8px 3px rgba(0, 0, 0, 0.3) inset, 1px -1px 8px 3px rgba(0, 0, 0, 0.3) inset; }
+    height: 15em; }
+  #articles .preview-header, #posts .preview-header {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding: 1em;
+    color: white;
+    background-color: #444;
+    position: relative; }
+    #articles .preview-header .title, #posts .preview-header .title {
+      font-size: 1.4em;
+      padding: 0;
+      max-width: 19em;
+      margin: 0 auto; }
+    #articles .preview-header .subtitle, #posts .preview-header .subtitle {
+      font-weight: bold;
+      font-size: 0.8em;
+      max-width: 50%;
+      color: #b3b3b3; }
+    #articles .preview-header .description, #posts .preview-header .description {
+      font-size: 0.8em;
+      color: gray; }
+    #articles .preview-header .date, #posts .preview-header .date {
+      position: absolute;
+      top: 0;
+      right: 0.4em;
+      font-size: 0.7em; }
 
 footer .links {
   max-width: 45em;
