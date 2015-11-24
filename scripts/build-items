@@ -3,12 +3,28 @@
 { sectionsList, contentFile } = require 'config'
 buildItem = require '../lib/build_item'
 rread = require 'readdir-recursive'
+_ = require '../lib/utils'
+matchALazyFolder = require '../lib/match_a_lazy_folder'
 
-sectionsList.forEach (section)->
-  rread.file "./#{section}", (file)->
-    if isContentFile file
+buildItems = ->
+  sectionsList.forEach (section)->
+    rread.file "./#{section}", (file)->
+      # only builds items in a folder with a contentFile
+      unless isContentFile file then return
+
       itemFolderPath = getFolderPath file
-      buildItem itemFolderPath
+
+      # filtering folders in remaining sections
+      if matchALazyFolder itemFolderPath
+        ignoring itemFolderPath
+      else
+        buildItem itemFolderPath
+
+ignoring = (folder)->
+  _.warn 'ignoring lazy folder', folder
+  return false
 
 isContentFile = (file)-> file.split('/').slice(-1)[0] is contentFile
 getFolderPath = (file)-> file.split('/')[0...-1].join('/')
+
+buildItems()
