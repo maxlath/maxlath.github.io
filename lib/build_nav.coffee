@@ -7,8 +7,7 @@ module.exports = (data)->
   """
 
 buildBreadcrumb = (parent, id)->
-  unless parent? then return ''
-  parents = parent.split '/'
+  parents = if parent? then parent.split '/' else  []
   parents.push id
 
   breadcrumb = ''
