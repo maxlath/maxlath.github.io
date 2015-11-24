@@ -2039,6 +2039,49 @@
   font-weight: normal;
   font-style: normal; }
 
+.row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  display: box;
+  display: -webkit-flexbox;
+  display: -moz-flexbox;
+  display: -ms-flexbox;
+  display: -o-flexbox;
+  display: flexbox;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .row .centered {
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center; }
+
 .radius-top {
   border-top-left-radius: 2px;
   border-top-right-radius: 2px; }
@@ -2094,6 +2137,31 @@ small {
     opacity: 1; }
 
 nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  display: box;
+  display: -webkit-flexbox;
+  display: -moz-flexbox;
+  display: -ms-flexbox;
+  display: -o-flexbox;
+  display: flexbox;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
   text-align: left; }
   nav a {
     opacity: 0.4;
@@ -2101,8 +2169,14 @@ nav {
     color: grey; }
     nav a:hover {
       opacity: 1; }
+  nav #home {
+    font-weight: bold; }
   nav .fa {
     font-size: 2.5em; }
+  nav .fa-angle-right {
+    font-size: 1.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em; }
 
 main.item {
   text-align: left; }
@@ -2211,6 +2285,97 @@ main.item {
       right: 0.4em;
       font-size: 0.7em; }
 
+#p2p-rm a, #paper-ethical-marketing a {
+  color: #ED6913; }
+  #p2p-rm a:hover, #paper-ethical-marketing a:hover {
+    color: #f2965a; }
+
+#p2p-rm img, #paper-ethical-marketing img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+#p2p-rm h1, #p2p-rm .highlight, #paper-ethical-marketing h1, #paper-ethical-marketing .highlight {
+  color: #fff;
+  background-color: rgba(20, 20, 20, 0.4);
+  padding: 3px; }
+
+#p2p-rm .date, #paper-ethical-marketing .date {
+  color: #222;
+  text-align: center; }
+
+#p2p-rm .article, #paper-ethical-marketing .article {
+  max-width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+#p2p-rm .fa, #paper-ethical-marketing .fa {
+  font-size: 64px;
+  margin-bottom: 10px; }
+
+#p2p-rm .code, #paper-ethical-marketing .code {
+  font-family: "courier"; }
+
+#p2p-rm p.code, #paper-ethical-marketing p.code {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-left: 1.5em; }
+
+#p2p-rm span.code, #paper-ethical-marketing span.code {
+  color: #111; }
+
+#p2p-rm .legend, #paper-ethical-marketing .legend {
+  font-size: 0.8em;
+  margin-left: 3em;
+  background-position: #ccc; }
+
+#p2p-rm .quote, #paper-ethical-marketing .quote {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  color: #171717;
+  background-color: #f1f1f1;
+  padding: 1em;
+  margin-left: 1.5em; }
+  #p2p-rm .quote .fa, #paper-ethical-marketing .quote .fa {
+    font-size: 1.8em;
+    color: #aaa;
+    margin: 0.2em 0.6em 0.2em 0.6em; }
+
+#p2p-rm .lang, #paper-ethical-marketing .lang {
+  font-family: "Times New Roman", Times, serif; }
+
+#p2p-rm #about, #paper-ethical-marketing #about {
+  padding-bottom: 2em; }
+
+#p2p-rm .item .deeplinking, #paper-ethical-marketing .item .deeplinking {
+  line-height: 2em; }
+
+#p2p-rm .item .fa-link, #paper-ethical-marketing .item .fa-link {
+  font-size: 1.6em;
+  margin-left: 0.3em;
+  color: rgba(237, 105, 19, 0.5); }
+  #p2p-rm .item .fa-link:hover, #paper-ethical-marketing .item .fa-link:hover {
+    color: #ed6913; }
+
+#p2p-rm .item h3, #paper-ethical-marketing .item h3 {
+  display: inline; }
+
+#p2p-rm .titletab, #paper-ethical-marketing .titletab {
+  margin-left: 0.6em; }
+
+#p2p-rm .header2, #paper-ethical-marketing .header2 {
+  margin-top: 0.6em; }
+
+#p2p-rm .header3, #paper-ethical-marketing .header3 {
+  margin-top: 0.3em; }
+
+#p2p-foundation .label {
+  color: grey; }
+
 footer .links {
   max-width: 45em;
   margin: 0.5em auto;
@@ -2318,104 +2483,13 @@ footer .links {
     footer .links a:hover.stackoverflow {
       color: #F48024; }
 
-#p2p-rm a {
-  color: #ED6913; }
-  #p2p-rm a:hover {
-    color: #f2965a; }
-
-#p2p-rm img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-#p2p-rm h2, #p2p-rm h3, #p2p-rm h4, #p2p-rm h5, #p2p-rm h6 {
-  color: #235e00; }
-
-#p2p-rm h1, #p2p-rm .highlight {
-  color: #fff;
-  background-color: rgba(20, 20, 20, 0.4);
-  padding: 3px; }
-
-#p2p-rm .date {
-  color: #222;
-  text-align: center; }
-
-#p2p-rm .article {
-  max-width: 600px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-#p2p-rm .fa {
-  font-size: 64px;
-  margin-bottom: 10px; }
-
-#p2p-rm .code {
-  font-family: "courier"; }
-
-#p2p-rm p.code {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-  background-color: #333;
-  color: white;
-  margin-left: 1.5em; }
-
-#p2p-rm span.code {
-  color: #111; }
-
-#p2p-rm .legend {
-  font-size: 0.8em;
-  margin-left: 3em;
-  background-position: #ccc; }
-
-#p2p-rm .quote {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 300;
-  color: #171717;
-  background-color: #f1f1f1;
-  padding: 1em;
-  margin-left: 1.5em; }
-  #p2p-rm .quote .fa {
-    font-size: 1.8em;
-    color: #aaa;
-    margin: 0.2em 0.6em 0.2em 0.6em; }
-
-#p2p-rm .lang {
-  font-family: "Times New Roman", Times, serif; }
-
-#p2p-rm #about {
-  padding-bottom: 2em; }
-
-#p2p-rm .panel {
+.panel {
   background-color: #eee;
   border-radius: 2px;
   padding: 1em;
   margin-top: 1em;
   margin-bottom: 1em; }
 
-#p2p-rm .item .deeplinking {
-  line-height: 2em; }
-
-#p2p-rm .item .fa-link {
-  font-size: 1.6em;
-  margin-left: 0.3em;
-  color: rgba(237, 105, 19, 0.5); }
-  #p2p-rm .item .fa-link:hover {
-    color: #ed6913; }
-
-#p2p-rm .item h3 {
-  display: inline; }
-
-#p2p-rm .footer {
-  font-size: 0.8em;
-  text-align: center; }
-
-#p2p-rm .titletab {
-  margin-left: 0.6em; }
-
-#p2p-rm .header2 {
-  margin-top: 0.6em; }
-
-#p2p-rm .header3 {
-  margin-top: 0.3em; }
+a .panel:hover {
+  transition: background-color 0.5s ease;
+  background-color: #e1e1e1; }
