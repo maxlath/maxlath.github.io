@@ -6,21 +6,21 @@ fs = require 'fs'
 [ url, name... ] = process.argv.slice(2)
 name = name.join('-')
 _ = require '../lib/utils'
+fs = require 'fs'
 
 
 unless url? then throw new Error('missing url')
 unless name? then throw new Error('missing name')
 
-request.get url, (err, res)->
-  if err? then _.throwError err, url
-  else
-    url = getImgUrl(name)
-    path = ".#{url}"
-    _.writeFile path, res.body
-    cb url
-    console.log 'added to clipboard'.green, url
-
-
 getImgUrl = (name)->
   unless /\./.test name then name = name + '.jpg'
   "/assets/img/#{name}"
+
+newUrl = getImgUrl name
+path = ".#{newUrl}"
+
+request.get url
+.pipe fs.createWriteStream(path)
+
+cb newUrl
+console.log 'file copied, url added to clipboard'.green, newUrl
