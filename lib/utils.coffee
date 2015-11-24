@@ -1,6 +1,7 @@
 fs = require 'fs'
 require 'colors'
 mkdirp = require 'mkdirp'
+{ copy } = require 'copy-paste'
 
 module.exports = _ =
   readFile: (path, cb)->
@@ -8,9 +9,9 @@ module.exports = _ =
     fs.readFile path, 'utf-8', cb
   readFileSync: (path)-> fs.readFileSync path, 'utf-8'
   writeFile: (path, content)->
-    # console.log 'content', content
     fs.writeFile path, content, FileOpCb('write', path)
-  writeFileSync: (path, content)-> fs.writeFileSync path, content
+  writeFileSync: (path, content)->
+    fs.writeFileSync path, content
   readJsonSync: (path)->
     cwd = process.cwd()
     # weirdly can't make it work without passing the cwd oO
@@ -19,17 +20,18 @@ module.exports = _ =
   writeJsonSync: (path, content)->
     _.writeFileSync path, JSON.stringify content, null, 2
 
-  mkdirSync: (path)->
-    mkdirp.sync path
-    _.log 'mkdir', path
+  mkdirSync: (path)-> mkdirp.sync path
 
   getFolderData: (folder)-> _.readJsonSync "#{folder}/data.json"
 
-  log: (label, obj)->
-    console.log "-------#{label}-------".cyan
-    console.log obj
-    console.log "----------------------".cyan
+  log: (label, obj, color='cyan')->
+    if typeof obj is 'string' then console.log label[color], obj
+    else
+      console.log "-------#{label}-------"[color]
+      console.log obj
+      console.log "----------------------"[color]
     return obj
+
   Log: (label)-> _.log.bind(null, label)
 
   capitalizeFirstLetter: (text)-> text[0].toUpperCase() + text[1..-1]
@@ -53,6 +55,18 @@ module.exports = _ =
   toLogicalDayFormat: (date)->
     d = new Date date
     d.toISOString().split('T')[0].split('-').reverse().join('-')
+
+  warn: (label, obj)->
+    if obj? then _.log label, obj, 'yellow'
+    else console.log label.yellow
+
+  cb: (str)->
+    copy str
+    console.log "Copied to Clipboard:".green, str
+
+  forceArray: (obj)->
+    if obj instanceof Array then obj
+    else [ obj ]
 
 FileOpCb = (label, path)->
   return cb = (err, res)->
