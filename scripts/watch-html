@@ -3,4 +3,4 @@
 ./scripts/build-html
 # then watch
 echo "starting to watch html"
-onchange '(articles|posts|lib)/**' -- ./scripts/build-html
+onchange '(scripts|config|articles|posts|lib)/**' -- ./scripts/build-html

@@ -1,3 +1,5 @@
 #!/usr/bin/env coffee
+# Example
+# ./scripts/scaffold-item articles/paper-ethical-marketing part-1
 scaffoldItem = require '../lib/scaffold_item'
 scaffoldItem.apply null, process.argv.slice(2)
