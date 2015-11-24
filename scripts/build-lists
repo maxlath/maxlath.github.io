@@ -1,12 +1,11 @@
 #!/usr/bin/env coffee
 
 buildList = require '../lib/build_list'
-updatePart = require '../lib/update_part'
+{ writeFileUpdatedWithContent } = require '../lib/update_part'
 buildIndex = require '../lib/build_index'
 wrapList = require '../lib/wrap_list'
 _ = require '../lib/utils'
 { sections, sectionsList } = require 'config'
-
 
 content = sectionsList
   .map (section)->
@@ -20,6 +19,5 @@ content = sectionsList
   .join '\n'
 
 
-separator = '<!-- AUTOLIST -->'
 # add wrap lists to main index
-updatePart './index.html', separator, content
+writeFileUpdatedWithContent './index.html', 'autolist', content

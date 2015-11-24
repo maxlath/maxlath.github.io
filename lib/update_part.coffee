@@ -1,16 +1,44 @@
 _ = require './utils'
 
-module.exports = (filepath, separator, content)->
-  file = _.readFileSync filepath
+module.exports =
+  writeFileUpdatedWithContent: (filepath, name, content)->
+    file = _.readFileSync filepath
+    separator = getSeparator name
 
+    # break the html on the separators
+    parts = file.split separator
+
+    updatedFile = updateFile file, content, separator
+
+    _.writeFile filepath, updatedFile
+
+
+  getUpdatedFile: (partialPath, file)->
+    partialContent = _.readFileSync partialPath
+
+    name = getPartialName partialPath
+    separator = getSeparator name
+
+    return updateFile file, partialContent, separator
+
+updateFile = (file, partialContent, separator)->
   # break the html on the separators
   parts = file.split separator
-  # replace the part between separator by the new content
-  parts[1] = content
+
+  # replace the parts between separators by the new content
+  # that is, replace every odd parts
+  parts.forEach (part, index)->
+    if index % 2 isnt 0
+      parts[index] = partialContent
 
   # rebuild the file with separators
-  updatedFile = parts.join separator
+  return parts.join separator
 
-  # console.log 'updatedFile', updatedFile
 
-  _.writeFile filepath, updatedFile
+getPartialName = (partialPath)->
+  return partialPath.split('/').slice(-1)[0].split('.')[0]
+
+
+getSeparator = (name)->
+  uppercasedName = name.toUpperCase()
+  "<!-- #{uppercasedName} -->"
