@@ -17,7 +17,7 @@ module.exports = _ =
     return require "#{cwd}/#{path}"
 
   writeJsonSync: (path, content)->
-    _.writeFileSync path, JSON.stringify content, null, 4
+    _.writeFileSync path, JSON.stringify content, null, 2
 
   mkdirSync: (path)->
     mkdirp.sync path
