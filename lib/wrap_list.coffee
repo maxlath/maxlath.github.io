@@ -1,9 +1,14 @@
 _ = require './utils'
 
 module.exports = (content, level, data, link)->
-  { title } = data
   innerWrap = buildInnerWrap content, level, data
-  return wrapItAll title, addLink(innerWrap, link)
+  innerWrap = addLink innerWrap, link
+
+  # don't wrap it in a section if its already the highest level
+  # as there is no more point in making it a sections
+  # and <main> will already have its id
+  if level is 1 then return innerWrap
+  else return wrapItAll data, innerWrap
 
 buildInnerWrap = (content, level, data)->
   { title, subtitle } = data
@@ -23,6 +28,6 @@ addLink = (innerWrap, link)->
     """
   return innerWrap
 
-wrapItAll = (title, innerWrap)->
-  id = _.getIdFromTitle title
+wrapItAll = (data, innerWrap)->
+  { id } = data
   "<section id='#{id}'>#{innerWrap}</section>"

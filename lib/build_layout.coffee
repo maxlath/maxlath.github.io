@@ -1,9 +1,11 @@
 _ = require './utils'
+buildNav = require './build_nav'
 
 module.exports = (data, main='', classes)->
   { id, title } = data
   idStr = _.attributeString 'id', id
   classesStr = _.attributeString 'class', classes
+  nav = buildNav data
   """
   <!DOCTYPE html>
   <html>
@@ -13,9 +15,7 @@ module.exports = (data, main='', classes)->
     <link rel="stylesheet" href="/assets/css/bundle.css">
   </head>
   <body>
-    <nav>
-      <a href="/" title="home"><i class="fa fa-home"></i></a>
-    </nav>
+    <nav>#{nav}</nav>
     <main #{idStr} #{classesStr}>#{main}</main>
   </body>
   </html>
