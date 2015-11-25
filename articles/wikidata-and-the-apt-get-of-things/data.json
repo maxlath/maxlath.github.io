@@ -1,0 +1,12 @@
+{
+  "id": "wikidata-and-the-apt-get-of-things",
+  "title": "Wikidata and the apt-get of things",
+  "subtitle": null,
+  "description": null,
+  "image": "/assets/img/chess.jpg",
+  "date": "2014-04-29T10:51:45.126Z",
+  "parent": "articles",
+  "partials": [
+    "../partials/creativecommons.html"
+  ]
+}
