@@ -1,6 +1,7 @@
 nav{
   @include display-flex(row, center);
   text-align: left;
+  margin-bottom: 1.5em;
   a{
     @include shy(0.4);
     color: grey;

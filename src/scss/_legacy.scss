@@ -26,10 +26,6 @@ img{
   margin-right: auto;
 }
 
-// h2, h3, h4, h5, h6{
-  // color: darken($menulinkcolor, 10%);
-// }
-
 h1, .highlight{
   color: #fff;
   background-color: rgba(20,20,20,0.4);
@@ -39,13 +35,6 @@ h1, .highlight{
 .date{
   color: $datecolor;
   text-align: center;
-}
-
-.article{
-  max-width: 600px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .fa {
@@ -103,9 +92,6 @@ span.code{
 $linkcolor: #ED6913;
 
 .item{
-  .deeplinking {
-    line-height:2em;
-  }
   .fa-link{
     font-size: 1.6em;
     margin-left: 0.3em;
@@ -122,12 +108,4 @@ $linkcolor: #ED6913;
 // paperethicalmarketing.scss
 .titletab{
   margin-left: 0.6em;
-}
-
-.header2{
-    margin-top: 0.6em;
-}
-
-.header3{
-    margin-top: 0.3em;
 }
