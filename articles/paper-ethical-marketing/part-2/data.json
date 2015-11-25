@@ -1,10 +1,13 @@
 {
   "id": "part-2",
-  "title": "part-2",
+  "title": "Analyze of marketing’s impact on individual and collective psychology with Bernard Stiegler’s work",
   "subtitle": null,
   "description": null,
   "image": null,
   "date": "2015-11-24T14:03:26.540Z",
   "parent": "articles/paper-ethical-marketing",
-  "partials": "../partials/masterplan.html"
+  "partials": [
+    "../partials/masterplan.html",
+    "./partials/summary.html"
+  ]
 }

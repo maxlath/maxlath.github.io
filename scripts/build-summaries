@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+coffee ./articles/paper-ethical-marketing/build_summaries.coffee

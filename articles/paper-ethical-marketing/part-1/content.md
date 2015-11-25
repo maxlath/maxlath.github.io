@@ -1,34 +1,6 @@
 <!-- MASTERPLAN --><!-- MASTERPLAN -->
 <hr>
-<h2 class="highlight">I.<span class="titletab"></span> The notion of ethical marketing</h2>
-
-<ul class="deeplinking panel">
-  <li>
-   <a class="deeplink header2" href="#1-1">1.1<span class="titletab"></span> Marketing definition</a>
-   <ul>
-    <li><a class="deeplink header3" href="#1-1-1">1.1.1<span class="titletab"></span> Reframing marketing</a></li>
-    <li><a class="deeplink header3" href="#1-1-2">1.1.2<span class="titletab"></span> The marketing strategy and its implementation through the 4P: analyzing and sending signals</a></li>
-  </ul>
-</li>
-<li>
-  <a class="deeplink header2" href="#1-2">1.2<span class="titletab"></span> Critiques of the marketing leading to the ethical marketing approach</a>
-  <ul>
-
-  </ul>
-</li>
-<li>
-  <a class="deeplink header2" href="#1-3">1.3<span class="titletab"></span> Responsible marketing as a mirror of corporate responsibility</a>
-  <ul>
-
-  </ul>
-</li>
-<li>
-  <a class="deeplink header2" href="#1-4">1.4<span class="titletab"></span> The Corporate Social Responsibility insufficiencies regarding marketing</a>
-  <ul>
-
-  </ul>
-</li>
-</ul>
+<!-- SUMMARY --><!-- SUMMARY -->
 
 <h3 id="1-1">1.1<span class="titletab"></span> Marketing definition</h3>
 <p><br>

@@ -1,60 +1,6 @@
 <!-- MASTERPLAN --><!-- MASTERPLAN -->
 <hr>
-  <h2 class="highlight">II.<span class="titletab"></span> Analyze of marketing’s impact on individual and collective psychology with Bernard Stiegler’s work</h2>
-  <ul class="deeplinking panel">
-    <li>
-      <a class="deeplink header2" href="#2-1">2.1<span class="titletab"></span> Foundation of Bernard Stiegler’s work: Indetermination of technique, pharmacology and organology</a></li>
-      <li>
-      <a class="deeplink" href="#2-2">2.2<span class="titletab"></span> Behavior sciences and marketing co-developments: the rush for motivation and the consumerist era</a></li>
-      <ul>
-        <li><a class="deeplink header3" href="#2-2-1">2.2.1<span class="titletab"></span> Freud’s core concept: the libidinal economy</a></li>
-        <li><a class="deeplink header3" href="#2-2-2">2.2.2<span class="titletab"></span> Freud’s American nephew: Edward Bernays</a>
-          <ul>
-            <li><a class="deeplink" href="#2-2-2-1">2.2.2.1<span class="titletab"></span> The birth of Public Relations</a></li>
-            <li><a class="deeplink" href="#2-2-2-2">2.2.2.2<span class="titletab"></span> “Without mind control to minimize cleavages, democracy would be chaos”</a></li>
-          </ul>
-        </li>
-        <li><a class="deeplink header3" href="#2-2-3">2.2.3<span class="titletab"></span> From a scientific approach of propaganda to the birth of modern marketing: the science of motivation</a></li>
-        <li><a class="deeplink header3" href="#2-2-4">2.2.4<span class="titletab"></span> Problems inherent to marketing’s scientific approach of its influence on behaviors: playing with the system limits</a></li>
-        <li><a class="deeplink header3" href="#2-2-5">2.2.5<span class="titletab"></span> The Birth of Consumer Behavior and consumerism</a>
-          <ul>
-            <li><a class="deeplink" href="#2-2-5-1">2.2.5.1<span class="titletab"></span> From Consumerism to mass consumerism</a></li>
-          </ul>
-        </li>
-      </ul>
-      <li>
-      <a class="deeplink header2" href="#2-3">2.3<span class="titletab"></span> The use of psycho-technologies by marketing as the continuation of biopower by psychopower</a></li>
-      <ul>
-
-        <li><a class="deeplink header3" href="#2-3-1">2.3.1<span class="titletab"></span> The Simondonian psychic apparatus genesis: psychic and collective individuation</a></li>
-        <li><a class="deeplink header3" href="#2-3-2">2.3.2<span class="titletab"></span> Powers upon individuals</a>
-          <ul>
-            <li><a class="deeplink" href="#2-3-2-1">2.3.2.1<span class="titletab"></span> Biopower and psychopower</a></li>
-            <li><a class="deeplink" href="#2-3-2-2">2.3.2.2<span class="titletab"></span> Neuropower</a></li>
-          </ul>
-        </li>
-        <li><a class="deeplink header3" href="#2-3-3">2.3.3 Esprit capacities and psychotechniques</a>
-          <ul>
-            <li><a class="deeplink" href="#2-3-3-1">2.3.3.1<span class="titletab"></span> Memory and attention</a></li>
-            <li><a class="deeplink" href="#2-3-3-2">2.3.3.2<span class="titletab"></span> Grammatization and writing</a></li>
-            <li><a class="deeplink" href="#2-3-3-3">2.3.3.3<span class="titletab"></span> Psychotechnology</a></li>
-          </ul>
-        </li>
-        <li><a class="deeplink" href="#2-3-4">2.3.4<span class="titletab"></span> Formation and capture of attention and the capacity of care</a></li>
-      </ul>
-
-      <li>
-        <a class="deeplink header2" href="#2-4">2.4<span class="titletab"></span> How marketing use of psychopower plays with system limits toward attention capture and motivation canalization, producing the destruction of the capacity of care and of desire</a>
-      </li>
-      <ul>
-
-        <li><a class="deeplink header3" href="#2-4-1">2.4.1<span class="titletab"></span> Consumerism as the opposite of the care</a></li>
-        <li><a class="deeplink header3" href="#2-4-2">2.4.2<span class="titletab"></span> Marketing use of psychotechnologies through the highly strategic cultural and program industries</a></li>
-        <li><a class="deeplink header3" href="#2-4-3">2.4.3<span class="titletab"></span> Marketing versus the intergenerational transmission of savoir and the constitution of a Super-Ego</a></li>
-        <li><a class="deeplink header3" href="#2-4-4">2.4.4<span class="titletab"></span> Esprit resources shortage</a></li>
-        <li><a class="deeplink header3" href="#2-4-5">2.4.5<span class="titletab"></span> Trans-individuation short-circuit, disaffected individuals, symbolic misery</a></li>
-      </ul>
-  </ul>
+<!-- SUMMARY --><!-- SUMMARY -->
 
 <h3 id="2-1">
     2.1<span class="titletab"></span>
