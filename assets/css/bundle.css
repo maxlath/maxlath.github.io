@@ -2162,7 +2162,8 @@ nav {
   -ms-align-items: center;
   -o-align-items: center;
   align-items: center;
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 1.5em; }
   nav a {
     opacity: 0.4;
     transition: opacity 0.5s ease;
@@ -2285,39 +2286,33 @@ main.item {
       right: 0.4em;
       font-size: 0.7em; }
 
-#p2p-rm a, #paper-ethical-marketing a {
+#p2p-rm a, #paper-ethical-marketing a, .paper-ethical-marketing-child a {
   color: #ED6913; }
-  #p2p-rm a:hover, #paper-ethical-marketing a:hover {
+  #p2p-rm a:hover, #paper-ethical-marketing a:hover, .paper-ethical-marketing-child a:hover {
     color: #f2965a; }
 
-#p2p-rm img, #paper-ethical-marketing img {
+#p2p-rm img, #paper-ethical-marketing img, .paper-ethical-marketing-child img {
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
-#p2p-rm h1, #p2p-rm .highlight, #paper-ethical-marketing h1, #paper-ethical-marketing .highlight {
+#p2p-rm h1, #p2p-rm .highlight, #paper-ethical-marketing h1, #paper-ethical-marketing .highlight, .paper-ethical-marketing-child h1, .paper-ethical-marketing-child .highlight {
   color: #fff;
   background-color: rgba(20, 20, 20, 0.4);
   padding: 3px; }
 
-#p2p-rm .date, #paper-ethical-marketing .date {
+#p2p-rm .date, #paper-ethical-marketing .date, .paper-ethical-marketing-child .date {
   color: #222;
   text-align: center; }
 
-#p2p-rm .article, #paper-ethical-marketing .article {
-  max-width: 600px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-#p2p-rm .fa, #paper-ethical-marketing .fa {
+#p2p-rm .fa, #paper-ethical-marketing .fa, .paper-ethical-marketing-child .fa {
   font-size: 64px;
   margin-bottom: 10px; }
 
-#p2p-rm .code, #paper-ethical-marketing .code {
+#p2p-rm .code, #paper-ethical-marketing .code, .paper-ethical-marketing-child .code {
   font-family: "courier"; }
 
-#p2p-rm p.code, #paper-ethical-marketing p.code {
+#p2p-rm p.code, #paper-ethical-marketing p.code, .paper-ethical-marketing-child p.code {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
@@ -2325,56 +2320,87 @@ main.item {
   color: white;
   margin-left: 1.5em; }
 
-#p2p-rm span.code, #paper-ethical-marketing span.code {
+#p2p-rm span.code, #paper-ethical-marketing span.code, .paper-ethical-marketing-child span.code {
   color: #111; }
 
-#p2p-rm .legend, #paper-ethical-marketing .legend {
+#p2p-rm .legend, #paper-ethical-marketing .legend, .paper-ethical-marketing-child .legend {
   font-size: 0.8em;
   margin-left: 3em;
   background-position: #ccc; }
 
-#p2p-rm .quote, #paper-ethical-marketing .quote {
+#p2p-rm .quote, #paper-ethical-marketing .quote, .paper-ethical-marketing-child .quote {
   font-family: "Times New Roman", Times, serif;
   font-weight: 300;
   color: #171717;
   background-color: #f1f1f1;
   padding: 1em;
   margin-left: 1.5em; }
-  #p2p-rm .quote .fa, #paper-ethical-marketing .quote .fa {
+  #p2p-rm .quote .fa, #paper-ethical-marketing .quote .fa, .paper-ethical-marketing-child .quote .fa {
     font-size: 1.8em;
     color: #aaa;
     margin: 0.2em 0.6em 0.2em 0.6em; }
 
-#p2p-rm .lang, #paper-ethical-marketing .lang {
+#p2p-rm .lang, #paper-ethical-marketing .lang, .paper-ethical-marketing-child .lang {
   font-family: "Times New Roman", Times, serif; }
 
-#p2p-rm #about, #paper-ethical-marketing #about {
+#p2p-rm #about, #paper-ethical-marketing #about, .paper-ethical-marketing-child #about {
   padding-bottom: 2em; }
 
-#p2p-rm .item .deeplinking, #paper-ethical-marketing .item .deeplinking {
-  line-height: 2em; }
-
-#p2p-rm .item .fa-link, #paper-ethical-marketing .item .fa-link {
+#p2p-rm .item .fa-link, #paper-ethical-marketing .item .fa-link, .paper-ethical-marketing-child .item .fa-link {
   font-size: 1.6em;
   margin-left: 0.3em;
   color: rgba(237, 105, 19, 0.5); }
-  #p2p-rm .item .fa-link:hover, #paper-ethical-marketing .item .fa-link:hover {
+  #p2p-rm .item .fa-link:hover, #paper-ethical-marketing .item .fa-link:hover, .paper-ethical-marketing-child .item .fa-link:hover {
     color: #ed6913; }
 
-#p2p-rm .item h3, #paper-ethical-marketing .item h3 {
+#p2p-rm .item h3, #paper-ethical-marketing .item h3, .paper-ethical-marketing-child .item h3 {
   display: inline; }
 
-#p2p-rm .titletab, #paper-ethical-marketing .titletab {
+#p2p-rm .titletab, #paper-ethical-marketing .titletab, .paper-ethical-marketing-child .titletab {
   margin-left: 0.6em; }
-
-#p2p-rm .header2, #paper-ethical-marketing .header2 {
-  margin-top: 0.6em; }
-
-#p2p-rm .header3, #paper-ethical-marketing .header3 {
-  margin-top: 0.3em; }
 
 #p2p-foundation .label {
   color: grey; }
+
+#paper-ethical-marketing .structure a, .paper-ethical-marketing-child .structure a {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  display: box;
+  display: -webkit-flexbox;
+  display: -moz-flexbox;
+  display: -ms-flexbox;
+  display: -o-flexbox;
+  display: flexbox;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+  flex-direction: row; }
+
+#paper-ethical-marketing li.deep-1:not(:last-child), .paper-ethical-marketing-child li.deep-1:not(:last-child) {
+  margin-bottom: 1.6em; }
+
+#paper-ethical-marketing a.deep-1, .paper-ethical-marketing-child a.deep-1 {
+  font-weight: bold; }
+
+#paper-ethical-marketing .rank, .paper-ethical-marketing-child .rank {
+  -webkit-box-flex: 0 0 80px;
+  -moz-box-flex: 0 0 80px;
+  -ms-box-flex: 0 0 80px;
+  -o-box-flex: 0 0 80px;
+  box-flex: 0 0 80px;
+  -webkit-flex: 0 0 80px;
+  -moz-flex: 0 0 80px;
+  -ms-flex: 0 0 80px;
+  -o-flex: 0 0 80px;
+  flex: 0 0 80px; }
 
 footer .links {
   max-width: 45em;
