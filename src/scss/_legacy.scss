@@ -30,16 +30,12 @@ h1, .highlight{
   color: #fff;
   background-color: rgba(20,20,20,0.4);
   padding: 3px;
+  @include radius;
 }
 
 .date{
   color: $datecolor;
   text-align: center;
-}
-
-.fa {
-  font-size: 64px;
-  margin-bottom: 10px;
 }
 
 .code{

@@ -1,5 +1,5 @@
 nav{
-  @include display-flex(row, center);
+  @include display-flex(row, center, flex-start, wrap);
   text-align: left;
   margin-bottom: 1.5em;
   a{

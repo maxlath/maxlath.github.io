@@ -1,6 +1,9 @@
 @import 'fonts';
 @import 'colors';
 @import 'mixins';
+
+$smallscreen: 1024px;
+
 body{
   text-align: center;
   color: $dark-grey;
@@ -21,8 +24,6 @@ main{
 
 // RESET
 body{
-  // /!\ SIZES EVERYTHING
-  font-size: 120%;
   ul, ul li, ul li ul{
     list-style-type: none;
     margin: 0;
@@ -50,6 +51,40 @@ hr{
   opacity: 0.3;
 }
 
+.creative-commons{
+  @include display-flex(row, center, center);
+  img{
+    padding: 1em;
+  }
+  /*Small screens*/
+  @media screen and (max-width: $smallscreen) {
+    @include flex-direction(column);
+  }
+}
+
+.back-home{
+  // margin: 0 auto;
+  text-align: center;
+  .fa-home{
+    font-size: 1em;
+  }
+}
+
+
+/*Small screens*/
+@media screen and (max-width: $smallscreen) {
+  main{
+    max-width: 100vw;
+  }
+}
+
+/*Large screens*/
+@media screen and (min-width: $smallscreen) {
+  body{
+    // /!\ SIZES EVERYTHING
+    font-size: 120%;
+  }
+}
 
 
 @import 'nav';

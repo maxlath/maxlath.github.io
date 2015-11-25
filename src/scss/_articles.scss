@@ -1,7 +1,18 @@
-.articles-child, .paper-ethical-marketing-child {
+.posts-child, .articles-child, .paper-ethical-marketing-child {
   @import 'legacy';
-  .cover{
+  .cover, .video{
     width: 40em;
+  }
+  iframe.video{
+    height: 25em;
+  }
+  /*Small screens*/
+  @media screen and (max-width: $smallscreen) {
+    .cover, iframe.video{
+      max-width: 95vw;
+      max-height: 60vw;
+      // height: auto;
+    }
   }
 }
 
