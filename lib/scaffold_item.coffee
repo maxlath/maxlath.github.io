@@ -41,3 +41,5 @@ buildDataBase = (id, title, parent)->
   date: new Date()
   parent: parent
   partials: []
+  format: "markdown"
+  tags: []

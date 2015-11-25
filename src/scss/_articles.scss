@@ -1,5 +1,8 @@
-#p2p-rm, #paper-ethical-marketing, .paper-ethical-marketing-child, #wikidata-and-the-apt-get-of-things {
+.articles-child, .paper-ethical-marketing-child {
   @import 'legacy';
+  .cover{
+    width: 40em;
+  }
 }
 
 @import 'p2p-rm';
