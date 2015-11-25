@@ -6,7 +6,5 @@
   "image": "/assets/img/p2p-rm.jpg",
   "date": "2013-05-20T22:00:00.000Z",
   "parent": "articles",
-  "partials": [
-    "../partials/creativecommons.html"
-  ]
+  "partials": []
 }

@@ -1,13 +1,12 @@
 {
   "id": "paper-ethical-marketing",
   "title": "What could Ethical Marketing mean?",
-  "subtitle": "my master thesis",
+  "subtitle": "aka \"Is there such a thing as ethical commercial propaganda\"",
   "description": "From April to September 2012 I have been busy writing my Master Thesis as part of my master in management last year (ESC Toulouse / WFI Ingolstadt), on the following subject: Rethink ethical marketing after the critiques of Bernard Stiegler",
   "image": "/assets/img/maybe-never-write-a-song.jpg",
   "date": "2012-09-29T23:01:15.131Z",
   "parent": "articles",
   "partials": [
-    "./partials/masterplan.html",
-    "../partials/creativecommons.html"
+    "./partials/masterplan.html"
   ]
 }

@@ -93,7 +93,4 @@ inventory fetch Q7220961
 Any feedback welcome!
 </p>
 
-<!-- CREATIVECOMMONS --><!-- CREATIVECOMMONS -->
-
-<div class="date panel">29 April 2014 - <a href="/articles/wikidata-and-the-apt-get-of-things" title="permakink">Permalink</a>
-</div>
+<!-- ITEMFOOTER --><!-- ITEMFOOTER -->

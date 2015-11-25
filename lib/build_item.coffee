@@ -1,9 +1,11 @@
 _ = require './utils'
 buildLayout = require './build_layout'
 marked = require 'marked'
-{ getUpdatedFile } = require '../lib/update_part'
+{ updateFile, getUpdatedFile } = require '../lib/update_part'
 path_ = require 'path'
 { sectionsList, contentFile } = require 'config'
+
+buildItemFooter = require '../lib/build_item_footer'
 
 module.exports = (itemFolderPath)->
   data = _.getFolderData itemFolderPath
@@ -13,6 +15,8 @@ module.exports = (itemFolderPath)->
   _.readFile path, (err, content)->
 
     if err? then _.throwError err, itemFolderPath
+
+    content = addFooter content, data
 
     if partials? then content = addPartials content, data
 
@@ -27,6 +31,9 @@ module.exports = (itemFolderPath)->
 
 indexPath = (itemFolderPath)-> "./#{itemFolderPath}/index.html"
 
+addFooter = (content, data)->
+  footer = buildItemFooter data
+  return updateFile content, footer, 'itemfooter'
 
 addPartials = (content, data)->
   { partials, parent, id } = data

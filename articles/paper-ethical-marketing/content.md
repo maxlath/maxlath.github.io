@@ -46,7 +46,4 @@
   </ul>
  </p>
 
-<!-- CREATIVECOMMONS --><!-- CREATIVECOMMONS -->
-<div class="date panel">
-  30 September 2012 - <a href="/articles/paper-ethical-marketing" title="permakink">Permalink</a>
-</div>
+<!-- ITEMFOOTER --><!-- ITEMFOOTER -->

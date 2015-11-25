@@ -3,7 +3,9 @@ require 'colors'
 mkdirp = require 'mkdirp'
 { copy } = require 'copy-paste'
 
-module.exports = _ =
+module.exports = _ = require 'lodash'
+
+_.extend _,
   readFile: (path, cb)->
     cb or= FileOpCb 'read', path
     fs.readFile path, 'utf-8', cb
