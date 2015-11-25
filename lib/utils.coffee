@@ -52,10 +52,7 @@ _.extend _,
     console.log message.red, context
     throw new Error(message)
 
-  getIdFromTitle: (title)->
-    title
-    .toLowerCase()
-    .replace /\s/g, '-'
+  getIdFromTitle: _.kebabCase
 
   attributeString: (name, val)-> if val? then "#{name}='#{val}'" else ''
 
