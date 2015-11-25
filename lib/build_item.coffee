@@ -16,12 +16,13 @@ module.exports = (itemFolderPath)->
 
     if err? then _.throwError err, itemFolderPath
 
-    content = addFooter content, data
 
     if partials? then content = addPartials content, data
 
     if format is 'markdown' then content = marked content
     else _.warn "not markdown compiled: #{path}"
+
+    content += buildItemFooter data
 
     childClass = parent.split('/').slice(-1)[0]
     classes = if childClass? then "item #{childClass}-child" else 'item'
@@ -30,10 +31,6 @@ module.exports = (itemFolderPath)->
     _.writeFile indexPath(itemFolderPath), item
 
 indexPath = (itemFolderPath)-> "./#{itemFolderPath}/index.html"
-
-addFooter = (content, data)->
-  footer = buildItemFooter data
-  return updateFile content, footer, 'itemfooter'
 
 addPartials = (content, data)->
   { partials, parent, id } = data
