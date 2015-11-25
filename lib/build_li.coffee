@@ -6,4 +6,6 @@ module.exports = (folder, name)->
   absolutePath = "/#{relativePath}/"
   data = _.getFolderData relativePath
   preview = buildPreview data
-  return "<li><a href='#{absolutePath}'>#{preview}</a></li>"
+  return li =
+    html: "<li><a href='#{absolutePath}'>#{preview}</a></li>"
+    data: data

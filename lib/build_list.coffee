@@ -8,9 +8,12 @@ module.exports = (folder)->
   innerList = fs.readdirSync folder
     .filter isntMetaFile
     .map buildLi.bind(null, folder)
+    .sort byDescendingDate
+    .map _.property('html')
     .join '\n'
 
   return "<ul>#{innerList}</ul>"
 
-isntMetaFile = (name)-> not (name in metaFiles)
+byDescendingDate = (a, b)-> return a.data.date < b.data.date
 
+isntMetaFile = (name)-> not (name in metaFiles)
