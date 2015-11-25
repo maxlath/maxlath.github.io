@@ -8,19 +8,24 @@ module.exports = _ =
     cb or= FileOpCb 'read', path
     fs.readFile path, 'utf-8', cb
   readFileSync: (path)-> fs.readFileSync path, 'utf-8'
-  writeFile: (path, content)->
+  writeFile: (path, content, mkdirp=false)->
+    if mkdirp then mkFileDirpSync path
     fs.writeFile path, content, FileOpCb('write', path)
-  writeFileSync: (path, content)->
+  writeFileSync: (path, content, mkdirp=false)->
+    if mkdirp then mkFileDirpSync path
     fs.writeFileSync path, content
   readJsonSync: (path)->
-    cwd = process.cwd()
+    # allow to pass an absolute path
+    unless path[0] is '/'
+      cwd = process.cwd()
+      path = "#{cwd}/#{path}"
     # weirdly can't make it work without passing the cwd oO
-    return require "#{cwd}/#{path}"
+    return require path
 
   writeJsonSync: (path, content)->
     _.writeFileSync path, JSON.stringify content, null, 2
 
-  mkdirSync: (path)-> mkdirp.sync path
+  mkdirpSync: (path)-> mkdirp.sync path
 
   getFolderData: (folder)-> _.readJsonSync "#{folder}/data.json"
 
@@ -67,6 +72,10 @@ module.exports = _ =
   forceArray: (obj)->
     if obj instanceof Array then obj
     else [ obj ]
+
+mkFileDirpSync = (filePath)->
+  folder = filePath.split('/').slice(0, -1).join('/')
+  _.mkdirpSync folder
 
 FileOpCb = (label, path)->
   return cb = (err, res)->

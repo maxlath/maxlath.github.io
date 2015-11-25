@@ -7,7 +7,7 @@ path_ = require 'path'
 
 module.exports = (itemFolderPath)->
   data = _.getFolderData itemFolderPath
-  { format, partials } = data
+  { format, partials, parent } = data
 
   path = "#{itemFolderPath}/#{contentFile}"
   _.readFile path, (err, content)->
@@ -19,7 +19,10 @@ module.exports = (itemFolderPath)->
     if format is 'markdown' then content = marked content
     else _.warn "not markdown compiled: #{path}"
 
-    item = buildLayout data, content, 'item'
+    childClass = parent.split('/').slice(-1)[0]
+    classes = if childClass? then "item #{childClass}-child" else 'item'
+
+    item = buildLayout data, content, classes
     _.writeFile indexPath(itemFolderPath), item
 
 indexPath = (itemFolderPath)-> "./#{itemFolderPath}/index.html"

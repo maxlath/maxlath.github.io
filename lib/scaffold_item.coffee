@@ -13,7 +13,7 @@ module.exports = (folder, title)->
   # create item sub-directory
   url = "/#{folder}/#{id}"
   newFolderPath = ".#{url}"
-  _.mkdirSync newFolderPath
+  _.mkdirpSync newFolderPath
   _.log 'created folder', newFolderPath
 
   # add content file
