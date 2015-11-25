@@ -21,6 +21,6 @@ buildBreadcrumb = (parent, id)->
 
 buildLink = (href, name)->
   """
-    <i class="fa fa-angle-right"></i>
-    <a href="#{href}">#{name}</a>
+  <i class="fa fa-angle-right"></i>
+  <a href="#{href}">#{name}</a>
   """
