@@ -38,14 +38,15 @@
  <h4>Articles following those reflections:<h4>
   <ul>
     <li>
-      <a href="/articles/p2p-rm">What is P2P Resources Management</a> (Spring 2013)
+      <a href="/articles/p2p-rm">What is P2P Resources Management</a> (2013)
     </li>
     <li>
-      <a href="/articles/wikidata-and-the-apt-get-of-things">Wikidata and the apt-get of things</a> (Spring 2014)
+      <a href="/articles/wikidata-and-the-apt-get-of-things">Wikidata and the apt-get of things</a> (2014)
     </li>
   </ul>
  </p>
 
+<!-- CREATIVECOMMONS --><!-- CREATIVECOMMONS -->
 <div class="date panel">
   30 September 2012 - <a href="/articles/paper-ethical-marketing" title="permakink">Permalink</a>
 </div>

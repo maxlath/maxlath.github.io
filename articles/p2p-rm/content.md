@@ -73,7 +73,6 @@
 <h4>Other sources of inspiration:</h4>
 <p><strong>Cory Doctorow (2011)</strong> <a href="http://www.youtube.com/watch?v=HUEvRyemKSg">The coming war on general computation</a> <span class="hashtags">#opensource #struggle</span></p>
 
-<!-- CREATIVECOMMONS -->
-<!-- CREATIVECOMMONS -->
+<!-- CREATIVECOMMONS --><!-- CREATIVECOMMONS -->
 
 <div class="date panel">20 May 2013 - <a href="/articles/p2p-rm" title="permalink">Permalink</a></div>

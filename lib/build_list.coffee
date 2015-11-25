@@ -1,6 +1,6 @@
 fs = require 'fs'
 _ = require './utils'
-metaFiles = [ 'index.html', 'data.json' ]
+metaFiles = [ 'index.html', 'data.json', 'partials' ]
 buildLi = require './build_li'
 
 module.exports = (folder)->

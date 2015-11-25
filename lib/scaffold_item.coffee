@@ -40,3 +40,4 @@ buildDataBase = (id, title, parent)->
   image: null
   date: new Date()
   parent: parent
+  partials: []

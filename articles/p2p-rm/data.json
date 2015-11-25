@@ -5,5 +5,8 @@
   "description": "Here after is the fruit of my travel on the roads of collaborative economy, linked data and political indignation. This is an attempt to sketch what value could create a well designed peer-to-peer resources management system; an ongoing work aiming to gather the theorical basis for prototyping. Feedbacks and sharing welcome!",
   "image": "/assets/img/p2p-rm.jpg",
   "date": "2013-05-20T22:00:00.000Z",
-  "parent": "articles"
+  "parent": "articles",
+  "partials": [
+    "../partials/creativecommons.html"
+  ]
 }
