@@ -1,8 +1,8 @@
 <!-- MASTERPLAN --><!-- MASTERPLAN -->
 <hr>
- <!-- SUMMARY --><!-- SUMMARY -->
+<!-- SUMMARY --><!-- SUMMARY -->
 
-<h3 id="3-1"> 3.1<span class="titletab"></span> Toward an ecology of the spirit?</h3>
+<h3 id="3-1">3.1<span class="titletab"></span> Toward an ecology of the spirit?</h3>
 <h4 id="3-1-1">3.1.1<span class="titletab"></span> Downfall of the esprit value and systemic toxicity</h4>
 <p>There
   is no subsistence imperative in consuming that much or this way, rather a
