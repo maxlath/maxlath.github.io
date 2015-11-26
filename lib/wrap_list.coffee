@@ -1,5 +1,5 @@
 _ = require './utils'
-marked = require 'marked'
+marked = require './marked'
 
 module.exports = (content, level, data, link)->
   innerWrap = buildInnerWrap content, level, data

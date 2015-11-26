@@ -1,6 +1,6 @@
 _ = require './utils'
 buildLayout = require './build_layout'
-marked = require 'marked'
+marked = require './marked'
 { updateFile, getUpdatedFile } = require '../lib/update_part'
 path_ = require 'path'
 { sectionsList, contentFile } = require 'config'

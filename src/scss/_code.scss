@@ -1,0 +1,22 @@
+.code{
+  font-family: "monospace";
+  .comment{
+    color: #888;
+  }
+}
+
+p.code, div.code{
+  // background-color: #ddd;
+  background-color: #3C3B37;
+  // color: #222;
+  color: white;
+  padding: 1em;
+  p{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+span.code{
+  color: #111;
+}
