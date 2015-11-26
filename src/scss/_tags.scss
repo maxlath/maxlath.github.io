@@ -2,14 +2,15 @@
   margin-top: 1em;
   margin-bottom: 1em;
 }
-li.tag{
-  padding: 0.5em;
-}
-a.tag-link{
-  color: white;
+li.tag-li{
   @include bg-hover($light-blue);
   @include radius(5px);
+  margin: 0.4em;
+  padding: 0.1em 0.1em 0.2em 0;
+}
+a.tag-link{
   padding: 0.2em 0.5em 0.3em 0.5em;
+  color: white;
   .count{
     font-size: 0.8em;
     opacity: 0.8;
@@ -23,7 +24,7 @@ a.tag-link{
       @include display-flex(row, center, center, wrap);
       li{
         margin: 0.2em;
-        padding: 0.2em;
+        // padding: 0.2em;
         a{
           font-size: 1rem;
         }
@@ -42,7 +43,7 @@ a.tag-link{
   }
   #tags{
     li{
-      padding: 0.5em;
+      // padding: 0.5em;
     }
   }
   a.tag-link{

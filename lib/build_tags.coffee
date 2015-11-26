@@ -26,7 +26,7 @@ module.exports = API =
     title = API.getTitleFromTag tag
     countHtml = if count? then "<span class='count'>(#{count})</span>" else ''
     """
-    <li>
+    <li class="tag-li">
       <a class="tag-link" href='#{url}' title='#{tag}'>
       #{title} #{countHtml}
       </a>
