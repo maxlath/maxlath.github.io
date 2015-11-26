@@ -3,6 +3,7 @@
 buildList = require '../lib/build_list'
 { updateFile } = require '../lib/update_part'
 buildIndex = require '../lib/build_index'
+buildHead = require '../lib/build_head'
 wrapList = require '../lib/wrap_list'
 { getTagsLists, buildTag } = require '../lib/build_tags'
 _ = require '../lib/utils'
@@ -73,7 +74,10 @@ buildIndex 'tags', tagsListHtml
 # HOME
 index = _.readFileSync './content.md'
 links = _.readFileSync './partials/links.md'
+data = _.getFolderData '.'
+head = buildHead data
 # add wrap lists to main index
+index = updateFile index, head, 'head'
 index = updateFile index, itemsListsContent, 'itemslists'
 index = updateFile index, tagsListHtml, 'tags'
 index = updateFile index, links, 'links'
