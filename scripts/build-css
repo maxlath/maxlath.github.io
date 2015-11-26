@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 ./scripts/compile-scss
-cat src/css/*css > assets/css/bundle.css
+cat src/css/*css | cleancss -o assets/css/bundle.css
 echo 'assets/css/bundle.css: ok'

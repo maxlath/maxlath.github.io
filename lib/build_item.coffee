@@ -16,13 +16,13 @@ module.exports = (itemFolderPath)->
 
     if err? then _.throwError err, itemFolderPath
 
+    if format is 'markdown' then content = marked content
+    else _.warn "not markdown compiled: #{path}"
+
     if tags?.length > 0
       content = buildTagsList(tags) + content
 
     if partials? then content = addPartials content, data
-
-    if format is 'markdown' then content = marked content
-    else _.warn "not markdown compiled: #{path}"
 
     content += buildItemFooter data
 
@@ -47,11 +47,11 @@ addPartials = (content, data)->
 buildTagsList = (tags)->
   innerTagsList = tags
     .map (tag)-> buildTag tag, null
-    .join '\n'
+    .join ''
 
   """
-  <div class='tags-header'>
-    <span>TAGS:</span>
+  <div class='tags-line'>
+    <label>TAGS:</label>
     <ul>#{innerTagsList}</ul>
   </div>
   """

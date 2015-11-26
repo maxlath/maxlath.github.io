@@ -1,5 +1,5 @@
-<img class="cover" src="/assets/img/chess.jpg" alt="Chess and counter-modulation - all  metaphorical interpretation of this picture are fully at your responsibility - CC-BY Maxime Lathuilière 2013">
 <h2>Wikidata and the apt-get of things</h2>
+<img class="cover" src="/assets/img/chess.jpg" alt="Chess and counter-modulation - all  metaphorical interpretation of this picture are fully at your responsibility - CC-BY Maxime Lathuilière 2013">
 <p>In my peregrinations on <a href="/articles/p2p-rm">P2P resources management</a> systems, I regularly come back to the idea of an apt-get -like architecture. Now comes <a href="https://www.wikidata.org/">Wikidata</a>, and it gives us a great opportunity to structure it!</p>
 <p><em> [9/03/15 note]: I'm currenty prototyping in this direction at <a href="https://inventaire.io">Inventaire.io</a>. That's just a start, there is still a lot to be done to reach something like what is discribed in the present article and I won't go there alone: jump in already!</em></p>
 

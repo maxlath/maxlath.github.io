@@ -15,7 +15,7 @@
 </div>
 <a id="p2p-foundation" href="http://p2pfoundation.net/Ethical_Marketing_in_Age_of_Horizontal_Socialization" title="Ethical Marketing in Age of Horizontal Socialization" target="_blank">
   <div class="row panel">
-    <img alt="P2P Foundation Ethical marketing at the age of horizontal socialisation" src="/assets/img/p2p-foundation.jpg" width="180">
+    <img alt="P2P Foundation Ethical marketing at the age of horizontal socialisation" src="/assets/img/p2p-foundation.png" width="180">
     <span>
     <div>
       <span class="label">Extract published by the P2P Foundation:</span> <br>

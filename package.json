@@ -25,6 +25,7 @@
   "dependencies": {},
   "devDependencies": {
     "app-root-path": "^1.0.0",
+    "clean-css": "^3.4.8",
     "coffee-script": "^1.10.0",
     "config": "^1.17.1",
     "copy-paste": "^1.1.4",

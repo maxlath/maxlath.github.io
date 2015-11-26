@@ -1,4 +1,5 @@
 _ = require './utils'
+marked = require 'marked'
 
 module.exports = (content, level, data, link)->
   innerWrap = buildInnerWrap content, level, data
@@ -12,7 +13,7 @@ module.exports = (content, level, data, link)->
 
 buildInnerWrap = (content, level, data)->
   { title, fullTitle, subtitle, description } = data
-  title = fullTitle or title
+  if fullTitle? then title = marked fullTitle
   innerWrap = "<h#{level} class='title'>#{title}</h#{level}>"
   if subtitle?
     innerWrap += "<span class='legend'>#{subtitle}</span>"

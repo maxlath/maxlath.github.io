@@ -40,10 +40,12 @@ tagsList.forEach (tagData)->
   # if fullTitle?
     # fullTitle = marked fullTitle
     # tagHeader += "<h2 class='full-title'>#{fullTitle}</h2>"
-  if image? then tagHeader += "<img class='cover' src='#{image}' alt='#{fullTitle}'>"
+
   if description?
     description = marked description
     tagHeader += "<p class='description'>#{description}</p>"
+
+  if image? then tagHeader += "<img class='cover' src='#{image}' alt='#{fullTitle}'>"
 
   listHtml = """
     <div class='tag-context'>#{tagHeader}</div>

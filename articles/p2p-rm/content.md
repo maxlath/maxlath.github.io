@@ -1,5 +1,5 @@
-<p><img alt="image" src="/assets/img/p2p-rm.jpg" /><br />
 <h2>P2P Resources Management</h2>
+<img alt="image" class="cover" src="/assets/img/inventaire-public-books.jpg" />
 <p><strong><em>or how we could turn our transactional data in one of the most powerful tools for change</em></strong></p>
 <p>Here after is the fruit of my travel on the roads of collaborative economy, linked data and political indignation. This is an attempt to sketch what value could create a well designed peer-to-peer resources management system; an ongoing work aiming to gather the theorical basis for prototyping. Feedbacks and sharing welcome!</p>
 
