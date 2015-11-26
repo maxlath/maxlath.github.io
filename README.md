@@ -4,4 +4,4 @@ A static website to publish articles, posts, with hand-made templating, file cha
 
 Hardly usable by anyone else I'm afraid: little to no documentation, built artifacts everywhere as they are required for the Github page to work.
 
-But maybe you can take some ideas, who knos :)
+But maybe you can take some ideas, who knows :)
