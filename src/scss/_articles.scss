@@ -1,19 +1,11 @@
 .posts-child, .articles-child, .paper-ethical-marketing-child {
+  h1, .highlight{
+    color: #fff;
+    background-color: rgba(20,20,20,0.4);
+    padding: 3px;
+    @include radius;
+  }
   @import 'legacy';
-  .cover, .video{
-    width: 40em;
-  }
-  iframe.video{
-    height: 25em;
-  }
-  /*Small screens*/
-  @media screen and (max-width: $smallscreen) {
-    .cover, iframe.video{
-      max-width: 95vw;
-      max-height: 60vw;
-      // height: auto;
-    }
-  }
 }
 
 @import 'p2p-rm';

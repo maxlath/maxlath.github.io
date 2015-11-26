@@ -1,0 +1,16 @@
+.cover, .video{
+  max-width: 40em;
+}
+iframe.video{
+  width: 100%;
+  min-height: 18em;
+  max-height: 25em;
+}
+/*Small screens*/
+@media screen and (max-width: $smallscreen) {
+  .cover, iframe.video{
+    max-width: 95vw;
+    max-height: 60vw;
+    // height: auto;
+  }
+}

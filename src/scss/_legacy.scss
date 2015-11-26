@@ -20,18 +20,6 @@ a:not(.tag-link){
     color: lighten($linkcolor, 15%);
   }
 }
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-h1, .highlight{
-  color: #fff;
-  background-color: rgba(20,20,20,0.4);
-  padding: 3px;
-  @include radius;
-}
 
 .date{
   color: $datecolor;
