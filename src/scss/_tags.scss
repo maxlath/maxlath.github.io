@@ -18,24 +18,22 @@ a.tag-link{
 
 /*Small screens*/
 @media screen and (max-width: $smallscreen) {
-  #tags, .tags-header{
+  #tags{
     ul{
       @include display-flex(row, center, center, wrap);
       li{
         margin: 0.2em;
         padding: 0.2em;
-        white-space: nowrap;
         a{
           font-size: 1rem;
         }
       }
     }
   }
-
 }
 /*Large screens*/
 @media screen and (min-width: $smallscreen) {
-  #tags, .tags-header{
+  #tags{
     ul{
       @include display-flex(row, center, center, wrap);
       max-width: $footerMaxWidth;
@@ -47,33 +45,17 @@ a.tag-link{
       padding: 0.5em;
     }
   }
-  .tags-header{
-    margin-bottom: 1em;
-    opacity: 0.6;
-    &:hover{
-      opacity: 1;
-    }
-    @include display-flex(row, center, flex-start, wrap);
-    span{
-      margin-right: 0.5em;
-    }
-    ul{
-      @include justify-content(flex-start);
-    }
-  }
   a.tag-link{
     margin-right: 0.2em;
   }
 }
 
-
 main.tags{
-  .title{
-    margin-bottom: 1em;
-  }
   .tag-context{
     .cover{
       max-width: 100%;
     }
   }
 }
+
+@import 'tags_line';

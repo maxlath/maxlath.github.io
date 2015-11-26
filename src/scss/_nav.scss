@@ -17,4 +17,8 @@ nav{
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
+  /*Small screens*/
+  @media screen and (max-width: $smallscreen) {
+    font-size: 200%;
+  }
 }
