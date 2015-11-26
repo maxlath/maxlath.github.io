@@ -7,10 +7,9 @@ module.exports = (data)->
 
   type = getType parent
 
-
   if url? then fullUrl = getFullUrl url
   else if parent? and id? then fullUrl = "#{host}/#{parent}/#{id}/"
-  else fullUrl = ''
+  else if id? then fullUrl = "#{host}/#{id}"
 
   if image? then image = getFullUrl(image)
   else
@@ -34,6 +33,7 @@ module.exports = (data)->
 
     <meta property="og:site_name" content="maxlath.eu">
     <meta property="og:url" content="#{fullUrl}">
+    <meta property='og:type' content='#{type}' />
   """
 
   # lang or= 'en'
@@ -59,8 +59,6 @@ module.exports = (data)->
 
 
   if type is 'article'
-    metaHtml += "<meta property='og:type' content='article' />"
-
     if date?
       date = date.split('T')[0]
       metaHtml += "<meta property='og:article:published_time' content='#{date}' />"
@@ -77,8 +75,12 @@ module.exports = (data)->
 #   buildFullUrl url
 
 getFullUrl = (url)->
-  if url?[0] is '/' then host + url else url
+  url = if url?[0] is '/' then host + url else url
+  # adding trailing slash
+  unless url.slice(-1)[0] is '/' then url += '/'
+  return url
 
 getType = (parent)->
   switch parent?.split('/')[0]
     when 'articles', 'posts' then 'article'
+    else 'website'
