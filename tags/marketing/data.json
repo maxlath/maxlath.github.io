@@ -1,8 +1,10 @@
 {
   "id": "marketing",
   "title": "#marketing",
+  "fullTitle": null,
   "image": null,
   "description": null,
   "parent": "tags",
-  "url": "/tags/marketing"
+  "url": "/tags/marketing",
+  "wikidata": null
 }

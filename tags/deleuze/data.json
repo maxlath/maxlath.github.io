@@ -1,8 +1,10 @@
 {
   "id": "deleuze",
   "title": "#deleuze",
+  "fullTitle": "Gilles Deleuze",
   "image": null,
-  "description": null,
+  "description": "\"*Gilles Deleuze was a French philosopher who, from the early 1960s until his death, wrote influentially on philosophy, literature, film, and fine art. His most popular works were the two volumes of Capitalism and Schizophrenia: Anti-Oedipus (1972) and A Thousand Plateaus (1980), both co-written with psychoanalyst Félix Guattari. His metaphysical treatise Difference and Repetition (1968) is considered by many scholars to be his magnum opus.*\" ([Wikipedia](https://en.wikipedia.org/wiki/Gilles_Deleuze))",
   "parent": "tags",
-  "url": "/tags/deleuze"
+  "url": "/tags/deleuze",
+  "wikidata": null
 }

@@ -1,8 +1,10 @@
 {
   "id": "vrm",
   "title": "#vrm",
-  "image": null,
-  "description": null,
+  "fullTitle": "Vendor Relationship Management",
+  "image": "/assets/img/data-vendors-consumers.jpg",
+  "description": "\"*Vendor relationship management (VRM) is a category of business activity made possible by software tools that aim to provide customers with both independence from vendors and better means for engaging with vendors. These same tools can also apply to individuals' relations with other institutions and organizations.*\" ([Wikipedia](https://en.wikipedia.org/wiki/Vendor_relationship_management))",
   "parent": "tags",
-  "url": "/tags/vrm"
+  "url": "/tags/vrm",
+  "wikidata": "Q3104527"
 }

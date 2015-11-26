@@ -1,8 +1,10 @@
 {
   "id": "nindo",
   "title": "#nindo",
+  "fullTitle": null,
   "image": null,
   "description": null,
   "parent": "tags",
-  "url": "/tags/nindo"
+  "url": "/tags/nindo",
+  "wikidata": null
 }

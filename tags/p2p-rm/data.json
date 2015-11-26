@@ -1,9 +1,10 @@
 {
   "id": "p2p-rm",
-  "title": "#p2p rm",
-  "subtitle": "P2P Resources Management",
-  "image": null,
-  "description": null,
+  "title": "#p2p-rm",
+  "fullTitle": "P2P Resources Management",
+  "image": "/assets/img/inventaire-public-books.jpg",
+  "description": "a concept I'm pushing as an way around vendors monopoly on data that is preventing [VRM](/tags/vrm) to emerge: start to exchange data with your peers in the way you would like professional vendors would do, accept them back in the discussion only if they play with the same rules.<br><br>main article: [P2P-RM](/articles/p2p-rm)<br>experimentation lab: [inventaire](/tags/inventaire)",
   "parent": "tags",
-  "url": "/tags/p2p-rm"
+  "url": "/tags/p2p-rm",
+  "wikidata": null
 }

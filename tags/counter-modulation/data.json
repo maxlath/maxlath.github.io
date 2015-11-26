@@ -1,8 +1,10 @@
 {
   "id": "counter-modulation",
-  "title": "#counter modulation",
+  "title": "#counter-modulation",
+  "fullTitle": null,
   "image": null,
-  "description": null,
+  "description": "a term forged from [Deleuze](/tags/deleuze)'s concept of modulation (cf his *Postscript on the Societies of Control* ([en](https://cidadeinseguranca.files.wordpress.com/2012/02/deleuze_control.pdf), [fr](https://infokiosques.net/imprimersans2.php3?id_article=214))): if the marketing is all modulation and control, what are our defence weapons? Is there a way for citizens to modulate, control businesses? The short answer is yes, buy from busiensses you want to see grow, boycott irresponsible jerks. [The long answer](/articles/p2p-rm)",
   "parent": "tags",
-  "url": "/tags/counter-modulation"
+  "url": "/tags/counter-modulation",
+  "wikidata": null
 }

@@ -1,8 +1,10 @@
 {
   "id": "learning",
   "title": "#learning",
+  "fullTitle": null,
   "image": null,
   "description": null,
   "parent": "tags",
-  "url": "/tags/learning"
+  "url": "/tags/learning",
+  "wikidata": null
 }

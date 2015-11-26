@@ -1,8 +1,10 @@
 {
   "id": "inventaire",
   "title": "#inventaire",
-  "image": null,
-  "description": null,
+  "fullTitle": "[inventaire.io](https://inventaire.io)",
+  "image": "/assets/img/inventaire-georges-en.jpg",
+  "description": "the libre collaborative resource (books) mapper powered by open-knowledge I'm developping",
   "parent": "tags",
-  "url": "/tags/inventaire"
+  "url": "/tags/inventaire",
+  "wikidata": null
 }

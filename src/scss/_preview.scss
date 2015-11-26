@@ -37,7 +37,7 @@ li{
   // margin: 0 auto;
   /*Small screens*/
   @media screen and (max-width: $smallscreen) {
-    height: 40em;
+    // height: 40em;
   }
 }
 
@@ -74,16 +74,18 @@ li{
     color: darken($previewHeaderColor, 50%);
   }
   .details{
+    max-width: 100%;
     @include display-flex(row, baseline, space-between);
     font-size: 0.7em;
     color: rgba(white, 0.5);
   }
   .preview-tags{
     margin-left: 0.4em;
+    text-align: left;
   }
   .date{
     margin-left: auto;
-    padding-left: 0.4em;
+    @include flex(0, 0);
     padding-right: 0.4em;
   }
 }

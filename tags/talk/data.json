@@ -1,8 +1,10 @@
 {
   "id": "talk",
   "title": "#talk",
+  "fullTitle": null,
   "image": null,
   "description": null,
   "parent": "tags",
-  "url": "/tags/talk"
+  "url": "/tags/talk",
+  "wikidata": null
 }

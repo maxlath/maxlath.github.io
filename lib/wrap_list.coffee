@@ -11,7 +11,8 @@ module.exports = (content, level, data, link)->
   else return wrapItAll data, innerWrap
 
 buildInnerWrap = (content, level, data)->
-  { title, subtitle } = data
+  { title, fullTitle, subtitle, description } = data
+  title = fullTitle or title
   innerWrap = "<h#{level} class='title'>#{title}</h#{level}>"
   if subtitle?
     innerWrap += "<span class='legend'>#{subtitle}</span>"

@@ -7,6 +7,7 @@ wrapList = require '../lib/wrap_list'
 { getTagsLists, buildTag } = require '../lib/build_tags'
 _ = require '../lib/utils'
 { sections, sectionsList } = require 'config'
+marked = require 'marked'
 
 itemsListsContent = sectionsList
   .map (section)->
@@ -33,7 +34,22 @@ tagsList.forEach (tagData)->
     .map _.property('html')
     .join '\n'
 
-  listHtml = "<ul>#{innerList}</ul>"
+  { fullTitle, description, image } = data
+
+  tagHeader = ''
+  # if fullTitle?
+    # fullTitle = marked fullTitle
+    # tagHeader += "<h2 class='full-title'>#{fullTitle}</h2>"
+  if image? then tagHeader += "<img class='cover' src='#{image}' alt='#{fullTitle}'>"
+  if description?
+    description = marked description
+    tagHeader += "<p class='description'>#{description}</p>"
+
+  listHtml = """
+    <div class='tag-context'>#{tagHeader}</div>
+    <h3>related items:</h3>
+    <ul>#{innerList}</ul>
+  """
   buildIndex folder, listHtml, 'tags'
 
 innerTagsListHtml = tagsList

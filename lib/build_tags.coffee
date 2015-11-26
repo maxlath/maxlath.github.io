@@ -5,7 +5,6 @@ tags = {}
 
 module.exports = API =
   addToTag: (li, tag)->
-    console.log tag.red, li.data.id
     tags[tag] or= []
     tags[tag].push li
 
@@ -55,8 +54,9 @@ initDataFile = (tag)->
 tagDataBase = (tag)->
   id: tag
   title: API.getTitleFromTag tag
+  fullTitle: null
   image: null
   description: null
   parent: 'tags'
   url: API.getUrlFromTag tag
-
+  wikidata: null
