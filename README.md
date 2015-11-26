@@ -1,6 +1,6 @@
 # Personal Hub
 
-A static website to publish articles, posts, with hand-made templating, file change watchers/compilers, and a super tag system: that was fun \o/
+A static website to publish (long) articles, (short) posts, slides, and more with one-time rendering through an (ugly) hand-made templating system, file change watchers/compilers, and a super tag system: that was fun :D
 
 Hosted as a [Github Page](https://pages.github.com/) and accessible at [maxlath.eu](http://maxlath.eu).
 
