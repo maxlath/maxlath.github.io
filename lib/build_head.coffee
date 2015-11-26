@@ -7,7 +7,6 @@ module.exports = (data)->
 
   type = getType parent
 
-  lang or= 'en'
 
   if url? then fullUrl = getFullUrl url
   else if parent? and id? then fullUrl = "#{host}/#{parent}/#{id}/"
@@ -35,8 +34,10 @@ module.exports = (data)->
 
     <meta property="og:site_name" content="maxlath.eu">
     <meta property="og:url" content="#{fullUrl}">
-    <meta property='og:locale' content='#{lang}' />
   """
+
+  # lang or= 'en'
+  # <meta property='og:locale' content='#{lang}' />
 
   { description, cleanedDesc, subtitle, cleanedSub } = data
   descElements = []
