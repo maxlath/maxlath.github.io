@@ -2,11 +2,11 @@
 <hr>
 <!-- SUMMARY --><!-- SUMMARY -->
 
-<h3 id="2-1">
+<h2 id="2-1">
 2.1<span class="titletab"></span>
 Foundation of Bernard Stiegler’s work: Indetermination of technique,
 pharmacology and organology
-</h3>
+</h2>
 <p>In
 order to understand the critiques of marketing by Bernard Stiegler and Ars
 Industrialis – the association he founded in 2005 –, we have to immerse,
@@ -89,9 +89,9 @@ as a cure as any&nbsp;<em>pharmakon</em>.</p>
 <p>
 
 </p>
-<h3 id="2-2">2.2<span class="titletab"></span>
+<h2 id="2-2">2.2<span class="titletab"></span>
 Behavior sciences and marketing co-developments: the rush for motivation
-and the consumerist era</h3>
+and the consumerist era</h2>
 
 <p>What
 are the criteria allowing Stiegler to say that the use of a technique is
@@ -103,8 +103,8 @@ alienation, and what Stiegler after Freud call the destruction of the
 social energy that is the libido, or after Simondon, the desindividuation
 process (Stiegler 2012a).</p>
 
-<h4 id="2-2-1">2.2.1<span class="titletab"></span>
-Freud’s core concept: the libidinal economy</h4>
+<h3 id="2-2-1">2.2.1<span class="titletab"></span>
+Freud’s core concept: the libidinal economy</h3>
 
 <p>In
 the Freudian vision of the psychic system, the&nbsp;<em>libidinal
@@ -170,10 +170,10 @@ following Bernays, Cheskin and Dichter’s works on behavioral science
 applied to consumer motivation (Stiegler 2010a).</p>
 
 
-<h4 id="2-2-2">2.2.2<span class="titletab"></span> Freud’s
-American nephew: Edward Bernays</h4>
+<h3 id="2-2-2">2.2.2<span class="titletab"></span> Freud’s
+American nephew: Edward Bernays</h3>
 
-<h4 id="2-2-2-1">2.2.2.1<span class="titletab"></span> The birth of Public Relations</h4>
+<h3 id="2-2-2-1">2.2.2.1<span class="titletab"></span> The birth of Public Relations</h3>
 
 <p>At
 the beginning of the twentieth century, Sigmund Freud attempted to
@@ -218,8 +218,8 @@ which appeared obscure but over time reaped huge rewards for his clients
 and redefined the very texture of American life.<i class="fa fa-quote-right"></i></em> – &nbsp;(McLaughlin
 &amp; Parry 2006, p.9)</p>
 
-<h5 id="2-2-2-2">2.2.2.2<span class="titletab"></span>“Without
-mind control to minimize cleavages, democracy would be chaos”</h5>
+<h4 id="2-2-2-2">2.2.2.2<span class="titletab"></span>“Without
+mind control to minimize cleavages, democracy would be chaos”</h4>
 
 <p>This
 psychological approach that Bernays wanted to implement at an industrial
@@ -369,9 +369,9 @@ opening an era of accelerated obsolescence of goods and higher waste
 Research rose and prospered among practitioners, beside quantitative
 approaches of marketing (Fullerton 2011, p.67).</p>
 
-<h4 id="2-2-3">2.2.3<span class="titletab"></span> From
+<h3 id="2-2-3">2.2.3<span class="titletab"></span> From
     a scientific approach of propaganda to the birth of modern
-    marketing: the science of motivation</h4>
+    marketing: the science of motivation</h3>
 
 <p>If
 rationalized attempts of crowd manipulation is something that can be
@@ -404,9 +404,9 @@ evolves during the second half of the twentieth century and spread from
 the US to the rest of Western societies after the 1970s (Stiegler 2008c,
 p.2-3-1).</p>
 
-<h4 id="2-2-4">2.2.4<span class="titletab"></span> Problems
+<h3 id="2-2-4">2.2.4<span class="titletab"></span> Problems
 inherent to marketing’s scientific approach of its influence on behaviors:
-playing with the system limits</h4>
+playing with the system limits</h3>
 
 <p>The
 discipline that emerged under the name of marketing, aims science rigor
@@ -463,11 +463,11 @@ change possibilities. The major limit that Stiegler analyze as being the
 base of the current<em>catastrophè</em>&nbsp;is
 what he calls the symbolic misery (Stiegler 2005).</p>
 
-<h4 id="2-2-5">2.2.5<span class="titletab"></span> The
-Birth of Consumer Behavior and consumerism</h4>
+<h3 id="2-2-5">2.2.5<span class="titletab"></span> The
+Birth of Consumer Behavior and consumerism</h3>
 
-<h5 id="2-2-5-1">2.2.5.1<span class="titletab"></span> From
-Consumerism to mass consumerism</h5>
+<h4 id="2-2-5-1">2.2.5.1<span class="titletab"></span> From
+Consumerism to mass consumerism</h4>
 
 <p>From
 an historical point of view, putting a unique and simple definition to
@@ -570,15 +570,15 @@ the machinist turn of sensitivity for a merchant use, are the tools of
 what Stiegler calls a psychopower.</p>
 <p><br>
 </p>
-<h3 id="2-3">
+<h2 id="2-3">
 2.3<span class="titletab"></span>
 The use of psycho-technologies by marketing as the continuation of
 biopower by psychopower
-</h3>
+</h2>
 
-<h4 id="2-3-1">2.3.1<span class="titletab"></span> The
+<h3 id="2-3-1">2.3.1<span class="titletab"></span> The
 Simondonian psychic apparatus genesis: psychic and collective
-individuation</h4>
+individuation</h3>
 <p>A
 first-hand reading of Stiegler’s writing is, here especially, recommended
 in order to fully perceive the complexity of Stiegler’s conceptual
@@ -675,8 +675,8 @@ it. I have no grip to properly understand that reality and thus can’t
 develop an autonomous thinking of it: I’m not a major person in the
 Kantian understanding of majority [<em>Mündigkeit</em>].</p>
 
-<h4 id="2-3-2">2.3.2<span class="titletab"></span> Powers
-upon individuals</h4>
+<h3 id="2-3-2">2.3.2<span class="titletab"></span> Powers
+upon individuals</h3>
 
 <p>This
 metastable system can be influenced by attempts to shape it through
@@ -686,8 +686,8 @@ biopower – power to constraint one’s body –, psychopower – power to
 influence one’s psychology –, neuropower – power to stimulate one’s
 neurological functions.</p>
 
-<h5 id="2-3-2-1">2.3.2.1<span class="titletab"></span> Biopower
-and psychopower</h5>
+<h4 id="2-3-2-1">2.3.2.1<span class="titletab"></span> Biopower
+and psychopower</h4>
 
 <p>In
 his book&nbsp;<em>Taking Care
@@ -816,7 +816,7 @@ industrialized societies]&nbsp;<em>of
 everything from smoking to sex education.<i class="fa fa-quote-right"></i></em> – &nbsp;(Phan
 2010, p.4)</p>
 
-<h5 id="2-3-2-2">2.3.2.2<span class="titletab"></span> Neuropower</h5>
+<h4 id="2-3-2-2">2.3.2.2<span class="titletab"></span> Neuropower</h4>
 
 <p>By
 extension of the psychopower,&nbsp;<em>neuro-power</em> doesn’t even aim one’s
@@ -882,11 +882,11 @@ attention by both symbolic and neurologic means? Such a systematic use of
 customer’s mind backdoors raises naturally important questions of ethics
 (Dumas et al. 2012).</p>
 
-<h4 id="2-3-3">2.3.3<span class="titletab"></span><em>Esprit</em> capacities and
-psychotechniques</h4>
+<h3 id="2-3-3">2.3.3<span class="titletab"></span><em>Esprit</em> capacities and
+psychotechniques</h3>
 
-<h5 id="2-3-3-1">2.3.3.1<span class="titletab"></span>Memory
-and attention</h5>
+<h4 id="2-3-3-1">2.3.3.1<span class="titletab"></span>Memory
+and attention</h4>
 
 <p class="quote"><i class="fa fa-quote-left"></i><em>A
 psycho-technique is literally a technique on or from the&nbsp;esprit<i class="fa fa-quote-right"></i></em> – &nbsp;(Ars
@@ -927,8 +927,8 @@ social communications: without this capacity of the mind to articulate
 retentions and protentions, there is no experience possible: “attention is
 the flow of consciousness” (Stiegler 2008c, p.38).</p>
 
-<h5 id="2-3-3-2">2.3.3.2<span class="titletab"></span> Grammatization
-and writing</h5>
+<h4 id="2-3-3-2">2.3.3.2<span class="titletab"></span> Grammatization
+and writing</h4>
 
 <p>The
 human specificity regarding this psychic apparatus is techniques (Barison
@@ -957,7 +957,7 @@ in which one’s individuate, is the reason why psychotechniques and their
 mechanization and industrialization as psychotechnology have a power of
 control, through the intelligent use of this overdetermination.</p>
 
-<h5 id="2-3-3-3">2.3.3.3<span class="titletab"></span> Psychotechnology</h5>
+<h4 id="2-3-3-3">2.3.3.3<span class="titletab"></span> Psychotechnology</h4>
 
 <p>The
 psychotechnique of writing, analyzed by Platon with Socrate in&nbsp;<em>The
@@ -1023,8 +1023,8 @@ intellectual and spiritual techniques, such as books in the context of the
 Enlightments (Stiegler 2008c, p.37; Ars Industrialis 2009) or the Internet
 in its intellectually empowering aspect.</p>
 
-<h4 id="2-3-4">2.3.4<span class="titletab"></span> Formation
-and capture of attention and the capacity of care</h4>
+<h3 id="2-3-4">2.3.4<span class="titletab"></span> Formation
+and capture of attention and the capacity of care</h3>
 
 <p>This
 formation of the attention that produce psychotechniques and especially
@@ -1091,14 +1091,14 @@ to think autonomously and thus of the individual’s responsibility
 (Stiegler 2008c).</p>
 <p><br>
 </p>
-<h3 id="2-4">2.4<span class="titletab"></span>
+<h2 id="2-4">2.4<span class="titletab"></span>
 How marketing use of psychopower plays with system limits toward
 attention capture and motivation canalization, producing the destruction
-of the capacity of care and of desire</h3>
+of the capacity of care and of desire</h2>
 
 
-<h4 id="2-4-1">2.4.1<span class="titletab"></span>Consumerism
-as the opposite of the care</h4>
+<h3 id="2-4-1">2.4.1<span class="titletab"></span>Consumerism
+as the opposite of the care</h3>
 
 <p>In
 the Deleuzian description of the society of control, “the goal is not
@@ -1206,12 +1206,12 @@ become impotent if not obsolete – if it is true that knowledge is what
 empowers humanity.<i class="fa fa-quote-right"></i></em> – &nbsp;(Stiegler
 2009)</p>
 
-<h4 id="2-4-2">2.4.2<span class="titletab"></span>Marketing
+<h3 id="2-4-2">2.4.2<span class="titletab"></span>Marketing
 use of psychotechnologies through the highly strategic cultural and
-program industries</h4>
+program industries</h3>
 
-<h5 id="2-4-2-1">2.4.2.1<span class="titletab"></span>The
-use of psychotechnologies by marketing toward a minor state of minds</h5>
+<h4 id="2-4-2-1">2.4.2.1<span class="titletab"></span>The
+use of psychotechnologies by marketing toward a minor state of minds</h4>
 
 <p>The
 development of psychotechnologies based on analogic writing that are
@@ -1290,8 +1290,8 @@ intelligence in the spiritual milieu] and intelligence (Stiegler 2008c,
 pp.59–70): in this battle, the inattentive, careless practice of marketing
 largely pushs for stupidity.</p>
 
-<h5 id="2-4-2-2">2.4.2.2<span class="titletab"></span> Primary
-and secondary identification short-circuit</h5>
+<h4 id="2-4-2-2">2.4.2.2<span class="titletab"></span> Primary
+and secondary identification short-circuit</h4>
 
 <p>The
 identification process, the process creating an&nbsp;<em>ideal-of-the-self</em>,
@@ -1365,9 +1365,9 @@ stopped in their construction of the Ego as a singularity that is an
 understanding of the self as someone different from the mass (Stiegler
 2008b).</p>
 
-<h4 id="2-4-3">2.4.3<span class="titletab"></span> Marketing
+<h3 id="2-4-3">2.4.3<span class="titletab"></span> Marketing
 versus the intergenerational transmission of&nbsp;<em>savoir</em> and the constitution of a
-Super-Ego</h4>
+Super-Ego</h3>
 
 <p>The
 evolution of familial functioning and the diminution of intra-familial
@@ -1452,11 +1452,11 @@ hundreds of millions of those different, unique, singular customers – but
 in fact hypersynchronized individual in their diverted identification
 process and canalized libidinal energy – with a single product.</p>
 
-<h4 id="2-4-4">2.4.4<span class="titletab"></span> Esprit
-resources shortage</h4>
+<h3 id="2-4-4">2.4.4<span class="titletab"></span> Esprit
+resources shortage</h3>
 
-<h5 id="2-4-4-1">2.4.4.1<span class="titletab"></span> Destruction
-of the attention and hypersynchronization of the object of attention</h5>
+<h4 id="2-4-4-1">2.4.4.1<span class="titletab"></span> Destruction
+of the attention and hypersynchronization of the object of attention</h4>
 
 <p>The
 capture of attention by psychotechnologies, financed by marketing for
@@ -1536,8 +1536,8 @@ is suffering from a never previously experienced shortage, which is the
 first shortage leading to a crisis of the esprit life, the second one
 being the one created by the destruction of desire.</p>
 
-<h5 id="2-4-4-2">2.4.4.2<span class="titletab"></span> Libidinal
-energy exhaustion</h5>
+<h4 id="2-4-4-2">2.4.4.2<span class="titletab"></span> Libidinal
+energy exhaustion</h4>
 
 <p>This
 regressive, drive-oriented marketing that emerged with the carte blanche
@@ -1572,8 +1572,8 @@ regresses and suffers from it.<i class="fa fa-quote-right"></i></em> – &nbsp;(
 <br>
 </p>
 
-<h4 id="2-4-5">2.4.5<span class="titletab"></span> Trans-individuation
-short-circuit, disaffected individuals, symbolic misery</h4>
+<h3 id="2-4-5">2.4.5<span class="titletab"></span> Trans-individuation
+short-circuit, disaffected individuals, symbolic misery</h3>
 
 <p>The
 originally liberating movement of consumerism, associated with the symbols

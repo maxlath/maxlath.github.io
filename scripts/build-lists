@@ -44,7 +44,7 @@ tagsList.forEach (tagData)->
 
   if description?
     description = marked description
-    tagHeader += "<p class='description'>#{description}</p>"
+    tagHeader += "<div class='description'>#{description}</div>"
 
   if image? then tagHeader += "<img class='cover' src='#{image}' alt='#{fullTitle}'>"
 

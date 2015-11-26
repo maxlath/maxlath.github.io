@@ -1,6 +1,4 @@
-<h2>
-  Rethink ethical marketing after the critiques of Bernard Stiegler
-</h2>
+<h1>Rethink ethical marketing after the critiques of Bernard Stiegler</h1>
 
 <img src="/assets/img/maybe-never-write-a-song.jpg" alt="Rethink ethical marketing after the critiques of Bernard Stiegler">
 
