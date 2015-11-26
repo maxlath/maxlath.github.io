@@ -1,13 +1,14 @@
 #!/usr/bin/env coffee
 
 buildList = require '../lib/build_list'
-{ writeFileUpdatedWithContent } = require '../lib/update_part'
+{ updateFile } = require '../lib/update_part'
 buildIndex = require '../lib/build_index'
 wrapList = require '../lib/wrap_list'
+{ getTagsLists, buildTag } = require '../lib/build_tags'
 _ = require '../lib/utils'
 { sections, sectionsList } = require 'config'
 
-content = sectionsList
+itemsListsContent = sectionsList
   .map (section)->
     # build list
     html = buildList section
@@ -19,5 +20,47 @@ content = sectionsList
   .join '\n'
 
 
+# TAGS
+
+# has to run after build_list passed all the items through spreadByTags
+tagsList = getTagsLists()
+
+tagsList.forEach (tagData)->
+  { tag, items, data } = tagData
+  folder = "tags/#{tag}"
+  innerList = items
+    .sort _.sortByDescendingDate
+    .map _.property('html')
+    .join '\n'
+
+  listHtml = "<ul>#{innerList}</ul>"
+  buildIndex folder, listHtml, 'tags'
+
+innerTagsListHtml = tagsList
+  # why a.data.count < b.data.count doesnt sort properly is a mistery
+  # this solution with reverse works though
+  .sort (a, b)-> a.data.count > b.data.count
+  .reverse()
+  .map (tagData)->
+    { tag, data } = tagData
+    { title, count, url } = data
+    return buildTag tag, count
+
+  .join '\n'
+
+tagsListHtml = "<ul>#{innerTagsListHtml}</ul>"
+buildIndex 'tags', tagsListHtml
+
+
+# HOME
+index = _.readFileSync './content.md'
+links = _.readFileSync './partials/links.md'
 # add wrap lists to main index
-writeFileUpdatedWithContent './index.html', 'autolist', content
+index = updateFile index, itemsListsContent, 'itemslists'
+index = updateFile index, tagsListHtml, 'tags'
+index = updateFile index, links, 'links'
+if index.length > 0
+  console.log 'writing home index.html'
+  _.writeFile './index.html', index
+else
+  console.log 'updated index is empty'.red

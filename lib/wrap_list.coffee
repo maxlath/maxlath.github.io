@@ -12,7 +12,6 @@ module.exports = (content, level, data, link)->
 
 buildInnerWrap = (content, level, data)->
   { title, subtitle } = data
-  title = _.capitalizeFirstLetter title
   innerWrap = "<h#{level} class='title'>#{title}</h#{level}>"
   if subtitle?
     innerWrap += "<span class='legend'>#{subtitle}</span>"

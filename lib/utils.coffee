@@ -41,8 +41,6 @@ _.extend _,
 
   Log: (label)-> _.log.bind(null, label)
 
-  capitalizeFirstLetter: (text)-> text[0].toUpperCase() + text[1..-1]
-
   rootSection: (path)->
     path
     .replace '^/', ''
@@ -71,6 +69,8 @@ _.extend _,
   forceArray: (obj)->
     if obj instanceof Array then obj
     else [ obj ]
+
+  sortByDescendingDate: (a, b)-> return a.data.date < b.data.date
 
 mkFileDirpSync = (filePath)->
   folder = filePath.split('/').slice(0, -1).join('/')

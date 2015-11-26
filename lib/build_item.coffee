@@ -4,18 +4,20 @@ marked = require 'marked'
 { updateFile, getUpdatedFile } = require '../lib/update_part'
 path_ = require 'path'
 { sectionsList, contentFile } = require 'config'
-
 buildItemFooter = require '../lib/build_item_footer'
+{ buildTag } = require '../lib/build_tags'
 
 module.exports = (itemFolderPath)->
   data = _.getFolderData itemFolderPath
-  { format, partials, parent } = data
+  { format, partials, parent, tags } = data
 
   path = "#{itemFolderPath}/#{contentFile}"
   _.readFile path, (err, content)->
 
     if err? then _.throwError err, itemFolderPath
 
+    if tags?.length > 0
+      content = buildTagsList(tags) + content
 
     if partials? then content = addPartials content, data
 
@@ -41,3 +43,15 @@ addPartials = (content, data)->
     content = getUpdatedFile partialPath, content
 
   return content
+
+buildTagsList = (tags)->
+  innerTagsList = tags
+    .map (tag)-> buildTag tag, null
+    .join '\n'
+
+  """
+  <div class='tags-header'>
+    <span>TAGS:</span>
+    <ul>#{innerTagsList}</ul>
+  </div>
+  """

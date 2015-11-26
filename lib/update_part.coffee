@@ -6,7 +6,10 @@ module.exports = API =
 
     updatedFile = API.updateFile file, content, name
 
-    _.writeFile filepath, updatedFile
+    if updatedFile.length > 0
+      _.writeFile filepath, updatedFile
+    else
+      console.log 'updatedFile is empty'.red, name, updatedFile
 
   getUpdatedFile: (partialPath, file)->
     partialContent = _.readFileSync partialPath
