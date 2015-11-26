@@ -1,0 +1,65 @@
+#tags{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+li.tag{
+  padding: 0.5em;
+}
+a.tag-link{
+  color: white;
+  @include bg-hover($light-blue);
+  @include radius(5px);
+  padding: 0.2em 0.5em 0.3em 0.5em;
+  .count{
+    font-size: 0.8em;
+    opacity: 0.8;
+  }
+}
+
+/*Small screens*/
+@media screen and (max-width: $smallscreen) {
+  #tags, .tags-header{
+    ul{
+      @include display-flex(row, center, center, wrap);
+      li{
+        margin: 0.2em;
+        padding: 0.2em;
+        white-space: nowrap;
+        a{
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+}
+/*Large screens*/
+@media screen and (min-width: $smallscreen) {
+  #tags, .tags-header{
+    ul{
+      @include display-flex(row, center, center, wrap);
+    }
+  }
+  #tags{
+    li{
+      padding: 0.5em;
+    }
+  }
+  .tags-header{
+    margin-bottom: 1em;
+    opacity: 0.6;
+    &:hover{
+      opacity: 1;
+    }
+    @include display-flex(row, center, flex-start, wrap);
+    span{
+      margin-right: 0.5em;
+    }
+    ul{
+      @include justify-content(flex-start);
+    }
+  }
+  a.tag-link{
+    margin-right: 0.2em;
+  }
+}
