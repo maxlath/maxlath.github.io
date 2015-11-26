@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <title>Maxime Lathuilière</title>
-  <link rel="stylesheet" href="/assets/css/bundle.css">
-</head>
+<!-- HEAD --><!-- HEAD -->
 <body>
   <main>
     <h1>Maxime Lathuilière</h1>
