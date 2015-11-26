@@ -4,6 +4,7 @@
   "fullTitle": "[Backbone JS](http://backbonejs.org)",
   "image": "/assets/img/backbone.jpg",
   "description": "a [javascript](/tags/js) framework used for [inventaire](/tags/inventaire)",
+  "cleanDesc": "a javascript framework used for inventaire",
   "parent": "tags",
   "url": "/tags/backbonejs",
   "wikidata": null
