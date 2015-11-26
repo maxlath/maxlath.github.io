@@ -45,10 +45,22 @@ footer{
         // }
       }
     }
+    /*Small screens*/
+    @media screen and (max-width: $smallscreen) {
+      max-width: 100%;
+      a{
+        font-size: 1.8em;
+      }
+    }
   }
 }
 
 #about{
   margin: 0 auto;
   max-width: 35em;
+  /*Small screens*/
+  @media screen and (max-width: $smallscreen) {
+    max-width: 100%;
+  }
 }
+

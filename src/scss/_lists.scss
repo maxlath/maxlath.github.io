@@ -1,10 +1,9 @@
-#articles, #posts{
+#articles, #posts, .tags{
   margin: 0 auto;
   background-color: #eee;
   @include radius;
   margin-top: 1em;
   margin-bottom: 1em;
-  padding: 0.5em;
   > .title{
     margin: 0;
   }
@@ -31,13 +30,18 @@
     }
   }
   @import 'preview';
+  /*Small screens*/
+  @media screen and (max-width: $smallscreen) {
+   width: 100%;
+  }
   /*Large screens*/
   @media screen and (min-width: $smallscreen) {
+    padding: 0.5em;
     width: 30em;
   }
 }
 
 #posts{
-  max-height: 50em;
+  max-height: 350em;
   overflow: auto;
 }

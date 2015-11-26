@@ -14,7 +14,7 @@ $horizontalmenuheight: 354px;
 $layoutsidemarginlarge: 50px;
 $layoutsidemarginsmall: 15px;
 
-a{
+a:not(.tag-link){
   color: $linkcolor;
   &:hover{
     color: lighten($linkcolor, 15%);

@@ -4,8 +4,6 @@ $previewHeaderColor: white;
 $previewHeaderBg: #444;
 
 li{
-  margin: 1em;
-  max-width: $previewMaxWidth;
   margin: 0 auto;
   &:hover{
     .preview-cover{
@@ -16,6 +14,16 @@ li{
       @include transition(background-color);
       background-color: darken($previewHeaderBg, 10%);
     }
+  }
+  /*Small screens*/
+  @media screen and (max-width: $smallscreen) {
+    margin-bottom: 2em;
+    max-width: 100%;
+  }
+  /*Large screens*/
+  @media screen and (min-width: $smallscreen) {
+    margin-bottom: 1em;
+    max-width: $previewMaxWidth;
   }
 }
 
@@ -28,6 +36,10 @@ li{
   height: 15em;
   // width: $previewMaxWidth;
   // margin: 0 auto;
+  /*Small screens*/
+  @media screen and (max-width: $smallscreen) {
+    height: 40em;
+  }
 }
 
 .preview-header{
@@ -42,8 +54,15 @@ li{
     font-size: 1.4em;
     padding: 0;
     // prevent the title from messing with the date
-    max-width: 19em;
     margin: 0 auto;
+    /*Small screens*/
+    @media screen and (max-width: $smallscreen) {
+      max-width: 100%;
+    }
+    /*Large screens*/
+    @media screen and (min-width: $smallscreen) {
+      max-width: 19em;
+    }
   }
   .subtitle{
     font-weight: bold;
