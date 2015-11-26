@@ -1,0 +1,10 @@
+{
+  "id": "backbonejs",
+  "title": "#backbonejs",
+  "fullTitle": "[Backbone JS](http://backbonejs.org)",
+  "image": "/assets/img/backbone.jpg",
+  "description": "a [javascript](/tags/js) framework used for [inventaire](/tags/inventaire)",
+  "parent": "tags",
+  "url": "/tags/backbonejs",
+  "wikidata": null
+}

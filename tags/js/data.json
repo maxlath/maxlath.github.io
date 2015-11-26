@@ -1,0 +1,10 @@
+{
+  "id": "js",
+  "title": "#js",
+  "fullTitle": "javascript",
+  "image": "/assets/img/js.jpg",
+  "description": "\"*a high-level, dynamic, untyped, and interpreted programming language *\" ([Wikipedia](https://en.wikipedia.org/wiki/JavaScript)) used everywhere in [inventaire](/tags/inventaire)",
+  "parent": "tags",
+  "url": "/tags/js",
+  "wikidata": null
+}
