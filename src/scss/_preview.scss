@@ -1,6 +1,5 @@
 $previewMaxWidth: 30em;
 $previewHeaderColor: white;
-// $previewHeaderBg: rgba(white, 0.9);
 $previewHeaderBg: #444;
 
 li{
@@ -44,15 +43,15 @@ li{
 
 .preview-header{
   @include radius-bottom;
-  padding: 1em;
+  // padding: 0 0.5em 0 0.5em;
   color: $previewHeaderColor;
   background-color: $previewHeaderBg;
   position: relative;
-  // width: $previewMaxWidth;
-  // margin: 0 auto;
+  .core{
+    padding: 0.6em 1em 0.4em 1em;
+  }
   .title{
     font-size: 1.4em;
-    padding: 0;
     // prevent the title from messing with the date
     margin: 0 auto;
     /*Small screens*/
@@ -74,10 +73,17 @@ li{
     font-size: 0.8em;
     color: darken($previewHeaderColor, 50%);
   }
-  .date{
-    position: absolute;
-    top: 0;
-    right: 0.4em;
+  .details{
+    @include display-flex(row, baseline, space-between);
     font-size: 0.7em;
+    color: rgba(white, 0.5);
+  }
+  .preview-tags{
+    margin-left: 0.4em;
+  }
+  .date{
+    margin-left: auto;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
   }
 }

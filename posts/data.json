@@ -1,5 +1,6 @@
 {
   "id": "posts",
   "title": "Posts",
-  "subtitle": "things shorter than an article"
+  "subtitle": "things shorter than an article",
+  "tags": ["opendata", "inventaire", "wikidata", "vrm"]
 }

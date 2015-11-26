@@ -3,7 +3,7 @@ _ = require '../lib/utils'
 
 tags = {}
 
-module.exports =
+module.exports = API =
   addToTag: (li, tag)->
     console.log tag.red, li.data.id
     tags[tag] or= []
@@ -23,8 +23,8 @@ module.exports =
     return tagsList
 
   buildTag: (tag, count)->
-    url = getUrlFromTag tag
-    title = getTitleFromTag tag
+    url = API.getUrlFromTag tag
+    title = API.getTitleFromTag tag
     countHtml = if count? then "<span class='count'>(#{count})</span>" else ''
     """
     <li><a class="tag-link" href='#{url}' title='#{tag}'>
@@ -32,11 +32,15 @@ module.exports =
     </a></li>
     """
 
+  # getTitleFromTag: (tag)-> '#' + tag.replace /-/g, ' '
+  getTitleFromTag: (tag)-> '#' + tag
+  getUrlFromTag: (tag)-> "/tags/#{tag}"
+
 initDataFile = (tag)->
   folder = "tags/#{tag}"
   try
     data = _.getFolderData folder
-    data.title or= getTitleFromTag tag
+    data.title or= API.getTitleFromTag tag
 
   catch err
     console.log 'new tag'.green, tag
@@ -50,11 +54,9 @@ initDataFile = (tag)->
 
 tagDataBase = (tag)->
   id: tag
-  title: getTitleFromTag tag
+  title: API.getTitleFromTag tag
   image: null
   description: null
   parent: 'tags'
-  url: getUrlFromTag tag
+  url: API.getUrlFromTag tag
 
-getTitleFromTag = (tag)-> '#' + tag.replace /-/g, ' '
-getUrlFromTag = (tag)-> "/tags/#{tag}"

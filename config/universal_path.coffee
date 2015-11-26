@@ -7,6 +7,7 @@ module.exports =
     scripts: '/scripts'
     articles: '/articles'
     posts: '/posts'
+    tags: '/tags'
     slides: '/slides'
     assets: '/assets'
     img: '/assets/img'

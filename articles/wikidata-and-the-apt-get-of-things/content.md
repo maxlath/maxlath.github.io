@@ -79,7 +79,7 @@ inventory fetch Q7220961
 <p> This query would provide a list of all the shovels that your trusted sources have knowledge of: the shovel the local retailer sells, the same one that your neigbor propose to buy as second-hand, the one your coworker declared wanting to give away etc. Depending of the client software you use, you might even be reminded of a shovel you bought a few years ago! This identifier might look ugly but user interfaces could easily do the translation to the local labels through the <a href="https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q7220961&format=json" target="blank">wikidata api</a>.</p>
 <p>Of course, various things have to be standardized around this basic naming system: relations and actions for instance. I don't know if the work done at <a href="http://schema.org/Thing">Schema.org</a> can help on that. I would really like to take advantage of all the work on the Linked Open Data, use JSON-LD and stuffs, but I don't see very precisely how it integrates yet: I just know it has all the reasons to connect eventually.
 </p>
-<img src="/assets/img/miserables.png" alt="Les Misérables">
+<img src="/assets/img/miserables.jpg" alt="Les Misérables">
 <p class="legend">the object {id: R-000000, isbn: "2211215351", ean: "978-2211225350"} <a href="https://www.wikidata.org/wiki/Property:P31">P31</a>(is an instance of) => <a href="https://www.wikidata.org/wiki/Q180736">Q180736</a> (Les Misérables - V. Hugo) <a href="https://www.wikidata.org/wiki/Property:P31">P31</a>(is an instance of)=> <a href="http://www.wikidata.org/wiki/Q571">Q571</a> (book)</p>
 <p>This wikidata-based naming system would also benefit from being extended by a mapping with resources identifiers such as ISBN (books unique identifiers), GTIN (bar codes) etc.: that's what I'm working on and want to progress on in the coming months, and your help is welcome! This could hugely benefit from an acceleration of the OKFN <a href="http://product-open-data.com/">Product-Open-Data</a> project. By the way, Rufus Pollock's "<a href="http://blog.okfn.org/2010/01/05/talk-at-chaos-computer-congress-on-ckan-apt-get-for-the-debian-of-data/">CKAN: apt-get for the Debian of Data</a>" talk was certainly an influence for the approach presented in this article, and CKAN could be an inspiration (if not an advantageously forkable project), but I didn't dig into it enough to see how.
 </p>
@@ -92,5 +92,3 @@ inventory fetch Q7220961
 <p>
 Any feedback welcome!
 </p>
-
-<!-- ITEMFOOTER --><!-- ITEMFOOTER -->

@@ -1,6 +1,7 @@
+$footerMaxWidth: 45em;
 footer{
   .links{
-    max-width: 45em;
+    max-width: $footerMaxWidth;
     margin: 0.5em auto;
     @include display-flex(row, center, center, wrap);
     margin-top: 2em;

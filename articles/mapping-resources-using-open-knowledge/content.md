@@ -73,7 +73,7 @@ for evidences. But, at least, I came back with some basic skills and a
 first working prototype: it’s all about mapping available resources
 between peers with open-knowledge.
 Starting with books, again: books
-are awesome, everyone loves them and there are plenty of open data on
+are awesome, everyone loves them and there are plenty of (more or less open) data on
 it. [https://inventaire.io/](inventaire.io)
 
 Now I need your help!
@@ -110,5 +110,3 @@ fucked up but they walk a path of hope :)
 <hr>
 
 *article cross-posted at [blog.inventaire.io/post/110540440753/mapping-resources-using-open-knowledge-starting](http://blog.inventaire.io/post/110540440753/mapping-resources-using-open-knowledge-starting)*
-
-<!-- ITEMFOOTER --><!-- ITEMFOOTER -->

@@ -38,6 +38,8 @@ a.tag-link{
   #tags, .tags-header{
     ul{
       @include display-flex(row, center, center, wrap);
+      max-width: $footerMaxWidth;
+      margin: 0 auto;
     }
   }
   #tags{
