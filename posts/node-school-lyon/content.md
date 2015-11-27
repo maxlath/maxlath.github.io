@@ -1,5 +1,5 @@
-# [NodeSchool Lyon](http://nodeschool.io/lyon)
+# NodeSchool Lyon
 
 ![NodeSchool Lyon](http://nodeschool.io/lyon/img/lyonbg-logo-medium.jpg)
 
-we are doing a NodeSchool every Tuesday at [La M[Y]NE](/tags/myne), join us!
+[NodeSchool Lyon](http://nodeschool.io/lyon) is a p2p school to learn [nodejs](/tags/js) we do every Tuesday at [La M[Y]NE](/tags/myne), join us!
