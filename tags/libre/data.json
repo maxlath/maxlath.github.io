@@ -1,9 +1,10 @@
 {
   "id": "libre",
   "title": "#libre",
-  "fullTitle": "[Libre Software](Free_software) aka Free Software (more ambiguous)",
+  "fullTitle": "[Libre Software](Free_software)",
+  "subtitle": "aka Free Software",
   "image": null,
-  "description": "Software made open not only for the convenience of openess but for Freedom as an ideal (cf the [Free Software Foundation](https://www.gnu.org/philosophy/free-software-intro.html) definition). [VRM](/tags/vrm) is an extension of those principle of liberty in the sphere of commercial conversations. [P2P-RM](/tags/p2p-rm) aim to continue this struggle for Freedom in the field of access to information on resources/products. <br><br>There are growing evidences that, long before [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman), the Free Software movement was start by William Wallace: <br><iframe class='video' src='https://www.youtube.com/embed/lLCEUpIg8rE' frameborder='0' allowfullscreen></iframe>",
+  "description": "Software made open not only for the convenience of openess but for Freedom as an ideal (cf the [Free Software Foundation](https://www.gnu.org/philosophy/free-software-intro.html) definition). [VRM](/tags/vrm) is an extension of those principle of liberty in the sphere of commercial conversations. [P2P-RM](/tags/p2p-rm) aim to continue this struggle for Freedom in the field of access to information on resources/products. <br><br>There are growing evidences that, long before [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman), the Free Software movement was started by William Wallace: <br><iframe class='video' src='https://www.youtube.com/embed/lLCEUpIg8rE' frameborder='0' allowfullscreen></iframe>",
   "parent": "tags",
   "url": "/tags/libre",
   "wikidata": "Q341"

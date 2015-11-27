@@ -11,7 +11,7 @@ module.exports = (data)->
   else if parent? and id? then fullUrl = "#{host}/#{parent}/#{id}/"
   else if id? then fullUrl = "#{host}/#{id}"
 
-  if image? then image = getFullUrl(image)
+  if image? then image = getFullUrl image, false
   else
     _.warn 'missing image', id
     image = defaultImage
@@ -39,18 +39,17 @@ module.exports = (data)->
   # lang or= 'en'
   # <meta property='og:locale' content='#{lang}' />
 
-  { description, cleanedDesc, subtitle, cleanedSub } = data
-  descElements = []
+  { description, cleanDesc, subtitle, cleanSub } = data
+
   # prefer versions cleared from markups
-  sub = cleanedSub or subtitle
-  desc = cleanedDesc or description
+  sub = cleanSub or subtitle
+  desc = cleanDesc or description
 
   if sub? and desc? then description = "#{sub} | #{desc}"
   else description = sub or desc
 
   if description?
-    console.log id, 'description'.green, description
-    metaHtml += """
+    metaHtml += """\n
     <meta name="twitter:description" content="#{description}">
     <meta name="description" property="og:description" content="#{description}" />
     """
@@ -61,23 +60,17 @@ module.exports = (data)->
   if type is 'article'
     if date?
       date = date.split('T')[0]
-      metaHtml += "<meta property='og:article:published_time' content='#{date}' />"
+      metaHtml += "\n<meta property='og:article:published_time' content='#{date}' />"
 
     tags?.forEach (tag)->
-      metaHtml += "<meta property='article:tag' content='#{tag}' />"
+      metaHtml += "\n<meta property='article:tag' content='#{tag}' />"
 
-  return "<head>#{metaHtml}</head>"
+  return "<head>\n#{metaHtml}\n</head>"
 
-# getFullUrl = (url, id, parent)->
-#   console.log 'args'.blue, arguments
-#   # url or= "/#{parent}/#{id}"
-#   unless url? then url = "/#{parent}/#{id}"
-#   buildFullUrl url
-
-getFullUrl = (url)->
+getFullUrl = (url, trailingSlash=true)->
   url = if url?[0] is '/' then host + url else url
   # adding trailing slash
-  unless url.slice(-1)[0] is '/' then url += '/'
+  if trailingSlash and url.slice(-1)[0] isnt '/' then url += '/'
   return url
 
 getType = (parent)->
