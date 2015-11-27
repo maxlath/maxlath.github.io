@@ -25,12 +25,11 @@ job for me, while I was drinking champagne with investors, like in those
 startup stories they tell you at Startup Weekends.
 
 But
-the idea wouldn’t die, it even got worse: writing my [master
-thesis](http://maxlath.eu/paper-ethical-marketing/) about what could
+the idea wouldn’t die, it even got worse: writing my [master thesis](/articles/paper-ethical-marketing/) about what could
 ethical marketing mean , I reinforced my convictions that we, citizens,
 need new tools to handle information on resources: ones where
 communication between vendor and customers are less asymmetric - what
-Doc Searls calls VRM tools. And I then [wrote that this had to start P2P](http://maxlath.eu/p2p-rm): we need to craft tools to handle our P2P
+Doc Searls calls VRM tools. And I then [wrote that this had to start P2P](/articles/p2p-rm/): we need to craft tools to handle our P2P
 transactions in the way we would like our B2C transactions to be
 handled, so that we let businesses enter those exchanges platforms only
 if they accepts our terms. And the first rule should be that information
