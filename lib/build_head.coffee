@@ -1,6 +1,6 @@
 _ = require './utils'
 host = 'http://maxlath.eu'
-defaultImage = '#{host}/assets/img/path_in_the_Bois_de_Vincennes_under_the_summer_sun.jpg'
+defaultImage = "#{host}/assets/img/path_in_the_Bois_de_Vincennes_under_the_summer_sun.jpg"
 
 module.exports = (data)->
   { id, parent, title, image, url, date, tags, lang } = data
