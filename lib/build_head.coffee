@@ -9,7 +9,7 @@ module.exports = (data)->
 
   unless fullUrl?
     if url? then fullUrl = getFullUrl url
-    else if parent? and id? then fullUrl = "#{host}/#{parent}/#{id}/"
+    else if parent? and id? then fullUrl = "#{host}/#{parent}/#{id}"
     else if id? then fullUrl = "#{host}/#{id}"
 
   if image? then image = getFullUrl image, false
