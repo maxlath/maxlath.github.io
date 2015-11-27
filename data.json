@@ -1,7 +1,8 @@
 {
   "id": "maxlath",
   "title": "Maxime Lathuilière",
-  "image": "/assets/img/120-maxlath.jpg",
+  "image": null,
   "description": "this is my personal web hub",
-  "url": "/"
+  "url": "/",
+  "fullUrl": "http://maxlath.eu"
 }

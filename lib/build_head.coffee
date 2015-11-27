@@ -3,13 +3,14 @@ host = 'http://maxlath.eu'
 defaultImage = "#{host}/assets/img/path_in_the_Bois_de_Vincennes_under_the_summer_sun.jpg"
 
 module.exports = (data)->
-  { id, parent, title, image, url, date, tags, lang } = data
+  { id, parent, title, image, url, fullUrl, date, tags, lang } = data
 
   type = getType parent
 
-  if url? then fullUrl = getFullUrl url
-  else if parent? and id? then fullUrl = "#{host}/#{parent}/#{id}/"
-  else if id? then fullUrl = "#{host}/#{id}"
+  unless fullUrl?
+    if url? then fullUrl = getFullUrl url
+    else if parent? and id? then fullUrl = "#{host}/#{parent}/#{id}/"
+    else if id? then fullUrl = "#{host}/#{id}"
 
   if image? then image = getFullUrl image, false
   else
