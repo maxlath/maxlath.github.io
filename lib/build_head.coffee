@@ -34,7 +34,7 @@ module.exports = (data)->
 
     <meta property="og:site_name" content="maxlath.eu">
     <meta property="og:url" content="#{fullUrl}">
-    <meta property='og:type' content='#{type}' />
+    <meta property="og:type" content="#{type}" />
   """
 
   # lang or= 'en'
@@ -61,10 +61,10 @@ module.exports = (data)->
   if type is 'article'
     if date?
       date = date.split('T')[0]
-      metaHtml += "\n<meta property='og:article:published_time' content='#{date}' />"
+      metaHtml += """\n<meta property="og:article:published_time" content="#{date}" />"""
 
     tags?.forEach (tag)->
-      metaHtml += "\n<meta property='article:tag' content='#{tag}' />"
+      metaHtml += """\n<meta property="article:tag" content="#{tag}" />"""
 
   return "<head>\n#{metaHtml}\n</head>"
 
