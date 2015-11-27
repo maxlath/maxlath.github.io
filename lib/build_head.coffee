@@ -71,7 +71,7 @@ module.exports = (data)->
 getFullUrl = (url, trailingSlash=true)->
   url = if url?[0] is '/' then host + url else url
   # adding trailing slash
-  if trailingSlash and url.slice(-1)[0] isnt '/' then url += '/'
+  # if trailingSlash and url.slice(-1)[0] isnt '/' then url += '/'
   return url
 
 getType = (parent)->

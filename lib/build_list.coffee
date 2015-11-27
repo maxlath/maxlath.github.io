@@ -17,7 +17,7 @@ module.exports = (folder)->
 
   return "<ul>#{innerList}</ul>"
 
-isntMetaFile = (name)-> not (name in metaFiles)
+isntMetaFile = (name)-> (not (name in metaFiles)) and not /html$/.test name
 
 spreadByTags = (li)->
   li.data.tags?.forEach addToTag.bind(null, li)
