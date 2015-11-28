@@ -6,5 +6,6 @@
   "description": "Wikidata is a collaboratively edited knowledge base operated by the Wikimedia Foundation. It is intended to provide a common source of certain data types (for example, birth dates) which can be used by Wikimedia projects [but not only!] such as Wikipedia. It is heavily used in inventaire to find data on authors, books, genre and all sorts of links toward resources in other databases (wikisource, gutenberg.org, twitter...) Some describe it as the new Rosetta Stone !",
   "parent": "tags",
   "url": "/tags/wikidata",
-  "wikidata": null
+  "wikidata": null,
+  "P31": "Q581653"
 }

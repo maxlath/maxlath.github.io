@@ -1,0 +1,12 @@
+{
+  "id": "myne",
+  "title": "#myne",
+  "fullTitle": "La Paillasse Saône @la M[Y]NE: Eco-Hacklab Rhonalpin",
+  "image": "https://scontent-fra3-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/s720x720/11204964_10206309262151451_7463584590783114030_n.jpg?oh=a9e50e47f78d59ede33ea072c256f474&oe=56DCDAB2",
+  "description": "the awesome bio-hackerspace/coworking of Lyon",
+  "cleanDesc": "the awesome bio-hackerspace/coworking of Lyon",
+  "parent": "tags",
+  "url": "/tags/myne",
+  "wikidata": null,
+  "P31": "Q1032372"
+}

@@ -1,5 +1,6 @@
 __ = require('config').universalPath
 _ = require '../lib/utils'
+updateTagsGraph = require '../lib/update_tags_graph'
 
 tags = {}
 
@@ -18,6 +19,8 @@ module.exports = API =
         tag: tag
         items: items
         data: data
+
+    updateTagsGraph tagsList
 
     return tagsList
 

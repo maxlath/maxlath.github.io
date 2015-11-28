@@ -7,5 +7,6 @@
   "cleanDesc": "a high-level, dynamic, untyped, and interpreted programming language used everywhere in inventaire",
   "parent": "tags",
   "url": "/tags/js",
-  "wikidata": null
+  "wikidata": null,
+  "P31": "Q581653"
 }

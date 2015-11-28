@@ -5,10 +5,10 @@ buildList = require '../lib/build_list'
 buildIndex = require '../lib/build_index'
 buildHead = require '../lib/build_head'
 wrapList = require '../lib/wrap_list'
-{ getTagsLists, buildTag } = require '../lib/build_tags'
 _ = require '../lib/utils'
 { sections, sectionsList } = require 'config'
 marked = require 'marked'
+buildTagsList = require '../lib/build_tags_list'
 
 itemsListsContent = sectionsList
   .map (section)->
@@ -21,55 +21,7 @@ itemsListsContent = sectionsList
     return wrapList html, 2, data, "/#{section}"
   .join '\n'
 
-
-# TAGS
-
-# has to run after build_list passed all the items through spreadByTags
-tagsList = getTagsLists()
-
-tagsList.forEach (tagData)->
-  { tag, items, data } = tagData
-  folder = "tags/#{tag}"
-  innerList = items
-    .sort _.sortByDescendingDate
-    .map _.property('html')
-    .join '\n'
-
-  { fullTitle, description, image } = data
-
-  tagHeader = ''
-  # if fullTitle?
-    # fullTitle = marked fullTitle
-    # tagHeader += "<h2 class='full-title'>#{fullTitle}</h2>"
-
-  if description?
-    description = marked description
-    tagHeader += "<div class='description'>#{description}</div>"
-
-  if image? then tagHeader += "<img class='cover' src='#{image}' alt='#{fullTitle}'>"
-
-  listHtml = """
-    <div class='tag-context'>#{tagHeader}</div>
-    <h3>related items:</h3>
-    <ul>#{innerList}</ul>
-  """
-  buildIndex folder, listHtml, 'tags'
-
-innerTagsListHtml = tagsList
-  # why a.data.count < b.data.count doesnt sort properly is a mistery
-  # this solution with reverse works though
-  .sort (a, b)-> a.data.count > b.data.count
-  .reverse()
-  .map (tagData)->
-    { tag, data } = tagData
-    { title, count, url } = data
-    return buildTag tag, count
-
-  .join '\n'
-
-tagsListHtml = "<ul>#{innerTagsListHtml}</ul>"
-buildIndex 'tags', tagsListHtml
-
+tagsListHtml = buildTagsList()
 
 # HOME
 index = _.readFileSync './content.md'

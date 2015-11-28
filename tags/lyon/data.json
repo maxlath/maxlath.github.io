@@ -1,11 +1,11 @@
 {
-  "id": "marketing",
-  "title": "#marketing",
+  "id": "lyon",
+  "title": "#lyon",
   "fullTitle": null,
   "image": null,
   "description": null,
   "parent": "tags",
-  "url": "/tags/marketing",
+  "url": "/tags/lyon",
   "wikidata": null,
-  "P31": "Q581653"
+  "P31": "Q515"
 }
