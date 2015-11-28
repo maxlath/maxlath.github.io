@@ -1,6 +1,7 @@
 buildIndex = require './build_index'
 { getTagsLists, buildTag } = require './build_tags'
 _ = require './utils'
+marked = require './marked'
 
 module.exports = ->
   # has to run after build_list passed all the items through spreadByTags
