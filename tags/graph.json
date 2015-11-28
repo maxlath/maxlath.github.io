@@ -1,0 +1,411 @@
+{
+  "nodes": [
+    {
+      "name": "inventaire",
+      "group": "581653",
+      "url": "/tags/inventaire"
+    },
+    {
+      "name": "learning",
+      "group": 0,
+      "url": "/tags/learning"
+    },
+    {
+      "name": "p2p-rm",
+      "group": 0,
+      "url": "/tags/p2p-rm"
+    },
+    {
+      "name": "vrm",
+      "group": 0,
+      "url": "/tags/vrm"
+    },
+    {
+      "name": "counter-modulation",
+      "group": 0,
+      "url": "/tags/counter-modulation"
+    },
+    {
+      "name": "marketing",
+      "group": "581653",
+      "url": "/tags/marketing"
+    },
+    {
+      "name": "propaganda",
+      "group": 0,
+      "url": "/tags/propaganda"
+    },
+    {
+      "name": "stiegler",
+      "group": "5",
+      "url": "/tags/stiegler"
+    },
+    {
+      "name": "simondon",
+      "group": "5",
+      "url": "/tags/simondon"
+    },
+    {
+      "name": "deleuze",
+      "group": "5",
+      "url": "/tags/deleuze"
+    },
+    {
+      "name": "wikidata",
+      "group": "581653",
+      "url": "/tags/wikidata"
+    },
+    {
+      "name": "libre",
+      "group": 0,
+      "url": "/tags/libre"
+    },
+    {
+      "name": "opendata",
+      "group": 0,
+      "url": "/tags/opendata"
+    },
+    {
+      "name": "talk",
+      "group": 0,
+      "url": "/tags/talk"
+    },
+    {
+      "name": "js",
+      "group": "581653",
+      "url": "/tags/js"
+    },
+    {
+      "name": "backbonejs",
+      "group": "581653",
+      "url": "/tags/backbonejs"
+    },
+    {
+      "name": "slides",
+      "group": 0,
+      "url": "/tags/slides"
+    },
+    {
+      "name": "myne",
+      "group": "1032372",
+      "url": "/tags/myne"
+    },
+    {
+      "name": "lyon",
+      "group": "515",
+      "url": "/tags/lyon"
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 14,
+      "value": 1
+    },
+    {
+      "source": 12,
+      "target": 4,
+      "value": 1
+    },
+    {
+      "source": 12,
+      "target": 0,
+      "value": 2
+    },
+    {
+      "source": 12,
+      "target": 11,
+      "value": 2
+    },
+    {
+      "source": 11,
+      "target": 4,
+      "value": 1
+    },
+    {
+      "source": 11,
+      "target": 0,
+      "value": 2
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "value": 2
+    },
+    {
+      "source": 3,
+      "target": 0,
+      "value": 3
+    },
+    {
+      "source": 3,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 3,
+      "target": 12,
+      "value": 2
+    },
+    {
+      "source": 3,
+      "target": 11,
+      "value": 2
+    },
+    {
+      "source": 3,
+      "target": 16,
+      "value": 2
+    },
+    {
+      "source": 3,
+      "target": 15,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 14,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 13,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 7,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 8,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 9,
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "value": 2
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 12,
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 11,
+      "value": 2
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 15,
+      "value": 1
+    },
+    {
+      "source": 16,
+      "target": 0,
+      "value": 2
+    },
+    {
+      "source": 16,
+      "target": 14,
+      "value": 1
+    },
+    {
+      "source": 16,
+      "target": 15,
+      "value": 1
+    },
+    {
+      "source": 16,
+      "target": 12,
+      "value": 1
+    },
+    {
+      "source": 16,
+      "target": 11,
+      "value": 1
+    },
+    {
+      "source": 13,
+      "target": 16,
+      "value": 1
+    },
+    {
+      "source": 13,
+      "target": 15,
+      "value": 1
+    },
+    {
+      "source": 13,
+      "target": 14,
+      "value": 1
+    },
+    {
+      "source": 13,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 16,
+      "value": 2
+    },
+    {
+      "source": 10,
+      "target": 0,
+      "value": 2
+    },
+    {
+      "source": 10,
+      "target": 13,
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 3,
+      "value": 2
+    },
+    {
+      "source": 10,
+      "target": 14,
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 15,
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 12,
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 11,
+      "value": 2
+    },
+    {
+      "source": 10,
+      "target": 2,
+      "value": 1
+    },
+    {
+      "source": 14,
+      "target": 15,
+      "value": 1
+    },
+    {
+      "source": 14,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 18,
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 14,
+      "value": 1
+    },
+    {
+      "source": 18,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 18,
+      "target": 14,
+      "value": 1
+    },
+    {
+      "source": 5,
+      "target": 9,
+      "value": 1
+    },
+    {
+      "source": 6,
+      "target": 9,
+      "value": 1
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "value": 1
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "value": 1
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "value": 1
+    },
+    {
+      "source": 7,
+      "target": 5,
+      "value": 1
+    },
+    {
+      "source": 7,
+      "target": 6,
+      "value": 1
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "value": 1
+    },
+    {
+      "source": 8,
+      "target": 5,
+      "value": 1
+    },
+    {
+      "source": 8,
+      "target": 6,
+      "value": 1
+    }
+  ]
+}
