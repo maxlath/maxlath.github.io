@@ -7,6 +7,7 @@
 <a class="commons" href="https://commons.wikimedia.org/w/index.php?title=Special:ListFiles/Zorglub27&ilshowall=1" title="Commons" target="_blank"><i class="fa fa-photo"></i><span>Commons</span></a>
 <a class="openstreetmap" href="http://www.openstreetmap.org/user/maxlath" title="OpenStreetMap" target="_blank"><i class="fa fa-map-o"></i><span>Open Street Map</span></a>
 <a class="github" href="http://github.com/maxlath/" title="Github" target="_blank"><i class="fa fa-github"></i><span>Github</span></a>
+<a class="npm" href="https://www.npmjs.com/~maxlath" title="npm" target="_blank"><i class="fa fa-cubes"></i><span>NPM</span></a>
 <a class="transifex" href="https://www.transifex.com/accounts/profile/maxlath" title="Transifex" target="_blank"><i class="fa fa-language"></i><span>Transifex</span></a>
 <a class="linkedin" href="http://www.linkedin.com/in/maximelathuiliere" title="LinkedIn" target="_blank" rel="me"><i class="fa fa-linkedin-square"></i><span>Linkedin</span></a>
 <a class="stackoverflow" href="http://stackoverflow.com/users/3324977/maxlath" title="StackOverflow" target="_blank"><i class="fa fa-stack-overflow"></i><span>Stack Overflow</span></a>
