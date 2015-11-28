@@ -1,9 +1,3 @@
-<h1>Mapping resources using open knowledge: starting with books!</h1>
-
-<a href="https://inventaire.io">
-  <img src="/assets/img/inventaire-sarah-buckley-6117998074-CC-BY.jpg" alt="inventaire.io" class="cover">
-</a>
-
 yeah! it took a bit of time but I finally got a working prototype \o/ : [**inventaire.io**](https://inventaire.io/)
 
 some background:

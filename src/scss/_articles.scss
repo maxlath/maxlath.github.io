@@ -5,6 +5,13 @@
     padding: 3px;
     @include radius;
   }
+  .credits{
+    text-align: center;
+    margin: 0;
+    font-size: 0.7em;
+    opacity: 0.8;
+  }
+
   @import 'legacy';
 }
 

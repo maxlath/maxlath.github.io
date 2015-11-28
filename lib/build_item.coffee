@@ -9,7 +9,7 @@ buildItemFooter = require '../lib/build_item_footer'
 
 module.exports = (itemFolderPath)->
   data = _.getFolderData itemFolderPath
-  { format, partials, parent, tags } = data
+  { format, partials, parent, tags, autotitle } = data
 
   path = "#{itemFolderPath}/#{contentFile}"
   _.readFile path, (err, content)->
@@ -18,6 +18,9 @@ module.exports = (itemFolderPath)->
 
     if format is 'markdown' then content = marked content
     else _.warn "not markdown compiled: #{path}"
+
+    unless autotitle is false
+      content = buildTitleAndCover(data) + content
 
     if tags?.length > 0
       content = buildTagsList(tags) + content
@@ -33,6 +36,32 @@ module.exports = (itemFolderPath)->
     _.writeFile indexPath(itemFolderPath), item
 
 indexPath = (itemFolderPath)-> "./#{itemFolderPath}/index.html"
+
+buildTitleAndCover = (data)->
+  { title, image } = data
+  titleHtml = "<h1>#{title}</h1>"
+  coverHtml = "<img src='#{image}' alt='#{title}'' class='cover'>"
+
+  { imageLink, imageTitle } = data
+  if imageLink?
+    imageTitle or= title
+    coverHtml = """
+      <a href='#{imageLink}' target='_blank' title='#{imageTitle}'>
+      #{coverHtml}
+      </a>
+      """
+
+  { imageCredits, imageCreditsLink } = data
+  if imageCredits?
+    if imageCreditsLink?
+      imageCredits = """
+      <a href='#{imageCreditsLink}' target='_blank'>#{imageCredits}</a>
+      """
+
+    imageCredits = "photo credits: #{imageCredits}"
+    coverHtml += "<p class='credits'>#{imageCredits}</p>"
+
+  return titleHtml + coverHtml
 
 addPartials = (content, data)->
   { partials, parent, id } = data

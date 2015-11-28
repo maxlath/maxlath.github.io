@@ -10,5 +10,6 @@
   "partials": [],
   "format": "markdown",
   "tags": ["inventaire", "talk", "vrm", "js", "backbonejs", "wikidata", "slides"],
-  "lang": "fr"
+  "lang": "fr",
+  "autotitle": false
 }

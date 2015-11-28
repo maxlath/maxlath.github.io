@@ -15,11 +15,13 @@
     "build-items": "./scripts/build-items",
     "build-lists": "./scripts/build-lists",
     "build-css": "./scripts/build-css",
+    "build-js": "./scripts/build-js",
     "build": "./scripts/build",
     "build-summaries": "./scripts/build-summaries",
     "watch-items": "./scripts/watch-items",
     "watch-lists": "./scripts/watch-lists",
     "watch-css": "./scripts/watch-css",
+    "watch-js": "coffee -o assets/js -cw src/coffee",
     "watch": "./scripts/watch"
   },
   "dependencies": {},
@@ -36,6 +38,7 @@
     "node-sass": "^3.4.2",
     "onchange": "^2.0.0",
     "readdir-recursive": "0.0.4",
-    "request": "^2.67.0"
+    "request": "^2.67.0",
+    "uglifyjs": "^2.4.10"
   }
 }

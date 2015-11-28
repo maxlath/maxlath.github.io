@@ -9,5 +9,6 @@
   "partials": [
     "../partials/masterplan.html",
     "./partials/summary.html"
-  ]
+  ],
+  "autotitle": false
 }

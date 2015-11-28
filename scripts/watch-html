@@ -3,5 +3,5 @@
 ./scripts/build-html
 # then watch
 echo "starting to watch html"
-# onchange '(scripts|config|articles|posts|lib|tags)/**' -- ./scripts/build-html
-onchange '.' -- ./scripts/build-html
+# exclude src files that will compile in assets
+onchange '(scripts|config|articles|posts|lib|tags|assets)/**' -- ./scripts/build-html

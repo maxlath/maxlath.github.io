@@ -1,7 +1,3 @@
-<h1>Rethink ethical marketing after the critiques of Bernard Stiegler</h1>
-
-<img src="/assets/img/maybe-never-write-a-song.jpg" alt="Rethink ethical marketing after the critiques of Bernard Stiegler">
-
 <p>
   From April to September 2012 I have been busy writing my <strong>Master Thesis</strong> as part of my master in management last year (ESC Toulouse / WFI Ingolstadt), on the following subject:
 <strong><em>Rethink ethical marketing after the critiques of Bernard Stiegler</em></strong>

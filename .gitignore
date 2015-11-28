@@ -1,5 +1,1 @@
-# intermediary files
-src/css/main.css
-
-# excluded for now
-assets/font/open-sans-semibold.woff2
+assets/js/tags_graph.js

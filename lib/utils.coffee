@@ -24,8 +24,10 @@ _.extend _,
     # weirdly can't make it work without passing the cwd oO
     return require path
 
+  writeJson: (path, content)->
+    _.writeFile path, JSON.stringify(content, null, 2)
   writeJsonSync: (path, content)->
-    _.writeFileSync path, JSON.stringify content, null, 2
+    _.writeFileSync path, JSON.stringify(content, null, 2)
 
   mkdirpSync: (path)-> mkdirp.sync path
 
