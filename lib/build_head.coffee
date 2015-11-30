@@ -17,6 +17,9 @@ module.exports = (data)->
     _.warn 'missing image', id
     image = defaultImage
 
+  # proxying the image there to work around Github 302 answers
+  image = "http://cdn.filter.to/1000x1000/#{image}"
+
   metaHtml = """
     <meta charset="utf-8" />
     <title>#{title}</title>
