@@ -9,8 +9,8 @@ module.exports = (data)->
 
   unless fullUrl?
     if url? then fullUrl = getFullUrl url
-    else if parent? and id? then fullUrl = "#{host}/#{parent}/#{id}"
-    else if id? then fullUrl = "#{host}/#{id}"
+    else if parent? and id? then fullUrl = "#{host}/#{parent}/#{id}/"
+    else if id? then fullUrl = "#{host}/#{id}/"
 
   if image? then image = getFullUrl image, false
   else
@@ -74,7 +74,7 @@ module.exports = (data)->
 getFullUrl = (url, trailingSlash=true)->
   url = if url?[0] is '/' then host + url else url
   # adding trailing slash
-  # if trailingSlash and url.slice(-1)[0] isnt '/' then url += '/'
+  if trailingSlash and url.slice(-1)[0] isnt '/' then url += '/'
   return url
 
 getType = (parent)->
