@@ -1,4 +1,4 @@
-*ceci est ma réponse à l'appel à projet du [Hackadon](https://hackadon.org) du 11 décembre 2015 à Paris, où je propose [inventaire](/tags/inventaire) à la question **quelles sont vos motivations ?***
+*ceci est ma réponse à l'appel à projet du [Hackadon](https://hackadon.org) du 11 décembre 2015 à Paris, où je propose [inventaire](/tags/inventaire), à la question **quelles sont vos motivations ?***
 
 Aujourd'hui un achat en ligne se fait par l'interface du vendeurs, avec les seules données du vendeur, ordonnées par les algorithmes du vendeurs.
 
