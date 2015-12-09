@@ -1,0 +1,20 @@
+{
+  "presenter": {
+    "name": "Maxime Lathuilière",
+    "email": "k+talks@maxlath.eu"
+   },
+  "presentations": [
+    {
+      "title": "Walking toward an economy empowering citizens with open knowledge",
+      "slides": "/slides/ouishare-labs-camp-3",
+      "description": "planning the economic ecologic transition revolution and stuffs"
+    }
+  ],
+  "proposals": [],
+  "links": [
+    {
+      "rel": ".presenter",
+      "href": "/profile"
+    }
+  ]
+}
