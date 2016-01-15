@@ -1,11 +1,13 @@
-<a href="#EN">EN</a> | <a href="#FR">FR</a>
+<a href="#EN" rel="alternate" hreflang="en">EN</a> | <a href="#FR" rel="alternate" hreflang="fr">FR</a>
 
 <hr>
 
-<h3><a name="EN">Accelerate the economic darwinism of the ecological transition</a></h3>
+<h3><a name="EN">Accelerate the ecological transition economic darwinism</a></h3>
 
 Nowadays, buying online means using the vendor's interface with the sole vendor's data ordered by the vendor's algorithms.
+
 In a desirable future, interfaces and algorithms to access data on resources could be the result of an open, [libre](/tags/libre) collaboration, at the hands of citzens consumers, aggregating vendors' data, enriching them with open and contributive data such as those from [openfoodfacts.org](http://openfoodfacts.org) or [opencorporates.com](http://opencorporates.com), or even data from organizations - governmental or not - like [Greenpeace](http://greenpeace.org) or consumer associations. By putting those independent data at the core of our purchasing choices, their influence could be dramatically increased and could accelerate the ecological transition economic darwinism. By decoupling information on resources from the corporations selling them, we could make visible alternative ways in the way for-profit businesses neither can nor will do.
+
 Those are some examples among others of what the P2P Resources Management ([P2P-RM](/tags/p2p-rm)) approach could bring, built as a prolongation of Doc Searls works on Vendor Relationship Management ([VRM](/tags/vrm)).
 By mapping resources, books, with open data from wikidata.org and through a libre interface, [inventaire.io](https://inventaire.io) is a modest step in this direction that should hopefully open the way for others!
 
