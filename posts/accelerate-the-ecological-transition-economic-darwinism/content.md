@@ -21,7 +21,7 @@ Dans un futur souhaitable, les interfaces et algorithmes pourraient être le fru
 
 Ce sont quelques exemples parmi d'autres de l’intérêt de ce que j'appelle le [P2P-RM](/tags/p2p-rm), pour P2P Resources Management, par prolongation des travaux de Doc Searls sur le [VRM](/tags/vrm), Vendor Relationship Management.
 
-[inventaire.io](https://inventaire.io), en proposant de cartographier des ressources, en l'occurence des livres, avec les données ouvertes de [wikidata.org](/tags/wikidata) et via une [interface libre](https://github.com/inventaire/inventaire) (AGPL3) est un modeste pas dans cette direction, qui, j'espère, en permettra d'autres !
+[inventaire.io](https://inventaire.io), en proposant de cartographier des ressources, en l'occurence des livres, avec les données ouvertes de [wikidata.org](/tags/wikidata) et via une [interface libre](https://github.com/inventaire/inventaire) (AGPL3) est un modeste pas dans cette direction, qui, j'espère, en invitera d'autres !
 
 <hr>
 
