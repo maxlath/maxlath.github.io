@@ -20,10 +20,7 @@ module.exports = (folder)->
 
 isntMetaFile = (name)-> (not (name in metaFiles)) and not /html$/.test name
 
-isntRedirect = (name)->
-  console.log name, 'name'
-  console.log redirects, 'redirects'
-  not (name in redirects)
+isntRedirect = (name)-> not (name in redirects)
 
 redirects = [
   'accelerer-le-darwinisme-economique-de-la-transition-ecologique'
