@@ -8,6 +8,7 @@ module.exports = (folder)->
   # get files names
   innerList = fs.readdirSync folder
     .filter isntMetaFile
+    .filter isntRedirect
     .map buildLi.bind(null, folder)
     # SIDE EFFECT
     .map spreadByTags
@@ -18,6 +19,15 @@ module.exports = (folder)->
   return "<ul>#{innerList}</ul>"
 
 isntMetaFile = (name)-> (not (name in metaFiles)) and not /html$/.test name
+
+isntRedirect = (name)->
+  console.log name, 'name'
+  console.log redirects, 'redirects'
+  not (name in redirects)
+
+redirects = [
+  'accelerer-le-darwinisme-economique-de-la-transition-ecologique'
+]
 
 spreadByTags = (li)->
   li.data.tags?.forEach addToTag.bind(null, li)
