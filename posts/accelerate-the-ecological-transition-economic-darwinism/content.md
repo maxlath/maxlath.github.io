@@ -2,7 +2,7 @@
 
 <hr>
 
-<h3><a name="EN">Accelerate the ecological transition economic darwinism</a></h3>
+<h3><a name="EN" href="#EN">Accelerate the ecological transition economic darwinism</a></h3>
 
 Nowadays, buying online means using the vendor's interface with the sole vendor's data ordered by the vendor's algorithms.
 
@@ -13,7 +13,7 @@ By mapping resources, books, with open data from wikidata.org and through a libr
 
 <hr>
 
-<h3><a name="FR">Accélérer le darwinisme économique de la transition écologique</a></h3>
+<h3><a name="FR" href="#FR">Accélérer le darwinisme économique de la transition écologique</a></h3>
 
 Aujourd'hui un achat en ligne se fait par l'interface du vendeurs, avec les seules données du vendeur, ordonnées par les algorithmes du vendeurs.
 
