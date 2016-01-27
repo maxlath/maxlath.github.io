@@ -1,0 +1,61 @@
+#!/usr/bin/env coffee
+
+root = process.cwd()
+
+data = require '../full_data'
+_ = require '../lib/utils'
+
+arr = []
+for k, v of data
+  arr.push
+    key: k
+    date: v.date
+    value: v
+
+arr = _.sortBy arr, 'date'
+
+RSS = require 'rss'
+
+categories = _(data)
+  .map _.property('tags')
+  .flatten()
+  .compact()
+  .uniq()
+  .value()
+
+year = new Date().toISOString().split('-')[0]
+
+feed = new RSS
+  title: 'Maxime Lathuilière Web Hub'
+  description: 'Where I post and link to stuffs'
+  feed_url: 'http://maxlath.eu/rss.xml'
+  site_url: 'http://maxlath.eu'
+  image_url: 'http://maxlath.eu/assets/img/120-maxlath.jpg'
+  # docs: 'http://maxlath.eu/rss/docs.html'
+  managingEditor: 'Maxime Lathuilière'
+  webMaster: 'Maxime Lathuilière'
+  copyright:  "#{year} Maxime Lathuilière"
+  language: 'en'
+  categories: categories
+  # pubDate: new Date()
+  ttl: 24*60
+
+for el in arr
+  { key, value } = el
+  { title, description, cleanDesc, guid, tags, date, parent } = value
+  # filter-out articles sub parts
+  if parent in ['articles', 'posts']
+    feed.item
+      title:  title
+      description: cleanDesc or description
+      # guid: guid
+      url: "http://maxlath.eu/#{key}/"
+      categories: tags
+      date: date
+
+# console.log Object.keys(data)
+
+xml = feed.xml {indent: true}
+
+# console.log xml
+_.writeFile './rss.xml', xml

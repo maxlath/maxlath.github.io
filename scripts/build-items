@@ -28,3 +28,4 @@ isContentFile = (file)-> file.split('/').slice(-1)[0] is contentFile
 getFolderPath = (file)-> file.split('/')[0...-1].join('/')
 
 buildItems()
+setTimeout _.persistData, 10000

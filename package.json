@@ -39,6 +39,7 @@
     "onchange": "^2.0.0",
     "readdir-recursive": "0.0.4",
     "request": "^2.67.0",
+    "rss": "^1.2.1",
     "uglifyjs": "^2.4.10"
   }
 }

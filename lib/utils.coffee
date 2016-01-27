@@ -5,6 +5,8 @@ mkdirp = require 'mkdirp'
 
 module.exports = _ = require 'lodash'
 
+fullData = {}
+
 _.extend _,
   readFile: (path, cb)->
     cb or= FileOpCb 'read', path
@@ -31,7 +33,16 @@ _.extend _,
 
   mkdirpSync: (path)-> mkdirp.sync path
 
-  getFolderData: (folder)-> _.readJsonSync "#{folder}/data.json"
+  getFolderData: (folder)->
+    currentData = fullData[folder]
+    if currentData? then return currentData
+    else
+      return fullData[folder] = _.readJsonSync "#{folder}/data.json"
+
+  persistData: ->
+    console.log 'persisting data...'.grey
+    _.writeFileSync './full_data.json', JSON.stringify(fullData, null, 2)
+    console.log 'done!'.green
 
   log: (label, obj, color='cyan')->
     if typeof obj is 'string' then console.log label[color], obj
