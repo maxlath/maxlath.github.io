@@ -15,6 +15,8 @@
   <div class="links"><!-- LINKS --><!-- LINKS --></div>
   <section id="tags"><!-- TAGS --><!-- TAGS --></section>
   <small>
+    <a href="/rss.xml" target="_blank"><i class="fa fa-rss"></i> RSS feed</a>
+    &nbsp;-&nbsp;
     <a href="https://github.com/maxlath/maxlath.github.io" target="_blank">this website source code</a>
   </small>
 </footer>
