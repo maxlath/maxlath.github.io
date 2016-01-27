@@ -25,7 +25,7 @@ module.exports = (data)->
     <title>#{title}</title>
     <link rel="stylesheet" href="/assets/css/bundle.css">
 
-    <link rel="alternate" type="application/rss+xml" href="http://maxlath.eu/rss.xml">
+    <link rel="alternate" type="application/rss+xml" href="http://maxlath.eu/rss.xml" title="Maxime Lathuilière Web Hub RSS">
 
     <meta name="twitter:title" content="#{title}">
     <meta property="og:title" content="#{title}">

@@ -35,17 +35,16 @@ module.exports = ->
     """
     buildIndex folder, listHtml, 'tags'
 
-  innerTagsListHtml = tagsList
-    # why a.data.count < b.data.count doesnt sort properly is a mistery
-    # this solution with reverse works though
-    .sort (a, b)-> a.data.count > b.data.count
-    .reverse()
+  innerTagsListHtml = _(tagsList)
+    .sortBy (tag)-> - tag.data.count
     .map (tagData)->
       { tag, data } = tagData
       { title, count, url } = data
       return buildTag tag, count
 
     .join '\n'
+
+  console.log 'innerTagsListHtml'.red, innerTagsListHtml
 
   tagsListHtml = "<ul>#{innerTagsListHtml}</ul>"
 
