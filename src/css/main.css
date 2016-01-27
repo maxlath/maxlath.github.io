@@ -156,6 +156,11 @@ hr {
     font-size: 1em;
     padding-right: 1em; }
 
+blockquote {
+  padding: 0px 15px;
+  color: #777;
+  border-left: 4px solid #DDD; }
+
 /*Small screens*/
 @media screen and (max-width: 1024px) {
   main {
