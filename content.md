@@ -3,15 +3,15 @@
 <!-- HEAD --><!-- HEAD -->
 <body>
   <main>
-    <h1>Maxime Lathuilière</h1>
+    <div id="about">
+      <img id="pic" src="/assets/img/120-maxlath.jpg" />
+      <a href="#about" name="#about"><h1>Maxime Lathuilière</h1></a>
+      <!-- ABOUT --><!-- ABOUT -->
+    </div>
+
     <!-- ITEMSLISTS --><!-- ITEMSLISTS -->
 </main>
 <footer>
-  <div id="about">
-    <img id="pic" src="/assets/img/120-maxlath.jpg" />
-    <h2>About me</h2>
-    <p>exploring paths toward an economy empowering citizens with open knowledge: <a href="https://inventaire.io" target="_blank">inventaire.io</a> is the lab <br>#Transition #VRM #WebOfData #Wikidata #JS</p>
-  </div>
   <div class="links"><!-- LINKS --><!-- LINKS --></div>
   <section id="tags"><!-- TAGS --><!-- TAGS --></section>
   <small>

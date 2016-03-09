@@ -26,6 +26,7 @@ tagsListHtml = buildTagsList()
 # HOME
 index = _.readFileSync './content.md'
 links = _.readFileSync './partials/links.md'
+about = _.readFileSync './partials/about.md'
 data = _.getFolderData '.'
 head = buildHead data
 # add wrap lists to main index
@@ -33,6 +34,8 @@ index = updateFile index, head, 'head'
 index = updateFile index, itemsListsContent, 'itemslists'
 index = updateFile index, tagsListHtml, 'tags'
 index = updateFile index, links, 'links'
+index = updateFile index, about, 'about', true
+
 if index.length > 0
   console.log 'writing home index.html'
   _.writeFile './index.html', index

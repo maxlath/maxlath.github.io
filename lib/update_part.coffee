@@ -1,4 +1,5 @@
 _ = require './utils'
+marked = require './marked'
 
 module.exports = API =
   writeFileUpdatedWithContent: (filepath, name, content)->
@@ -19,10 +20,12 @@ module.exports = API =
 
     return API.updateFile file, partialContent, name
 
-  updateFile: (file, partialContent, name)->
+  updateFile: (file, partialContent, name, markdown=false)->
     separator = getSeparator name
     # break the html on the separators
     parts = file.split separator
+
+    if markdown then partialContent = marked partialContent
 
     # replace the parts between separators by the new content
     # that is, replace every odd parts
