@@ -37,9 +37,11 @@ buildDataBase = (id, title, parent)->
   title: title
   subtitle: null
   description: null
+  cleanDesc: null
   image: null
   date: new Date()
   parent: parent
   partials: []
-  format: "markdown"
+  format: 'markdown'
   tags: []
+  lang: 'en'
