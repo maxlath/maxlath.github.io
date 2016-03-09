@@ -1,0 +1,14 @@
+{
+  "id": "inventaire-libre-et-utopie-numerique",
+  "title": "inventaire - libre et utopie numérique",
+  "subtitle": "Présentation d'inventaire.io lors du Hackadon 2015",
+  "description": "Ma présentation d'[inventaire.io](https://inventaire.io) lors du [Hackadon](https://hackadon.org) 2015",
+  "cleanDesc": "Ma présentation d'inventaire.io lors du Hackadon 2015",
+  "image": "/slides/backbone-meetup/img/donnees-vendeur-consommateur-2.jpg",
+  "date": "2016-03-09T09:37:03.271Z",
+  "parent": "posts",
+  "partials": [],
+  "format": "markdown",
+  "tags": ["inventaire", "libre", "vrm", "p2p-rm", "talk"],
+  "lang": "fr"
+}
