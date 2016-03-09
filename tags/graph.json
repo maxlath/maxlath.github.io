@@ -170,7 +170,7 @@
     {
       "source": 3,
       "target": 15,
-      "value": 2
+      "value": 3
     },
     {
       "source": 3,
@@ -260,12 +260,12 @@
     {
       "source": 15,
       "target": 0,
-      "value": 2
+      "value": 3
     },
     {
       "source": 15,
       "target": 11,
-      "value": 1
+      "value": 2
     },
     {
       "source": 15,
@@ -275,7 +275,7 @@
     {
       "source": 15,
       "target": 18,
-      "value": 1
+      "value": 2
     },
     {
       "source": 15,
@@ -285,6 +285,11 @@
     {
       "source": 15,
       "target": 16,
+      "value": 1
+    },
+    {
+      "source": 15,
+      "target": 12,
       "value": 1
     },
     {
@@ -325,7 +330,7 @@
     {
       "source": 10,
       "target": 15,
-      "value": 1
+      "value": 2
     },
     {
       "source": 10,
