@@ -161,6 +161,9 @@ blockquote {
   color: #777;
   border-left: 4px solid #DDD; }
 
+#about h1 {
+  color: #444; }
+
 /*Small screens*/
 @media screen and (max-width: 1024px) {
   main {
