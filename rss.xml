@@ -9,7 +9,7 @@
             <link>http://maxlath.eu</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 28 Jan 2016 18:43:18 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 Apr 2016 10:47:56 GMT</lastBuildDate>
         <atom:link href="http://maxlath.eu/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[2016 Maxime Lathuilière]]></copyright>
         <language><![CDATA[en]]></language>
@@ -102,6 +102,7 @@
             <category><![CDATA[wikidata]]></category>
             <category><![CDATA[inventaire]]></category>
             <category><![CDATA[slides]]></category>
+            <category><![CDATA[talk]]></category>
             <pubDate>Sat, 30 May 2015 17:50:19 GMT</pubDate>
         </item>
         <item>
@@ -136,6 +137,18 @@
             <category><![CDATA[commons]]></category>
             <category><![CDATA[libraries]]></category>
             <pubDate>Wed, 27 Jan 2016 12:15:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[inventaire - libre et utopie numérique]]></title>
+            <description><![CDATA[Ma présentation d'inventaire.io lors du Hackadon 2015]]></description>
+            <link>http://maxlath.eu/posts/inventaire-libre-et-utopie-numerique/</link>
+            <guid isPermaLink="true">http://maxlath.eu/posts/inventaire-libre-et-utopie-numerique/</guid>
+            <category><![CDATA[inventaire]]></category>
+            <category><![CDATA[libre]]></category>
+            <category><![CDATA[vrm]]></category>
+            <category><![CDATA[p2p-rm]]></category>
+            <category><![CDATA[talk]]></category>
+            <pubDate>Wed, 09 Mar 2016 09:37:03 GMT</pubDate>
         </item>
     </channel>
 </rss>

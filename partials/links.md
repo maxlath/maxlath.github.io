@@ -11,3 +11,4 @@
 <a class="transifex" href="https://www.transifex.com/accounts/profile/maxlath" title="Transifex" target="_blank"><i class="fa fa-language"></i><span>Transifex</span></a>
 <a class="linkedin" href="http://www.linkedin.com/in/maximelathuiliere" title="LinkedIn" target="_blank" rel="me"><i class="fa fa-linkedin-square"></i><span>Linkedin</span></a>
 <a class="stackoverflow" href="http://stackoverflow.com/users/3324977/maxlath" title="StackOverflow" target="_blank"><i class="fa fa-stack-overflow"></i><span>Stack Overflow</span></a>
+<a class="pgp" href="/pgp.txt" title="PGP Key" target="_blank"><i class="fa fa-key"></i><span>PGP Key</span></a>
