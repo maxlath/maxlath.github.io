@@ -9,29 +9,29 @@
             <link>http://maxlath.eu</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 06 Apr 2016 10:47:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jun 2016 13:45:29 GMT</lastBuildDate>
         <atom:link href="http://maxlath.eu/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[2016 Maxime Lathuilière]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[Maxime Lathuilière]]></managingEditor>
         <webMaster><![CDATA[Maxime Lathuilière]]></webMaster>
         <ttl>1440</ttl>
-        <category><![CDATA[inventaire]]></category>
-        <category><![CDATA[learning]]></category>
         <category><![CDATA[p2p-rm]]></category>
         <category><![CDATA[vrm]]></category>
         <category><![CDATA[counter-modulation]]></category>
+        <category><![CDATA[inventaire]]></category>
+        <category><![CDATA[learning]]></category>
+        <category><![CDATA[wikidata]]></category>
+        <category><![CDATA[libre]]></category>
+        <category><![CDATA[opendata]]></category>
         <category><![CDATA[marketing]]></category>
         <category><![CDATA[propaganda]]></category>
         <category><![CDATA[stiegler]]></category>
         <category><![CDATA[simondon]]></category>
         <category><![CDATA[deleuze]]></category>
-        <category><![CDATA[wikidata]]></category>
-        <category><![CDATA[libre]]></category>
-        <category><![CDATA[opendata]]></category>
+        <category><![CDATA[talk]]></category>
         <category><![CDATA[commons]]></category>
         <category><![CDATA[libraries]]></category>
-        <category><![CDATA[talk]]></category>
         <category><![CDATA[js]]></category>
         <category><![CDATA[backbonejs]]></category>
         <category><![CDATA[slides]]></category>
