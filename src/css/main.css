@@ -561,6 +561,8 @@ footer .links {
       color: #C12127; }
     footer .links a:hover.transifex {
       color: #125A8C; }
+    footer .links a:hover.framasphere {
+      color: #999999; }
     footer .links a:hover.linkedin {
       color: #1C87BD; }
     footer .links a:hover.stackoverflow {
