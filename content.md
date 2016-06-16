@@ -4,7 +4,7 @@
 <body>
   <main>
     <div id="about">
-      <img id="pic" src="/assets/img/120-maxlath.jpg" />
+      <img id="pic" src="/assets/img/200-maxlath.jpg" />
       <a href="#about" name="#about"><h1>Maxime Lathuilière</h1></a>
       <!-- ABOUT --><!-- ABOUT -->
     </div>
