@@ -1,4 +1,5 @@
 _ = require './utils'
+escapeHtml = require 'escape-html'
 host = 'http://maxlath.eu'
 defaultImage = "#{host}/assets/img/path_in_the_Bois_de_Vincennes_under_the_summer_sun.jpg"
 
@@ -19,6 +20,8 @@ module.exports = (data)->
 
   # proxying the image there to work around Github 302 answers
   image = "http://cdn.filter.to/1000x1000/#{image}"
+
+  title = escapeHtml title
 
   metaHtml = """
     <meta charset="utf-8" />
@@ -55,6 +58,7 @@ module.exports = (data)->
   else description = sub or desc
 
   if description?
+    description = escapeHtml description
     metaHtml += """\n
     <meta name="twitter:description" content="#{description}">
     <meta name="description" property="og:description" content="#{description}" />
@@ -83,3 +87,6 @@ getType = (parent)->
   switch parent?.split('/')[0]
     when 'articles', 'posts' then 'article'
     else 'website'
+
+escapeMetaText = (text)->
+  return text.replace /"/g, '\\"'
