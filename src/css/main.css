@@ -73,6 +73,7 @@
   border-bottom-right-radius: 2px; }
 
 body {
+  margin: 0;
   text-align: center;
   color: #35393B;
   font-family: 'Open Sans', sans-serif;
@@ -161,8 +162,10 @@ blockquote {
   color: #777;
   border-left: 4px solid #DDD; }
 
-#about h1 {
-  color: #444; }
+#about {
+  padding-top: 4em; }
+  #about h1 {
+    color: #444; }
 
 /*Small screens*/
 @media screen and (max-width: 1024px) {
@@ -182,10 +185,10 @@ ul#tabs {
   width: 100%;
   margin: 0 auto;
   position: relative;
+  padding-bottom: 2em;
   /*Small screens*/ }
   ul#tabs li {
     margin-top: 2em;
-    margin-bottom: 3em;
     flex: 1 0 0;
     display: flex;
     flex-direction: row;
@@ -196,7 +199,7 @@ ul#tabs {
       border-top-left-radius: 3px;
       border-bottom-left-radius: 3px; }
     ul#tabs li:not(:first-child) {
-      border-left: 1px solid rgba(34, 34, 34, 0.2); }
+      border-left: 1px solid #ddd; }
     ul#tabs li:last-child {
       border-top-right-radius: 3px;
       border-bottom-right-radius: 3px; }
@@ -216,15 +219,21 @@ ul#tabs {
         background-color: #319CC2; }
   ul#tabs .title {
     font-weight: bold; }
+  ul#tabs .legend {
+    height: 1.5em; }
+  ul#tabs.expanded li, ul#tabs.top li {
+    margin-top: 0; }
   ul#tabs.expanded {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1; }
-    ul#tabs.expanded li {
-      margin-top: 0; }
-  @media screen and (max-width: 700px) {
+  ul#tabs.top {
+    padding-bottom: 0; }
+    ul#tabs.top li {
+      margin-bottom: 0.5em; }
+  @media screen and (max-width: 1024px) {
     ul#tabs .legend {
       display: none; } }
 
@@ -276,7 +285,7 @@ nav {
   -o-flex-wrap: wrap;
   flex-wrap: wrap;
   text-align: left;
-  margin-bottom: 1.5em;
+  margin: 2em;
   /*Small screens*/ }
   nav a {
     opacity: 0.4;

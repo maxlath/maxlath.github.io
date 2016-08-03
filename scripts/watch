@@ -1,2 +1,7 @@
 #!/usr/bin/env sh
-./scripts/watch-css & ./scripts/watch-lists
+live-server &
+./scripts/watch-lists &
+./scripts/watch-css &
+./scripts/watch-items &
+./scripts/watch-html &
+coffee -cw -o assets/js src/coffee/index.coffee &

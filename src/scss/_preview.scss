@@ -15,12 +15,12 @@ li{
     }
   }
   /*Small screens*/
-  @media screen and (max-width: $smallscreen) {
+  @media screen and (max-width: $small-screen) {
     margin-bottom: 2em;
     max-width: 100%;
   }
   /*Large screens*/
-  @media screen and (min-width: $smallscreen) {
+  @media screen and (min-width: $small-screen) {
     margin-bottom: 1em;
     max-width: $previewMaxWidth;
   }
@@ -36,7 +36,7 @@ li{
   // width: $previewMaxWidth;
   // margin: 0 auto;
   /*Small screens*/
-  @media screen and (max-width: $smallscreen) {
+  @media screen and (max-width: $small-screen) {
     // height: 40em;
   }
 }
@@ -55,11 +55,11 @@ li{
     // prevent the title from messing with the date
     margin: 0 auto;
     /*Small screens*/
-    @media screen and (max-width: $smallscreen) {
+    @media screen and (max-width: $small-screen) {
       max-width: 100%;
     }
     /*Large screens*/
-    @media screen and (min-width: $smallscreen) {
+    @media screen and (min-width: $small-screen) {
       max-width: 19em;
     }
   }

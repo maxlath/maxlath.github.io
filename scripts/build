@@ -1,4 +1,5 @@
-./scripts/build-items
-./scripts/build-lists
-./scripts/build-css
+./scripts/build-items &&
+./scripts/build-lists &&
+./scripts/build-css &&
 ./scripts/build-rss
+coffee -c -o assets/js src/coffee/index.coffee

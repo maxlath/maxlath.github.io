@@ -10,7 +10,7 @@ iframe.video{
   max-height: 40em;
 }
 /*Small screens*/
-@media screen and (max-width: $smallscreen) {
+@media screen and (max-width: $small-screen) {
   .cover, iframe.video{
     max-width: 95vw;
     max-height: 60vw;

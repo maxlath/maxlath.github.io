@@ -1,7 +1,12 @@
-#!/usr/bin/env sh
+#!/usr/bin/env zsh
 # start by building
 ./scripts/build-lists
 # then watch
-pattern='(articles|posts)/**'
-echo "starting to watch: $pattern -> build-lists"
-onchange $pattern -- ./scripts/build-lists
+# echo "starting to watch: $pattern -> build-lists"
+# onchange $pattern -- ./scripts/build-lists
+
+# the md|json part doesn't work so splitting in two commands
+# pattern='(articles|posts|projects)/**/*(md|json)'
+
+onchange '(articles|posts|projects)/**/*md' -- echo ./scripts/build-lists &
+onchange '(articles|posts|projects)/**/*json' -- echo ./scripts/build-lists &

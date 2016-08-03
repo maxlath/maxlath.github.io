@@ -18,7 +18,7 @@ a.tag-link{
 }
 
 /*Small screens*/
-@media screen and (max-width: $smallscreen) {
+@media screen and (max-width: $small-screen) {
   #tags{
     ul{
       @include display-flex(row, center, center, wrap);
@@ -33,7 +33,7 @@ a.tag-link{
   }
 }
 /*Large screens*/
-@media screen and (min-width: $smallscreen) {
+@media screen and (min-width: $small-screen) {
   #tags{
     ul{
       @include display-flex(row, center, center, wrap);

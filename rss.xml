@@ -9,7 +9,7 @@
             <link>http://maxlath.eu</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Aug 2016 10:22:30 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Aug 2016 13:23:48 GMT</lastBuildDate>
         <atom:link href="http://maxlath.eu/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[2016 Maxime Lathuilière]]></copyright>
         <language><![CDATA[en]]></language>
@@ -20,27 +20,27 @@
         <category><![CDATA[anamnesys]]></category>
         <category><![CDATA[tertiary-retentions]]></category>
         <category><![CDATA[time-travel]]></category>
-        <category><![CDATA[opendata]]></category>
-        <category><![CDATA[libre]]></category>
-        <category><![CDATA[vrm]]></category>
-        <category><![CDATA[p2p-rm]]></category>
         <category><![CDATA[inventaire]]></category>
-        <category><![CDATA[counter-modulation]]></category>
-        <category><![CDATA[commons]]></category>
-        <category><![CDATA[libraries]]></category>
-        <category><![CDATA[talk]]></category>
-        <category><![CDATA[js]]></category>
-        <category><![CDATA[backbonejs]]></category>
-        <category><![CDATA[wikidata]]></category>
-        <category><![CDATA[slides]]></category>
-        <category><![CDATA[myne]]></category>
-        <category><![CDATA[lyon]]></category>
         <category><![CDATA[learning]]></category>
+        <category><![CDATA[p2p-rm]]></category>
+        <category><![CDATA[vrm]]></category>
+        <category><![CDATA[counter-modulation]]></category>
+        <category><![CDATA[wikidata]]></category>
+        <category><![CDATA[libre]]></category>
         <category><![CDATA[marketing]]></category>
         <category><![CDATA[propaganda]]></category>
         <category><![CDATA[stiegler]]></category>
         <category><![CDATA[simondon]]></category>
         <category><![CDATA[deleuze]]></category>
+        <category><![CDATA[opendata]]></category>
+        <category><![CDATA[commons]]></category>
+        <category><![CDATA[libraries]]></category>
+        <category><![CDATA[js]]></category>
+        <category><![CDATA[myne]]></category>
+        <category><![CDATA[lyon]]></category>
+        <category><![CDATA[talk]]></category>
+        <category><![CDATA[backbonejs]]></category>
+        <category><![CDATA[slides]]></category>
         <item>
             <title><![CDATA[Rethink ethical marketing after the critiques of Bernard Stiegler]]></title>
             <description><![CDATA[From April to September 2012 I have been busy writing my Master Thesis as part of my master in management last year (ESC Toulouse / WFI Ingolstadt), on the following subject: Rethink ethical marketing after the critiques of Bernard Stiegler]]></description>

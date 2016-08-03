@@ -25,12 +25,14 @@ tagsListHtml = buildTagsList()
 
 # HOME
 index = _.readFileSync './content.md'
+tabs = _.readFileSync './partials/tabs.html'
 links = _.readFileSync './partials/links.md'
 about = _.readFileSync './partials/about.md'
 data = _.getFolderData '.'
 head = buildHead data
 # add wrap lists to main index
 index = updateFile index, head, 'head'
+index = updateFile index, tabs, 'tabs'
 index = updateFile index, itemsListsContent, 'itemslists'
 index = updateFile index, tagsListHtml, 'tags'
 index = updateFile index, links, 'links'

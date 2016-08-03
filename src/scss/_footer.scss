@@ -51,7 +51,7 @@ footer{
       }
     }
     /*Small screens*/
-    @media screen and (max-width: $smallscreen) {
+    @media screen and (max-width: $small-screen) {
       max-width: 100%;
       a{
         font-size: 1.8em;
@@ -64,7 +64,7 @@ footer{
   margin: 0 auto;
   max-width: 35em;
   /*Small screens*/
-  @media screen and (max-width: $smallscreen) {
+  @media screen and (max-width: $small-screen) {
     max-width: 100%;
   }
 }
