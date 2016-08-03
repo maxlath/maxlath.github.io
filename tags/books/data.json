@@ -1,0 +1,10 @@
+{
+  "id": "books",
+  "title": "#books",
+  "fullTitle": null,
+  "image": null,
+  "description": null,
+  "parent": "tags",
+  "url": "/tags/books",
+  "wikidata": null
+}

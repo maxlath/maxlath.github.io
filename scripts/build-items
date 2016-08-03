@@ -2,7 +2,6 @@
 
 { sectionsList, contentFile } = require 'config'
 buildItem = require '../lib/build_item'
-rread = require 'readdir-recursive'
 _ = require '../lib/utils'
 matchALazyFolder = require '../lib/match_a_lazy_folder'
 walkSectionsFiles = require '../lib/walk_sections_files'

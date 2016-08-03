@@ -1,7 +1,7 @@
 {
   "id": "time-capsule",
   "title": "Time Capsule",
-  "subtitle": "A browser addon to share links to your future self",
+  "subtitle": "A browser addon to share links with your future self",
   "description": "The best person to send you links matching your interest is a time travelling version of yourself. Be kind, return the favor to your future self! Sending links to your past self isn't possible yet, but could come in a future version",
   "image": "/assets/img/timetravel_2.jpg",
   "date": "2016-08-02T23:05:03.271Z",
