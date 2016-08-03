@@ -17,12 +17,12 @@ console.log('elements', window.elements = elements)
 margin = 100
 updateTabsPosition = (e)->
   { pageYOffset } = window
-  { about, projects, articles, posts, links } = elements
+  { tabs, about, projects, articles, posts, links } = elements
 
-  if pageYOffset > elements.tabs.bottom then expandTabBar()
-  else if pageYOffset < elements.tabs.top then reduceTabBar()
+  if pageYOffset > tabs.bottom then expandTabBar()
+  else reduceTabBar()
 
-  if pageYOffset < about.top - margin then selectTab null
+  if pageYOffset < about.top then selectTab null
   else if pageYOffset < projects.top - margin then selectTab 'about'
   else if pageYOffset < articles.top - margin then selectTab 'projects'
   else if pageYOffset < posts.top - margin then selectTab 'articles'
