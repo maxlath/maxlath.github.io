@@ -2,6 +2,6 @@
 # start by building
 ./scripts/build-items
 # then watch
-pattern='(articles|posts)/**/(content.md|data.json)'
+pattern='(projects|articles|posts)/**/(content.md|data.json)'
 echo "starting to watch: $pattern -> build-items"
 onchange $pattern -- ./scripts/build-items

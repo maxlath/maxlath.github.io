@@ -1,4 +1,12 @@
-#articles, #posts, .tags{
+#projects, #articles, #posts, #tabs, .tags{
+  .legend{
+    margin: 0;
+    font-size: 0.7em;
+    opacity: 0.6;
+  }
+}
+
+#projects, #articles, #posts, .tags{
   margin: 0 auto;
   background-color: #eee;
   @include radius;
@@ -6,11 +14,6 @@
   margin-bottom: 1em;
   > .title{
     margin: 0;
-  }
-  .legend{
-    margin: 0;
-    font-size: 0.7em;
-    opacity: 0.6;
   }
   .more{
     padding: 0.6em;

@@ -1,0 +1,13 @@
+{
+  "id": "inventaire",
+  "title": "inventaire",
+  "subtitle": "Mapping resources with open knowledge and libre software",
+  "description": "[inventaire.io](https://inventaire.io): working full-time on it since June 2014",
+  "cleanDesc": "Ma présentation d'inventaire.io lors du Hackadon 2015",
+  "image": "/assets/img/inventaire-books.jpg",
+  "date": "2014-06-09T09:37:03.271Z",
+  "parent": "projects",
+  "partials": [],
+  "format": "markdown",
+  "tags": ["resources", "books", "openknowledge", "libre"]
+}
