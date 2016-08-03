@@ -7,3 +7,15 @@ assets/font/fontello.woff
 assets/font/fontello.woff2
 assets/font/open-sans-semibold.woff2
 assets/img/timetravel.jpg
+src/css/fontello-*
+brouillons
+node_modules
+TODO.md
+assets/js/tags_graph.js
+fontello*
+full_data.json
+slides/.gitignore
+slides/backbone-meetup/img/data-vendors-consumers.xcf
+slides/hackadon/
+src/css/animation.css
+src/css/fontello.css
