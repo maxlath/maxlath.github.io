@@ -12,7 +12,6 @@ ul#tabs{
     margin-top: 2em;
     margin-bottom: 3em;
     flex: 1 0 0;
-    background-color: #eee;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -30,6 +29,7 @@ ul#tabs{
       border-bottom-right-radius: 3px;
     }
     a{
+      background-color: #eee;
       flex: 1;
       // centering spans
       display: flex;
@@ -40,9 +40,10 @@ ul#tabs{
       height: 100%;
       color: #444;
       transition: color 0.3s;
-      &:hover{
-        color: #222;
-        color: #222;
+      transition: background-color 0.3s;
+      &:hover, &.selected{
+        color: white;
+        background-color: $light-blue;
       }
     }
   }
@@ -67,7 +68,8 @@ ul#tabs{
   }
 }
 
+$tabs-height: 134px;
 #expanded-tabs-placeholder{
   display: none;
-  height: 144px;
+  height: $tabs-height;
 }

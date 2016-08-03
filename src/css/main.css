@@ -80,7 +80,7 @@ body {
 
 main {
   margin: 0 auto;
-  max-width: 40em;
+  max-width: 60em;
   /*Small screens*/ }
   @media screen and (max-width: 1024px) {
     main {
@@ -174,6 +174,64 @@ blockquote {
   body {
     font-size: 120%; } }
 
+ul#tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  /*Small screens*/ }
+  ul#tabs li {
+    margin-top: 2em;
+    margin-bottom: 3em;
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4em; }
+    ul#tabs li:first-child {
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px; }
+    ul#tabs li:not(:first-child) {
+      border-left: 1px solid rgba(34, 34, 34, 0.2); }
+    ul#tabs li:last-child {
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px; }
+    ul#tabs li a {
+      background-color: #eee;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      color: #444;
+      transition: color 0.3s;
+      transition: background-color 0.3s; }
+      ul#tabs li a:hover, ul#tabs li a.selected {
+        color: white;
+        background-color: #319CC2; }
+  ul#tabs .title {
+    font-weight: bold; }
+  ul#tabs.expanded {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; }
+    ul#tabs.expanded li {
+      margin-top: 0; }
+  @media screen and (max-width: 700px) {
+    ul#tabs .legend {
+      display: none; } }
+
+#expanded-tabs-placeholder {
+  display: none;
+  height: 134px; }
+
 img {
   max-width: 100%; }
 
@@ -241,7 +299,12 @@ nav {
 main.item {
   text-align: left; }
 
-#articles, #posts, .tags {
+#projects .legend, #articles .legend, #posts .legend, #tabs .legend, .tags .legend {
+  margin: 0;
+  font-size: 0.7em;
+  opacity: 0.6; }
+
+#projects, #articles, #posts, .tags {
   margin: 0 auto;
   background-color: #eee;
   border-radius: 2px;
@@ -249,47 +312,43 @@ main.item {
   margin-bottom: 1em;
   /*Small screens*/
   /*Large screens*/ }
-  #articles > .title, #posts > .title, .tags > .title {
+  #projects > .title, #articles > .title, #posts > .title, .tags > .title {
     margin: 0; }
-  #articles .legend, #posts .legend, .tags .legend {
-    margin: 0;
-    font-size: 0.7em;
-    opacity: 0.6; }
-  #articles .more, #posts .more, .tags .more {
+  #projects .more, #articles .more, #posts .more, .tags .more {
     padding: 0.6em;
     text-align: right;
     opacity: 0.8;
     transition: opacity 0.5s ease;
     font-size: 0.8; }
-    #articles .more:hover, #posts .more:hover, .tags .more:hover {
+    #projects .more:hover, #articles .more:hover, #posts .more:hover, .tags .more:hover {
       opacity: 1; }
-    #articles .more a, #posts .more a, .tags .more a {
+    #projects .more a, #articles .more a, #posts .more a, .tags .more a {
       background-color: #ddd;
       border-radius: 2px;
       padding: 0.2em;
       color: #35393B;
       text-decoration: none; }
-    #articles .more .fa, #posts .more .fa, .tags .more .fa {
+    #projects .more .fa, #articles .more .fa, #posts .more .fa, .tags .more .fa {
       margin-right: 0.3em; }
-  #articles li, #posts li, .tags li {
+  #projects li, #articles li, #posts li, .tags li {
     margin: 0 auto;
     /*Small screens*/
     /*Large screens*/ }
-    #articles li:hover .preview-cover, #posts li:hover .preview-cover, .tags li:hover .preview-cover {
+    #projects li:hover .preview-cover, #articles li:hover .preview-cover, #posts li:hover .preview-cover, .tags li:hover .preview-cover {
       transition: box-shadow 0.5s ease;
       box-shadow: -1px 1px 8px 3px rgba(0, 0, 0, 0.3) inset, 1px -1px 8px 3px rgba(0, 0, 0, 0.3) inset; }
-    #articles li:hover .preview-header, #posts li:hover .preview-header, .tags li:hover .preview-header {
+    #projects li:hover .preview-header, #articles li:hover .preview-header, #posts li:hover .preview-header, .tags li:hover .preview-header {
       transition: background-color 0.5s ease;
       background-color: #2b2b2b; }
     @media screen and (max-width: 1024px) {
-      #articles li, #posts li, .tags li {
+      #projects li, #articles li, #posts li, .tags li {
         margin-bottom: 2em;
         max-width: 100%; } }
     @media screen and (min-width: 1024px) {
-      #articles li, #posts li, .tags li {
+      #projects li, #articles li, #posts li, .tags li {
         margin-bottom: 1em;
         max-width: 30em; } }
-  #articles .preview-cover, #posts .preview-cover, .tags .preview-cover {
+  #projects .preview-cover, #articles .preview-cover, #posts .preview-cover, .tags .preview-cover {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     margin-top: 0.5em;
@@ -317,34 +376,34 @@ main.item {
     justify-content: center;
     height: 15em;
     /*Small screens*/ }
-  #articles .preview-header, #posts .preview-header, .tags .preview-header {
+  #projects .preview-header, #articles .preview-header, #posts .preview-header, .tags .preview-header {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
     color: white;
     background-color: #444;
     position: relative; }
-    #articles .preview-header .core, #posts .preview-header .core, .tags .preview-header .core {
+    #projects .preview-header .core, #articles .preview-header .core, #posts .preview-header .core, .tags .preview-header .core {
       padding: 0.6em 1em 0.4em 1em; }
-    #articles .preview-header .title, #posts .preview-header .title, .tags .preview-header .title {
+    #projects .preview-header .title, #articles .preview-header .title, #posts .preview-header .title, .tags .preview-header .title {
       font-size: 1.4em;
       margin: 0 auto;
       /*Small screens*/
       /*Large screens*/ }
       @media screen and (max-width: 1024px) {
-        #articles .preview-header .title, #posts .preview-header .title, .tags .preview-header .title {
+        #projects .preview-header .title, #articles .preview-header .title, #posts .preview-header .title, .tags .preview-header .title {
           max-width: 100%; } }
       @media screen and (min-width: 1024px) {
-        #articles .preview-header .title, #posts .preview-header .title, .tags .preview-header .title {
+        #projects .preview-header .title, #articles .preview-header .title, #posts .preview-header .title, .tags .preview-header .title {
           max-width: 19em; } }
-    #articles .preview-header .subtitle, #posts .preview-header .subtitle, .tags .preview-header .subtitle {
+    #projects .preview-header .subtitle, #articles .preview-header .subtitle, #posts .preview-header .subtitle, .tags .preview-header .subtitle {
       font-weight: bold;
       font-size: 0.8em;
       max-width: 50%;
       color: #b3b3b3; }
-    #articles .preview-header .description, #posts .preview-header .description, .tags .preview-header .description {
+    #projects .preview-header .description, #articles .preview-header .description, #posts .preview-header .description, .tags .preview-header .description {
       font-size: 0.8em;
       color: gray; }
-    #articles .preview-header .details, #posts .preview-header .details, .tags .preview-header .details {
+    #projects .preview-header .details, #articles .preview-header .details, #posts .preview-header .details, .tags .preview-header .details {
       max-width: 100%;
       display: -webkit-flex;
       display: -moz-flex;
@@ -368,10 +427,10 @@ main.item {
       justify-content: space-between;
       font-size: 0.7em;
       color: rgba(255, 255, 255, 0.5); }
-    #articles .preview-header .preview-tags, #posts .preview-header .preview-tags, .tags .preview-header .preview-tags {
+    #projects .preview-header .preview-tags, #articles .preview-header .preview-tags, #posts .preview-header .preview-tags, .tags .preview-header .preview-tags {
       margin-left: 0.4em;
       text-align: left; }
-    #articles .preview-header .date, #posts .preview-header .date, .tags .preview-header .date {
+    #projects .preview-header .date, #articles .preview-header .date, #posts .preview-header .date, .tags .preview-header .date {
       margin-left: auto;
       -webkit-flex: 0 0 auto;
       -moz-flex: 0 0 auto;
@@ -380,10 +439,10 @@ main.item {
       flex: 0 0 auto;
       padding-right: 0.4em; }
   @media screen and (max-width: 1024px) {
-    #articles, #posts, .tags {
+    #projects, #articles, #posts, .tags {
       width: 100%; } }
   @media screen and (min-width: 1024px) {
-    #articles, #posts, .tags {
+    #projects, #articles, #posts, .tags {
       padding: 0.5em;
       width: 30em; } }
 
@@ -476,9 +535,10 @@ main.item {
   -o-flex: 0 0 80px;
   flex: 0 0 80px; }
 
-footer .links {
+footer #links {
   max-width: 45em;
   margin: 0.5em auto;
+  padding-top: 4.5em;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -504,10 +564,9 @@ footer .links {
   -ms-flex-wrap: wrap;
   -o-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-top: 2em;
   margin-bottom: 2em;
   /*Small screens*/ }
-  footer .links a {
+  footer #links a {
     width: 10em;
     height: 6em;
     margin: 0.2em;
@@ -534,45 +593,45 @@ footer .links {
     text-decoration: none;
     color: rgba(53, 57, 59, 0.9);
     transition: color 0.5s ease; }
-    footer .links a .fa {
+    footer #links a .fa {
       font-size: 3em; }
-    footer .links a span {
+    footer #links a span {
       font-weight: bold;
       white-space: nowrap; }
-    footer .links a:hover.inventory {
+    footer #links a:hover.inventory {
       color: #FFD402; }
-    footer .links a:hover.gratipay {
+    footer #links a:hover.gratipay {
       color: #FE313A; }
-    footer .links a:hover.email {
+    footer #links a:hover.email {
       color: #39B54A; }
-    footer .links a:hover.twitter {
+    footer #links a:hover.twitter {
       color: #55ACEE; }
-    footer .links a:hover.wikidata {
+    footer #links a:hover.wikidata {
       color: #990000; }
-    footer .links a:hover.wikipedia {
+    footer #links a:hover.wikipedia {
       color: #B3B4B6; }
-    footer .links a:hover.commons {
+    footer #links a:hover.commons {
       color: #00649A; }
-    footer .links a:hover.openstreetmap {
+    footer #links a:hover.openstreetmap {
       color: #9BCE81; }
-    footer .links a:hover.github {
+    footer #links a:hover.github {
       color: #333333; }
-    footer .links a:hover.npm {
+    footer #links a:hover.npm {
       color: #C12127; }
-    footer .links a:hover.transifex {
+    footer #links a:hover.transifex {
       color: #125A8C; }
-    footer .links a:hover.framasphere {
+    footer #links a:hover.framasphere {
       color: #999999; }
-    footer .links a:hover.linkedin {
+    footer #links a:hover.linkedin {
       color: #1C87BD; }
-    footer .links a:hover.stackoverflow {
+    footer #links a:hover.stackoverflow {
       color: #F48024; }
-    footer .links a:hover.pgp {
+    footer #links a:hover.pgp {
       color: #111; }
   @media screen and (max-width: 1024px) {
-    footer .links {
+    footer #links {
       max-width: 100%; }
-      footer .links a {
+      footer #links a {
         font-size: 1.8em; } }
 
 #about {
