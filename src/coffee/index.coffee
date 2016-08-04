@@ -54,7 +54,11 @@ selectTab = (tabName)->
   lastSelectedTab = tabName
 
 select = (tabName)->
-  if tabName? then elements[tabName].tab.classList.add 'selected'
+  if tabName?
+    elements[tabName].tab.classList.add 'selected'
+    # updating the hash without jumping to it
+    history.pushState null, null, "##{tabName}"
+
 unselect = (tabName)->
   if tabName? then elements[tabName].tab.classList.remove 'selected'
 
