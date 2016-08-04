@@ -87,7 +87,8 @@
 
   select = function(tabName) {
     if (tabName != null) {
-      return elements[tabName].tab.classList.add('selected');
+      elements[tabName].tab.classList.add('selected');
+      return history.pushState(null, null, "#" + tabName);
     }
   };
 

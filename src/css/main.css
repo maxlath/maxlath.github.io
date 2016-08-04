@@ -234,6 +234,8 @@ ul#tabs {
     ul#tabs.top li {
       margin-bottom: 0.5em; }
   @media screen and (max-width: 1024px) {
+    ul#tabs li {
+      margin-top: 0; }
     ul#tabs .legend {
       display: none; } }
 
@@ -340,7 +342,7 @@ main.item {
     #projects .more .fa, #articles .more .fa, #posts .more .fa, .tags .more .fa {
       margin-right: 0.3em; }
   #projects li, #articles li, #posts li, .tags li {
-    margin: 0 auto;
+    margin: 1.5em auto;
     /*Small screens*/
     /*Large screens*/ }
     #projects li:hover .preview-cover, #articles li:hover .preview-cover, #posts li:hover .preview-cover, .tags li:hover .preview-cover {

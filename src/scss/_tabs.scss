@@ -72,6 +72,9 @@ ul#tabs{
   }
   /*Small screens*/
   @media screen and (max-width: $small-screen) {
+    li{
+      margin-top: 0;
+    }
     .legend{
       display: none;
     }

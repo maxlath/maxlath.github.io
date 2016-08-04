@@ -3,7 +3,7 @@ $previewHeaderColor: white;
 $previewHeaderBg: #444;
 
 li{
-  margin: 0 auto;
+  margin: 1.5em auto;
   &:hover{
     .preview-cover{
       @include transition(box-shadow);
@@ -43,8 +43,8 @@ li{
 
 .preview-header{
   @include radius-bottom;
-  // padding: 0 0.5em 0 0.5em;
   color: $previewHeaderColor;
+  // padding: 0 0.5em 0 0.5em;
   background-color: $previewHeaderBg;
   position: relative;
   .core{
