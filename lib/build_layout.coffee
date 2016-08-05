@@ -19,8 +19,10 @@ module.exports = (data, main='', classes)->
   #{head}
   <body>
     #{tabs}
-    <nav>#{nav}</nav>
-    <main #{idStr} #{classesStr}>#{main}</main>
+    <main #{idStr} #{classesStr}>
+      <nav>#{nav}</nav>
+      #{main}
+    </main>
   </body>
   </html>
   """
