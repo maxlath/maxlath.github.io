@@ -496,11 +496,17 @@ main.item {
   color: #171717;
   background-color: #f1f1f1;
   padding: 1em;
-  margin-left: 1.5em; }
+  margin-left: 1.5em;
+  line-height: 2rem; }
   .posts-child .quote .fa, .articles-child .quote .fa, .paper-ethical-marketing-child .quote .fa {
     font-size: 1.8em;
     color: #aaa;
-    margin: 0.2em 0.6em 0.2em 0.6em; }
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    line-height: 1.4rem; }
+  .posts-child .quote .fa-quote-right, .articles-child .quote .fa-quote-right, .paper-ethical-marketing-child .quote .fa-quote-right {
+    position: relative;
+    top: 10px; }
 
 .posts-child .lang, .articles-child .lang, .paper-ethical-marketing-child .lang {
   font-family: "Times New Roman", Times, serif; }

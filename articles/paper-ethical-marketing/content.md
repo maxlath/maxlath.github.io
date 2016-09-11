@@ -1,6 +1,4 @@
-<p>
-  From April to September 2012 I have been busy writing my <strong>Master Thesis</strong> as part of my master in management last year (ESC Toulouse / WFI Ingolstadt), on the following subject:
-<strong><em>Rethink ethical marketing after the critiques of Bernard Stiegler</em></strong>
+<p>From April to September 2012 I have been busy writing my <strong>Master Thesis</strong> as part of my master in management last year (ESC Toulouse / WFI Ingolstadt), on the following subject: <strong><em>Rethink ethical marketing after the critiques of Bernard Stiegler</em></strong>
 </p>
 <div class="row panel">
   <a href="/articles/paper-ethical-marketing"><i class="fa fa-link"></i> Permalink</a>
@@ -18,10 +16,10 @@
   </div>
 </a>
 
-
 <h3>Abstract</h3>
-<p>Marketing, as the organization of attention capture and motivation canalization, that is to say the diverting of the social energy that is desire as analyzed by Bernard Stiegler, is at the heart of the social and economic system that is questioned by the post-2007 crises and the experience of system limits. Marketing’s shared history with the consumerist culture, the controversies on business responsibility and the downfall of counterforces that are national states and social institutions in the context of globalization, contributed to blur the limits of ethic in marketing practices. While limits thinned down, marketing practices found new fields of technical improvement through the development of behavioral sciences, constitutive of a psychopower, immoderately used to tend toward ubiquity; not only aiming direct sells anymore but also working on the symbolic level for the sake of branding. Those immoderate practices lead to a form of exhaustion of marketing’s raw material: attention and desire. This systemic analysis of marketing’s impacts would lead to the sketching of an alternative system of information, valuating responsibility regarding the commons, including the psychic and collective well-being.</p>
-
+<p>
+  Marketing, as the organization of attention capture and motivation canalization, that is to say the diverting of the social energy that is desire as analyzed by Bernard Stiegler, is at the heart of the social and economic system that is questioned by the post-2007 crises and the experience of system limits. Marketing’s shared history with the consumerist culture, the controversies on business responsibility and the downfall of counterforces that are national states and social institutions in the context of globalization, contributed to blur the limits of ethic in marketing practices. While limits thinned down, marketing practices found new fields of technical improvement through the development of behavioral sciences, constitutive of a psychopower, immoderately used to tend toward ubiquity; not only aiming direct sells anymore but also working on the symbolic level for the sake of branding. Those immoderate practices lead to a form of exhaustion of marketing’s raw material: attention and desire. This systemic analysis of marketing’s impacts would lead to the sketching of an alternative system of information, valuating responsibility regarding the commons, including the psychic and collective well-being.
+</p>
 
 <!-- MASTERPLAN --><!-- MASTERPLAN -->
 
