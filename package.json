@@ -24,7 +24,8 @@
     "watch-lists": "./scripts/watch-lists",
     "watch-css": "./scripts/watch-css",
     "watch-js": "coffee -o assets/js -cw src/coffee",
-    "watch": "./scripts/watch"
+    "watch": "./scripts/watch",
+    "deploy": "./scripts/deploy"
   },
   "dependencies": {},
   "devDependencies": {

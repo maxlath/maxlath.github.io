@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+git push origin src &&
+git branch -D master &&
+git checkout -b master &&
+npm run build &&
+git add index.html rss.xml tags/**/*html projects/**/*html posts/**/*html articles/**/*html assets/css/bundle.css assets/js/index.js -f &&
+git commit -m 'updated build' &&
+git push origin --force master &&
+git checkout src
