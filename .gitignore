@@ -19,3 +19,18 @@ slides/backbone-meetup/img/data-vendors-consumers.xcf
 slides/hackadon/
 src/css/animation.css
 src/css/fontello.css
+
+# commit only for deployment on master (using -f)
+index.html
+rss.xml
+tags/**/*html
+projects/**/*html
+posts/**/*html
+articles/**/*html
+# re-include partials
+# see doc: https://git-scm.com/docs/gitignore
+!articles/**/partials/*html
+
+assets/css/bundle.css
+assets/js/index.js
+src/css/main.css
