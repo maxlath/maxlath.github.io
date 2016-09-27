@@ -34,3 +34,5 @@ articles/**/*html
 assets/css/bundle.css
 assets/js/index.js
 src/css/main.css
+
+tags/graph.json
