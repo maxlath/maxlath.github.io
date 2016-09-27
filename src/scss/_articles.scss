@@ -12,6 +12,34 @@
     opacity: 0.8;
   }
 
+  .quote {
+    font-family: "Times New Roman", Times, serif;
+    font-weight:300;
+    color: #171717;
+    background-color: rgb(241,241,241);
+    padding: 1em;
+    margin-left: 1.5em;
+    .fa {
+      font-size: 1.8em;
+      color: #aaa;
+      margin-left: 0.4em;
+      margin-right: 0.4em;
+      line-height: 1.4rem;
+    }
+    .fa-quote-left{}
+    .fa-quote-right{
+      position: relative;
+      top: 10px;
+    }
+    line-height: 2rem;
+    // using <ol> and <li> break the .quote box for an obscure reason
+    // span.li are a workaround
+    span.li{
+      display: block;
+      padding-left: 1em;
+    }
+  }
+
   @import 'legacy';
 }
 

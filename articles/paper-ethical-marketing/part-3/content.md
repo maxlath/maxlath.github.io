@@ -63,14 +63,13 @@
 <p>Coming from this culture in which emerged this production paradigm shift, Doc Searls push another shift that is the change in the commercial paradigm, described as an <em>Intention Economy</em> i.e. the opposite of the <em>Attention Economy</em> (Searls 2006; Searls 2012): in this Copernican revolution of the commercial paradigm, consumers are charged to express and discuss their intention (Bauwens et al. 2012) with businesses rather than the usual paradigm in which businesses where fighting for a piece of canalized motivation. Here the motivation comes to the business already constituted, producing tremendous savings in terms of advertisement and customer relationship management. Implementing such a system would nevertheless imply that marketing departments dispose of a system in which they could value their supplies and where they could be easily found by customers. Doc Searls promotes his answer to this issue: the Vendor Relationship Management system.</p>
 
 <p class="quote"><i class="fa fa-quote-left"></i><em>VRM development work is based on the belief that free customers are more valuable than captive ones — to themselves, to vendors, and to the larger economy. To be free —
-<ol>
-  <li> Customers must enter relationships with vendors as independent actors.</li>
-  <li>Customers must be the points of integration for their own data.</li>
-  <li>Customers must have control of data they generate and gather. This means they must be able to share data selectively and voluntarily.</li>
-  <li>Customers must be able to assert their own terms of engagement.</li>
-  <li>Customers must be free to express their demands and intentions outside of any one company's control.</li>
-</ol>
-<i class="fa fa-quote-right"></i></em> – (Project VRM 2012)</p>
+<!-- using <ol> and <li> break the .quote box for an obscure reason: span.li are a workaround -->
+<span class="li">1. Customers must enter relationships with vendors as independent actors.</span>
+<span class="li">2. Customers must be the points of integration for their own data.</span>
+<span class="li">3. Customers must have control of data they generate and gather. This means they must be able to share data selectively and voluntarily.</span>
+<span class="li">4. Customers must be able to assert their own terms of engagement.</span>
+<span class="li">5. Customers must be free to express their demands and intentions outside of any one company's control.</span>
+</em><i class="fa fa-quote-right"></i> – (Project VRM 2012)</p>
 
 <p>This is a profoundly game-changing approach regarding the previous developments of commercial relationships and their last declination under the name of – commercially used – <em>big data</em> that is the rush for consumers' information potentially leading to the same dead-end of attention destruction and affective saturation than the former offline paradigm. A VRM system working as a marketplace, ranking the different offers, would attempt to canalize marketing's energy and ruses in a single place, in which the criteria of Camenisch formulating that "the goal of marketing should be to increase the likelihood and frequency of free and informed transactions in the marketplace" would be a central pillar that doesn't come without remembering the ideal of a pure and perfect market pictured by Classical economists regarding the two points of a less imperfect and less biased information in a cultural context overvaluing transparency, and a bigger atomicity due to the hereafter introduced trend for re-localized peer production.</p>
 
