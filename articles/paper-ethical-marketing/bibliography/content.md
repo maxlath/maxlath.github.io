@@ -23,7 +23,7 @@
 <p> </p>
 <p>Ars Industrialis, 2010. Pharmakon. Available at: <a href="http://www.arsindustrialis.org/pharmakon">http://www.arsindustrialis.org/pharmakon</a> [Quotation translated from French to English by Maxime Lathuilière]</p>
 <p> </p>
-<p>Bain, P. &amp; Taylor, P., 2000. Entrapped by the “electronic panopticon”? Worker resistance in the call centre. <em>New Technology, Work and Employment</em>, 15(1), pp.2–18. Available at: <a href="http://doi.wiley.com/10.1111/1468-005X.00061">http://doi.wiley.com/10.1111/1468-005X.00061</a> [Accessed September 18, 2012].Bakan, J., Achbar, M. &amp; Abbott, J., 2003. <em>The Corporation</em>, Available at: <a href="http://www.imdb.com/title/tt0379225/">http://www.imdb.com/title/tt0379225/</a></p>
+<p>Bain, P. &amp; Taylor, P., 2000. Entrapped by the "electronic panopticon"? Worker resistance in the call centre. <em>New Technology, Work and Employment</em>, 15(1), pp.2–18. Available at: <a href="http://doi.wiley.com/10.1111/1468-005X.00061">http://doi.wiley.com/10.1111/1468-005X.00061</a> [Accessed September 18, 2012].Bakan, J., Achbar, M. &amp; Abbott, J., 2003. <em>The Corporation</em>, Available at: <a href="http://www.imdb.com/title/tt0379225/">http://www.imdb.com/title/tt0379225/</a></p>
 <p> </p>
 <p>Barison, D. &amp; Ross, D., 2004. <em>The Ister</em>, Black Box Sound and Image.</p>
 <p> </p>
@@ -55,9 +55,9 @@
 <p> </p>
 <p>Davenport, T.H. &amp; Beck, J.C., 2001. <em>The Attention Economy: Understanding the New Currency of Business</em>, Harvard Business Press. Available at: <a href="http://books.google.com/books?hl=en&amp;lr=&amp;id=FuuKd3on9psC&amp;pgis=1">http://books.google.com/books?hl=en&amp;lr=&amp;id=FuuKd3on9psC&amp;pgis=1</a> [Accessed September 24, 2012].</p>
 <p> </p>
-<p>Deleuze, G., 2001. Review of Gilbert Simondon’s L'individu et sa genèse phsico-biologique. <em>Pli</em>, 12, pp.43–49. Available at: <a href="http://web.warwick.ac.uk/philosophy/pli_journal/pdfs/Vol_12/12_4_Deleuze.pdf">http://web.warwick.ac.uk/philosophy/pli_journal/pdfs/Vol_12/12_4_Deleuze.pdf</a></p>
+<p>Deleuze, G., 2001. Review of Gilbert Simondon's L'individu et sa genèse phsico-biologique. <em>Pli</em>, 12, pp.43–49. Available at: <a href="http://web.warwick.ac.uk/philosophy/pli_journal/pdfs/Vol_12/12_4_Deleuze.pdf">http://web.warwick.ac.uk/philosophy/pli_journal/pdfs/Vol_12/12_4_Deleuze.pdf</a></p>
 <p> </p>
-<p>Deleuze, G., 1990. Society of Control. <em>L’autre journal</em>, I. Available at: <a href="http://www.blogs.bloodedbythought.org/tech/wp-content/uploads/deleuze_postcript-societies-of-control.pdf">http://www.blogs.bloodedbythought.org/tech/wp-content/uploads/deleuze_postcript-societies-of-control.pdf</a></p>
+<p>Deleuze, G., 1990. Society of Control. <em>L'autre journal</em>, I. Available at: <a href="http://www.blogs.bloodedbythought.org/tech/wp-content/uploads/deleuze_postcript-societies-of-control.pdf">http://www.blogs.bloodedbythought.org/tech/wp-content/uploads/deleuze_postcript-societies-of-control.pdf</a></p>
 <p> </p>
 <p>Dumas, G. et al., 2012. La publicité peut avoir des effets nocifs sur la société. <em>Le Monde</em>. Available at: <a href="http://abonnes.lemonde.fr/idees/article/2012/06/26/la-publicite-peut-avoir-des-effets-nocifs-sur-la-societe_1724489_3232.html">http://abonnes.lemonde.fr/idees/article/2012/06/26/la-publicite-peut-avoir-des-effets-nocifs-sur-la-societe_1724489_3232.html</a> [Accessed September 25, 2012]. [Quotation translated from French to English by Maxime Lathuilière]</p>
 <p> </p>
@@ -105,7 +105,7 @@
 <p> </p>
 <p>Lordon, F., 2009. Economie du désir et désir en économie 2. <em>Ars Industrialis</em>. Available at: <a href="http://www.arsindustrialis.org/economie-du-d">http://www.arsindustrialis.org/economie-du-d</a>ésir-et-désir-en-économie-2-0. [Quotation translated from French to English by Maxime Lathuilière]</p>
 <p> </p>
-<p>Les associés d’EIM, 2004. <em>Les Dirigeants français et le Changement : Baromètre 2004</em> Huitième Jour, ed.,</p>
+<p>Les associés d'EIM, 2004. <em>Les Dirigeants français et le Changement : Baromètre 2004</em> Huitième Jour, ed.,</p>
 <p> </p>
 <p>Léonard, A. &amp; OuiShare, 2011. 100 sites de consommation collaborative. Available at: <a href="http://consocollaborative.com/1704-100-sites-de-consommation-collaborative.html">http://consocollaborative.com/1704-100-sites-de-consommation-collaborative.html</a></p>
 <p> </p>
@@ -115,7 +115,7 @@
 <p> </p>
 <p>Manning, P., 2011. Review of Freud on Madison Avenue: Motivation Research and Subliminal Advertising in America, by Lawrence R. Samuel. Available at: <a href="http://engagedscholarship.csuohio.edu/cgi/viewcontent.cgi?article=1011&amp;context=clsoc_crim_facpub">http://engagedscholarship.csuohio.edu/cgi/viewcontent.cgi?article=1011&amp;context=clsoc_crim_facpub</a></p>
 <p> </p>
-<p>McLaughlin, R.L. &amp; Parry, S.E., 2006. <em>We’ll Always Have the Movies: American Cinema during World War II</em>, University Press of Kentucky. Available at: <a href="http://books.google.com/books?hl=en&amp;lr=&amp;id=_FhXmwiyHqAC&amp;pgis=1">http://books.google.com/books?hl=en&amp;lr=&amp;id=_FhXmwiyHqAC&amp;pgis=1</a> [Accessed September 11, 2012].</p>
+<p>McLaughlin, R.L. &amp; Parry, S.E., 2006. <em>We'll Always Have the Movies: American Cinema during World War II</em>, University Press of Kentucky. Available at: <a href="http://books.google.com/books?hl=en&amp;lr=&amp;id=_FhXmwiyHqAC&amp;pgis=1">http://books.google.com/books?hl=en&amp;lr=&amp;id=_FhXmwiyHqAC&amp;pgis=1</a> [Accessed September 11, 2012].</p>
 <p> </p>
 <p>Morin, C., 2011. Neuromarketing: The New Science of Consumer Behavior. <em>Society</em>, 48(2), pp.131–135. Available at: <a href="http://www.springerlink.com/content/l008038078x70166/">http://www.springerlink.com/content/l008038078x70166/</a> [Accessed July 17, 2012].</p>
 <p> </p>
@@ -143,7 +143,7 @@
 <p> </p>
 <p>Sen, A., 2000. <em>Development as Freedom</em>, Anchor.</p>
 <p> </p>
-<p>Simondon, G., 1989. <em>L’individuation psychique et collective</em> Aubier, ed.,</p>
+<p>Simondon, G., 1989. <em>L'individuation psychique et collective</em> Aubier, ed.,</p>
 <p> </p>
 <p>Stauber, J. &amp; Rampton, S., 1999. Book review: The Father of Spin: Edward L. Bernays and the Birth of PR. <em>PR Watch</em>. Available at: <a href="http://www.prwatch.org/prwissues/1999Q2/bernays.html">http://www.prwatch.org/prwissues/1999Q2/bernays.html</a></p>
 <p> </p>
@@ -163,7 +163,7 @@
 <p> </p>
 <p>Stiegler, B., 2009. Anamnesis and Hypomnesis. Available at: <a href="http://www.arsindustrialis.org/anamnesis-and-hypomnesis">http://www.arsindustrialis.org/anamnesis-and-hypomnesis</a></p>
 <p> </p>
-<p>Stiegler, B., 2010a. L’avenir de la croissance. Available at: <a href="http://www.arsindustrialis.org/divers-lavenir-de-la-croissance">http://www.arsindustrialis.org/divers-lavenir-de-la-croissance</a></p>
+<p>Stiegler, B., 2010a. L'avenir de la croissance. Available at: <a href="http://www.arsindustrialis.org/divers-lavenir-de-la-croissance">http://www.arsindustrialis.org/divers-lavenir-de-la-croissance</a></p>
 <p> </p>
 <p>Stiegler, B., 2010b. Socrate et les hackers. Available at: <a href="http://www.arsindustrialis.org/node/3399">http://www.arsindustrialis.org/node/3399</a></p>
 <p> </p>
@@ -187,7 +187,7 @@
 <p> </p>
 <p>Vincent Bevins, 2010. São Paulo advertising goes underground. <em><a href="http://FT.com">FT.com</a></em>. Available at: <a href="http://www.ft.com/intl/cms/s/0/5ad26f14-b9e6-11df-8804-00144feabdc0.html#axzz246r0ZI11">http://www.ft.com/intl/cms/s/0/5ad26f14-b9e6-11df-8804-00144feabdc0.html#axzz246r0ZI11</a></p>
 <p> </p>
-<p>Vranica, S. &amp; Raice, S., 2012. The Big Doubt Over Facebook’s IPO. <em><a href="http://WSJ.com">WSJ.com</a></em>. Available at: <a href="http://online.wsj.com/article/SB10001424052702304868004577378122958515302.html">http://online.wsj.com/article/SB10001424052702304868004577378122958515302.html</a></p>
+<p>Vranica, S. &amp; Raice, S., 2012. The Big Doubt Over Facebook's IPO. <em><a href="http://WSJ.com">WSJ.com</a></em>. Available at: <a href="http://online.wsj.com/article/SB10001424052702304868004577378122958515302.html">http://online.wsj.com/article/SB10001424052702304868004577378122958515302.html</a></p>
 <hr>
 <!-- MASTERPLAN -->
 <!-- MASTERPLAN -->

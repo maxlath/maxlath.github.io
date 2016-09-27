@@ -4,15 +4,15 @@ _ = __.require 'lib', 'utils'
 
 part2 = newNode 'part2', null, '2'
 
-part2_1 = newNode "Foundation of Bernard Stiegler’s work: Indetermination of technique, pharmacology and organology", part2
+part2_1 = newNode "Foundation of Bernard Stiegler's work: Indetermination of technique, pharmacology and organology", part2
 
 part2_2 = newNode "Behavior sciences and marketing co-developments: the rush for motivation and the consumerist era", part2
-part2_2_1 = newNode "Freud’s core concept: the libidinal economy", part2_2
-part2_2_2 = newNode "Freud’s American nephew: Edward Bernays", part2_2
+part2_2_1 = newNode "Freud's core concept: the libidinal economy", part2_2
+part2_2_2 = newNode "Freud's American nephew: Edward Bernays", part2_2
 part2_2_2_1 = newNode "The birth of Public Relations", part2_2_2
-part2_2_2_2 = newNode " “Without mind control to minimize cleavages, democracy would be chaos”", part2_2_2
+part2_2_2_2 = newNode " "Without mind control to minimize cleavages, democracy would be chaos"", part2_2_2
 part2_2_3 = newNode "From a scientific approach of propaganda to the birth of modern marketing: the science of motivation", part2_2
-part2_2_4 = newNode "Problems inherent to marketing’s scientific approach of its influence on behaviors: playing with the system limits", part2_2
+part2_2_4 = newNode "Problems inherent to marketing's scientific approach of its influence on behaviors: playing with the system limits", part2_2
 part2_2_5 = newNode "The Birth of Consumer Behavior and consumerism", part2_2
 part2_2_5_1 = newNode "From Consumerism to mass consumerism", part2_2_5
 
