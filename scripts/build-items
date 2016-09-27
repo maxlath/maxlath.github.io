@@ -1,5 +1,7 @@
 #!/usr/bin/env coffee
 
+[ fast ] = process.argv.slice(2)
+
 { sectionsList, contentFile } = require 'config'
 buildItem = require '../lib/build_item'
 _ = require '../lib/utils'
@@ -27,4 +29,5 @@ isContentFile = (file)-> file.split('/').slice(-1)[0] is contentFile
 getFolderPath = (file)-> file.split('/')[0...-1].join('/')
 
 buildItems()
-setTimeout _.persistData, 10000
+if fast then _.warn 'fast mode: not compiling rss'
+else setTimeout _.persistData, 10000

@@ -44,8 +44,6 @@ module.exports = ->
 
     .join '\n'
 
-  console.log 'innerTagsListHtml'.red, innerTagsListHtml
-
   tagsListHtml = "<ul>#{innerTagsListHtml}</ul>"
 
   tagsListHtmlWithGraph = """

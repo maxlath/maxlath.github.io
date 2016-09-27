@@ -10,6 +10,9 @@ _ = require '../lib/utils'
 marked = require 'marked'
 buildTagsList = require '../lib/build_tags_list'
 
+[ fast ] = process.argv.slice(2)
+if fast then _.warn 'fast mode: not compiling tags'
+
 itemsListsContent = sectionsList
   .map (section)->
     # build list
@@ -21,7 +24,7 @@ itemsListsContent = sectionsList
     return wrapList html, 2, data, "/#{section}"
   .join '\n'
 
-tagsListHtml = buildTagsList()
+unless fast then tagsListHtml = buildTagsList()
 
 # HOME
 index = _.readFileSync './content.md'
@@ -34,7 +37,7 @@ head = buildHead data
 index = updateFile index, head, 'head'
 index = updateFile index, tabs, 'tabs'
 index = updateFile index, itemsListsContent, 'itemslists'
-index = updateFile index, tagsListHtml, 'tags'
+unless fast then index = updateFile index, tagsListHtml, 'tags'
 index = updateFile index, links, 'links'
 index = updateFile index, about, 'about', true
 

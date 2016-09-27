@@ -1,5 +1,6 @@
-./scripts/build-items &&
-./scripts/build-lists &&
+./scripts/build-items $1 &&
+./scripts/build-lists $1 &&
 ./scripts/build-css &&
-# ./scripts/build-rss
+# compile only when build is run without option: especially "fast"
+[ -z $1 ] && ./scripts/build-rss
 coffee -c -o assets/js src/coffee/index.coffee
