@@ -11,6 +11,6 @@
     font-weight: bold;
   }
   .rank{
-    @include flex(0, 0, 80px)
+    flex: 0 0 80px;
   }
 }

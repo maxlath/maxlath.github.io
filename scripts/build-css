@@ -1,4 +1,18 @@
 #!/usr/bin/env sh
-./scripts/compile-scss
-cat src/css/*css |cleancss -o assets/css/bundle.css
+timestamp=$(date +%s)
+tmpbuild=/tmp/build-${timestamp}.css
+
+echo 'concatenating css files...'
+cat src/css/*css > $tmpbuild
+node-sass src/scss/main.scss >> $tmpbuild
+
+# Run only when build is run without option: especially "fast".
+# postcss allows to have the same input and output file
+# sparing us some if/else mess
+[ -z $1 ] && echo 'autoprefixing css files...' &&
+postcss --use autoprefixer -o $tmpbuild $tmpbuild
+
+echo 'cleaning css files...'
+cat $tmpbuild |cleancss -o assets/css/bundle.css
+
 echo 'assets/css/bundle.css: ok'

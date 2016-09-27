@@ -85,7 +85,7 @@ li{
   }
   .date{
     margin-left: auto;
-    @include flex(0, 0);
+    flex: 0 0 auto;
     padding-right: 0.4em;
   }
 }

@@ -8,5 +8,5 @@ Hardly usable by anyone else I'm afraid: little to no documentation, built artif
 
 
 TODO:
-* add post-css compilation for cross browser compatibility
 * actually write Time-Capsule project page
+

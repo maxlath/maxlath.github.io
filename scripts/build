@@ -1,6 +1,11 @@
+# run in parallel
+./scripts/build-css $1 &
+coffee -c -o assets/js src/coffee/index.coffee &
+
+# required to run sequentially
 ./scripts/build-items $1 &&
 ./scripts/build-lists $1 &&
-./scripts/build-css &&
 # compile only when build is run without option: especially "fast"
 [ -z $1 ] && ./scripts/build-rss
-coffee -c -o assets/js src/coffee/index.coffee
+
+echo 'done'

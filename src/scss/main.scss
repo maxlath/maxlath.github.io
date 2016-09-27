@@ -66,7 +66,7 @@ hr{
   }
   /*Small screens*/
   @media screen and (max-width: $small-screen) {
-    @include flex-direction(column);
+    flex-direction: column;
   }
 }
 
