@@ -2,6 +2,7 @@
 git push origin src &&
 git branch -D master &&
 git checkout -b master &&
+mkdir assets/css &&
 npm run build &&
 git add index.html rss.xml tags/**/*html projects/**/*html posts/**/*html articles/**/*html assets/css/bundle.css assets/js/index.js -f &&
 git commit -m 'updated build' &&
