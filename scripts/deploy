@@ -2,9 +2,12 @@
 git push origin src &&
 git branch -D master &&
 git checkout -b master &&
-mkdir assets/css &&
+mkdir -p assets/css &&
 npm run build &&
 git add index.html rss.xml tags/**/*html projects/**/*html posts/**/*html articles/**/*html assets/css/bundle.css assets/js/index.js -f &&
+# Somehow needed to add the paper-ethical-marketing parts
+git add articles/**/*html -f &&
 git commit -m 'updated build' &&
 git push origin --force master &&
-git checkout src
+git checkout src &&
+mkdir -p assets/css
