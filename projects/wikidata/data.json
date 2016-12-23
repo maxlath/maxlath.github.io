@@ -1,0 +1,14 @@
+{
+  "id": "wikidata",
+  "title": "wikidata",
+  "subtitle": "The Rosetta Stone of the Web",
+  "description": "I'm a proud contributor of the awesome [Wikidata](https://wikidata.org/) project, for which I have developed a few tools",
+  "cleanDesc": "I'm a proud contributor of the awesome Wikidata project, for which I have developed a few tools",
+  "image": "/assets/img/wikidata-large.jpg",
+  "date": "2016-12-23T18:08:32.664Z",
+  "parent": "projects",
+  "partials": [],
+  "format": "markdown",
+  "tags": ["wikidata", "openknowledge", "js", "cli"],
+  "lang": "en"
+}
