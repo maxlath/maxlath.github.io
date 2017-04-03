@@ -12,6 +12,10 @@ It will then re-open at this periodicity until the end of times. Or until you un
     <i class="fa fa-chrome"></i>
     <span>Chrome</span>
   </a>
+  <a href="http://github.com/maxlath/time-capsule" target="_blank">
+    <i class="fa fa-github"></i>
+    <span>Github</span>
+  </a>
 </div>
 
 <h3>Why would I need this?</h3>
