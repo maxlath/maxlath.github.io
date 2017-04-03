@@ -1,0 +1,25 @@
+#time-capsule{
+  ul.bullet-list{
+    list-style-type: disc;
+    li{
+      list-style-type: disc;
+      list-style-position: outside;
+      margin-left: 1em;
+      padding-left: 1em;
+      padding-bottom: 1em;
+      ul{
+        padding-top: 1em;
+      }
+    }
+  }
+}
+
+.marketplaces{
+  a{
+    @include text-hover($light-blue)
+  }
+  .fa{
+    font-size: 3em;
+    padding: 1em;
+  }
+}
