@@ -2,10 +2,16 @@ The best person to send you links matching your interests is a time traveling ve
 
 It will then re-open at this periodicity until the end of times. Or until you un-bookmark it.
 
-<h3>Coming soon on:</h3>
+<h3>Extension available on:</h3>
 <div class="marketplaces">
-  <a href="https://addons.mozilla.org/en-US/addon/time-capsule"><i class="fa fa-firefox"></i></a>
-  <i class="fa fa-chrome"></i>
+  <a href="https://addons.mozilla.org/en-US/addon/time-capsule" target="_blank">
+    <i class="fa fa-firefox"></i>
+    <span>Firefox</span>
+  </a>
+  <a href="https://chrome.google.com/webstore/detail/time-capsule/mmpajmbpehdbemfblpmkfmmdampljkdi" target="_blank">
+    <i class="fa fa-chrome"></i>
+    <span>Chrome</span>
+  </a>
 </div>
 
 <h3>Why would I need this?</h3>
