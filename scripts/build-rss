@@ -44,7 +44,7 @@ for el in arr
   { key, value } = el
   { title, description, cleanDesc, guid, tags, date, parent } = value
   # filter-out articles sub parts
-  if parent in ['articles', 'posts']
+  if parent in ['articles', 'posts', 'projects']
     feed.item
       title:  title
       description: cleanDesc or description
