@@ -13,6 +13,7 @@ node-sass src/scss/main.scss >> $tmpbuild
 postcss --use autoprefixer -o $tmpbuild $tmpbuild
 
 echo 'cleaning css files...'
+mkdir -p assets/css
 cat $tmpbuild |cleancss -o assets/css/bundle.css
 
 echo 'assets/css/bundle.css: ok'

@@ -1,4 +1,6 @@
 #!/usr/bin/env zsh
+set -e
+
 git push origin src &&
 git checkout -B master &&
 mkdir -p assets/css &&
