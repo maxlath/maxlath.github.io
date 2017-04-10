@@ -1,4 +1,6 @@
 $footerMaxWidth: 45em;
+$linksColor: rgba($dark-grey, 0.9);
+
 footer{
   #links{
     max-width: $footerMaxWidth;
@@ -20,8 +22,15 @@ footer{
         font-weight: bold;
         white-space: nowrap;
       }
-      color: rgba($dark-grey, 0.9);
+      color: $linksColor;
       @include transition(color);
+      &.mastodon{
+        img{
+          height: 3.5em;
+          background-color: $linksColor;
+          @include transition(background-color);
+        }
+      }
       &:hover{
         &.inventory{ color: #FFD402; }
         &.gratipay{ color: #FE313A; }
@@ -37,7 +46,12 @@ footer{
         &.framasphere{ color: #999999; }
         &.linkedin{ color: #1C87BD; }
         &.stackoverflow{ color: #F48024; }
-        &.pgp{ color: #111; }
+        &.mastodon{
+          color: #2b90d9;
+          img{
+            background-color: #2b90d9;
+          }
+        }
         // GROW ICONS
         // .fa, span{
           // @include transition(font-size, 0.4s);
