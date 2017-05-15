@@ -18,8 +18,10 @@ module.exports = (data)->
     _.warn 'missing image', id
     image = defaultImage
 
-  # proxying the image there to work around Github 302 answers
-  image = "http://cdn.filter.to/1000x1000/#{image}"
+  # rewrite the image there to avoid Github 302 answers
+  image = image
+    .replace 'https://github.com' ,'https://raw.githubusercontent.com'
+    .replace '/raw/' , '/'
 
   title = escapeHtml title
 
