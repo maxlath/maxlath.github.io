@@ -6,7 +6,7 @@ It will then re-open at this periodicity until the end of times. Or until you un
 <div class="marketplaces">
   <a href="https://addons.mozilla.org/en-US/addon/time-capsule" target="_blank">
     <i class="fa fa-firefox"></i>
-    <span>Firefox</span>
+    <span>Firefox</span><span class="precision">(as soon as validated......)</span>
   </a>
   <a href="https://chrome.google.com/webstore/detail/time-capsule/mmpajmbpehdbemfblpmkfmmdampljkdi" target="_blank">
     <i class="fa fa-chrome"></i>
