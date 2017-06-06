@@ -4,9 +4,11 @@
 
 <h3><a name="EN" href="#EN">Time Capsule [EN]</a></h3>
 
-The best person to send you links matching your interests is a time-traveling version of yourself: <strong>create a Time Capsule by choosing when the current tab should be re-opened</strong>; this will bookmark the current tab, and program to re-open it in the future, according to the choosen periodicity, be it an hour, a day, a month, a year, or a decade!
+The best person to send you links matching your interests is a time-traveling version of yourself: <strong>create a Time Capsule by choosing when the current web page should be re-opened</strong>; this will bookmark the current tab, and program to re-open it in the future, according to the choosen periodicity, be it an hour, a day, a month, a year, or a decade!
 
 It will then re-open at this periodicity until the end of times. Or until you un-bookmark it.
+
+<img src="https://cloud.githubusercontent.com/assets/1596934/26828135/5223ec72-4ac0-11e7-9099-85bd92414565.gif" alt="popup select demo">
 
 <h3>Extension available on:</h3>
 <div class="marketplaces">
@@ -68,9 +70,11 @@ Sending links to your past self isn't possible yet, but could come in a future v
   <img src="https://github.com/maxlath/time-capsule/raw/master/img/banners/time-capsule-on-dark-sky-with-title-and-subtitle.jpg">
   <h3>Time Capsule [FR]</h3>
 </a>
-La personne la plus à même de vous envoyer des liens correspondants à vos intérets est une autre version de vous même voyageant dans le temps : <strong>créez une capsule temporelle en choisissant quand la page actuelle devrait être réouverte</strong>; cette page sera alors ajouté aux marque-pages et programmée pour être ré-ouverte quelque part dans le futur, selon la périodicité choisie, que ce soit une heure, un jour, un mois, une année, ou une décennie !
+La personne la plus à même de vous envoyer des liens correspondants à vos intérets est une autre version de vous même voyageant dans le temps : <strong>créez une capsule temporelle en choisissant quand la page web actuelle devrait être réouverte</strong>; cette page sera alors ajouté aux marque-pages et programmée pour être ré-ouverte quelque part dans le futur, selon la périodicité choisie, que ce soit une heure, un jour, un mois, une année, ou une décennie !
 
 Cette page se ré-ouvrira dès lors à cette périodicité jusqu'à la fin des temps ! Ou jusqu'à ce que vous désactiviez le marque-page.
+
+<img src="https://cloud.githubusercontent.com/assets/1596934/26828135/5223ec72-4ac0-11e7-9099-85bd92414565.gif" alt="popup select demo">
 
 <h3>Extension disponible sur:</h3>
 <div class="marketplaces">
