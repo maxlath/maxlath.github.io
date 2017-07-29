@@ -5,7 +5,7 @@
   <main>
     <!-- TABS --><!-- TABS -->
     <div id="about">
-      <img id="pic" src="/assets/img/200-maxlath.jpg" />
+      <img id="pic" src="/assets/img/200-maxlath-black-and-white.jpg" />
       <a href="#about" name="#about"><h1>Maxime Lathuilière</h1></a>
       <!-- ABOUT --><!-- ABOUT -->
     </div>
