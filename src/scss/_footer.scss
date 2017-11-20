@@ -76,7 +76,10 @@ footer{
 
 #about{
   margin: 0 auto;
-  max-width: 35em;
+  max-width: 50em;
+  p{
+    text-align: left;
+  }
   /*Small screens*/
   @media screen and (max-width: $small-screen) {
     max-width: 100%;

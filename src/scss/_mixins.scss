@@ -47,3 +47,12 @@ $shy-opacity: 0.6;
   // see http://stackoverflow.com/a/13427256/3324977
   text-shadow: 2px 0 0 $color, -2px 0 0 $color, 0 2px 0 $color, 0 -2px 0 $color, 1px 1px $color, -1px -1px 0 $color, 1px -1px 0 $color, -1px 1px 0 $color;
 }
+
+@mixin position($position, $top:null, $right:null, $bottom:null, $left:null, $z:null){
+  position: $position;
+  @if $top { top: $top; }
+  @if $right { right: $right; }
+  @if $bottom { bottom: $bottom; }
+  @if $left { left: $left; }
+  @if $z { z-index: $z; }
+}

@@ -33,13 +33,15 @@
   }
   @import 'preview';
   /*Small screens*/
-  @media screen and (max-width: $small-screen) {
+  @media screen and (max-width: $very-small-screen) {
    width: 100%;
   }
   /*Large screens*/
-  @media screen and (min-width: $small-screen) {
+  @media screen and (min-width: $very-small-screen) {
     padding: 0.5em;
-    width: 30em;
+    ul{
+      @include display-flex(row, center, center, wrap);
+    }
   }
 }
 

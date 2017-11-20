@@ -9,36 +9,45 @@ li{
       @include transition(box-shadow);
       @include inner-shadow;
     }
+  }
+  margin-bottom: 1em;
+  // max-width: $previewMaxWidth;
+  position: relative;
+  width: 22em;
+  .preview-header{
+    opacity: 0.8;
+    @include transition(opacity);
+    @include position(absolute, 0, 0, 0, 0);
+    @include display-flex(column, center, center);
+    background-color: rgba(black, 0.8);
+    .details{
+      opacity: 0;
+      @include transition(opacity);
+      @include display-flex(column, center, center);
+      color: white;
+    }
+  }
+  &:hover{
     .preview-header{
-      @include transition(background-color);
-      background-color: darken($previewHeaderBg, 10%);
+      opacity: 1;
+      background-color: rgba(black, 0.95);
+    }
+    .details{
+      opacity: 1;
     }
   }
   /*Small screens*/
-  @media screen and (max-width: $small-screen) {
-    margin-bottom: 2em;
-    max-width: 100%;
-  }
-  /*Large screens*/
-  @media screen and (min-width: $small-screen) {
-    margin-bottom: 1em;
-    max-width: $previewMaxWidth;
+  @media screen and (max-width: 730px) {
+    width: 90%;
   }
 }
 
 .preview-cover{
   @include radius-top;
-  margin-top: 0.5em;
   background-size: cover;
   background-position: center center;
   @include display-flex(column, center, center);
   height: 15em;
-  // width: $previewMaxWidth;
-  // margin: 0 auto;
-  /*Small screens*/
-  @media screen and (max-width: $small-screen) {
-    // height: 40em;
-  }
 }
 
 .preview-header{
@@ -55,11 +64,11 @@ li{
     // prevent the title from messing with the date
     margin: 0 auto;
     /*Small screens*/
-    @media screen and (max-width: $small-screen) {
+    @media screen and (max-width: $very-small-screen) {
       max-width: 100%;
     }
     /*Large screens*/
-    @media screen and (min-width: $small-screen) {
+    @media screen and (min-width: $very-small-screen) {
       max-width: 19em;
     }
   }
@@ -84,7 +93,6 @@ li{
     text-align: left;
   }
   .date{
-    margin-left: auto;
     flex: 0 0 auto;
     padding-right: 0.4em;
   }
