@@ -6,7 +6,7 @@ ul#tabs{
   width: 100%;
   margin: 0 auto;
   position: relative;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   li{
     flex: 1 0 0;
     display: flex;
@@ -75,6 +75,13 @@ ul#tabs{
     }
     .legend{
       display: none;
+    }
+  }
+  /*Very Small screens*/
+  @media screen and (max-width: $very-very-small-screen) {
+    .title{
+      font-weight: normal;
+      font-size: 0.8rem;
     }
   }
 }
