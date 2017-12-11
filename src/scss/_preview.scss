@@ -3,17 +3,15 @@ $previewHeaderColor: white;
 $previewHeaderBg: #444;
 
 li{
-  margin: 1.5em auto;
+  margin: 0.5em;
   &:hover{
     .preview-cover{
       @include transition(box-shadow);
       @include inner-shadow;
     }
   }
-  margin-bottom: 1em;
-  // max-width: $previewMaxWidth;
   position: relative;
-  width: 22em;
+  width: 20em;
   .preview-header{
     opacity: 0.8;
     @include transition(opacity);
