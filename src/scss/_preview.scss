@@ -12,24 +12,6 @@ li{
   }
   position: relative;
   width: 20em;
-  .preview-header{
-    opacity: 0.8;
-    @include transition(opacity);
-    @include position(absolute, 0, 0, 0, 0);
-    @include display-flex(column, center, flex-start);
-    background-color: rgba(black, 0.8);
-    .core{
-      // Using a margin instead of centering
-      // so that all titles appear on the same line
-      margin-top: 30%;
-    }
-    .details{
-      opacity: 0;
-      @include transition(opacity);
-      @include display-flex(column, center, center);
-      color: white;
-    }
-  }
   &:hover{
     .preview-header{
       opacity: 1;
@@ -54,18 +36,21 @@ li{
 }
 
 .preview-header{
+  @include position(absolute, 0, 0, 0, 0);
+  @include display-flex(column, center, flex-start);
   @include radius-bottom;
+  @include transition(opacity);
+  opacity: 0.8;
   color: $previewHeaderColor;
-  // padding: 0 0.5em 0 0.5em;
-  background-color: $previewHeaderBg;
-  position: relative;
+  background-color: rgba(black, 0.8);
   .core{
-    padding: 0.6em 1em 0.4em 1em;
+    padding: 0.5em;
+    @include display-flex(column, center, flex-end);
+    flex: 1 0 auto;
   }
   .title{
     font-size: 1.4em;
-    // prevent the title from messing with the date
-    margin: 0 auto;
+    margin: auto;
     /*Small screens*/
     @media screen and (max-width: $very-small-screen) {
       max-width: 100%;
@@ -78,7 +63,6 @@ li{
   .subtitle{
     font-weight: bold;
     font-size: 0.8em;
-    max-width: 50%;
     color: darken($previewHeaderColor, 30%);
   }
   .description{
@@ -86,6 +70,10 @@ li{
     color: darken($previewHeaderColor, 50%);
   }
   .details{
+    opacity: 0;
+    @include transition(opacity);
+    @include display-flex(column, center, center);
+    color: white;
     max-width: 100%;
     @include display-flex(row, baseline, space-between);
     font-size: 0.7em;
