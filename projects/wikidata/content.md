@@ -12,3 +12,5 @@ I'm also the developer of a few wikidata tools:
 * [wikidata-subset-search-engine](https://github.com/inventaire/wikidata-subset-search-engine): Tools to setup an ElasticSearch instance fed with subsets of Wikidata
 * [wikidata-lang](https://github.com/inventaire/wikidata-lang): a JSON/JS index of 183 languages accessible either by their 2-letters language code or Wikidata Qid
 * [import-wikidata-dump-to-couchdb](https://github.com/maxlath/import-wikidata-dump-to-couchdb): Import a subset or a full Wikidata dump into a CouchDB database
+
+and a web hub based on Wikidata: [Hub](https://tools.wmflabs.org/hub/)
