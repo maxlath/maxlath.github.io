@@ -1,10 +1,10 @@
 ## Contexte
-Depuis quelque temps, les quais de métros de Lyon (et d'ailleurs) sont envahis d'écrans de pub vidéos : "*les 13 stations les plus fréquentées [sont] dotées de près de 100 totems digitaux* [sic]  *exclusivement installés sur les quais*", proposant ainsi "***une offre innovante et digitale qui s’adapte aux nouvelles attentes des usagers***" [d'après l'heureux exploitant](http://www.clearchannel.fr/presse/le-sytral-renouvelle-sa-confiance-a-clear-channel-pour-7-ans/). Pourtant, quand on leur demande vraiment aux *"usagers"*, [leurs attentes sont tout à fait différentes](https://www.20minutes.fr/paris/1968867-20161125-paris-vers-suppression-ecrans-publicitaires-metro). Devant cette montée en puissance de la capture attentionnelle des pécores (oui parce que bizarrement, il n'y a jamais d'écran de pub vidéo dans les salles d'attente 1ère classe, *quid* des *nouvelles attentes des usagers* ?!?), et en absence de toute possibilité de débat démocratique pour signaler notre opposition, il nous faut trouver des solutions pour **bloquer ces messages commerciaux non-sollicités** : [certains recouvrent](https://antipub.org/recouvrement-de-publicite/), mais ce type d'action prend du temps et de l'organisation, difficile de faire ça au quotidien donc. Je souhaitais donc proposer une méthode moins efficace, mais plus facile à mettre en œuvre par tout un chacun au quotidien, et ne nécessitant aucun matériel : plus *scalable* ;)
+Depuis quelque temps, les quais de métros de Lyon (et d'ailleurs) sont envahis d'écrans de pub vidéos : "*les 13 stations les plus fréquentées [sont] dotées de près de 100 totems digitaux* [sic]  *exclusivement installés sur les quais*", proposant ainsi "***une offre innovante et digitale qui s’adapte aux nouvelles attentes des usagers***" [d'après l'heureux exploitant](http://www.clearchannel.fr/presse/le-sytral-renouvelle-sa-confiance-a-clear-channel-pour-7-ans/). Pourtant, quand on leur demande vraiment aux *"usagers"*, [leurs attentes sont tout à fait différentes](https://www.20minutes.fr/paris/1968867-20161125-paris-vers-suppression-ecrans-publicitaires-metro). Devant cette montée en puissance de la capture attentionnelle des pécores (oui parce que bizarrement, il n'y a jamais d'écran de pub vidéo dans les salles d'attente 1ère classe, *quid* des *nouvelles attentes des usagers* ?!?), et en absence de toute possibilité de débat démocratique pour signaler notre opposition, il nous faut trouver des solutions pour **bloquer ces messages commerciaux non-sollicités** : [certains recouvrent](https://antipub.org/recouvrement-de-publicite/), mais ce type d'action prend du temps et de l'organisation, difficile de sortir sont rouleau de papier au quotidien. Je souhaitais donc proposer une méthode moins efficace, mais plus facile à mettre en œuvre par tout un chacun au quotidien, et ne nécessitant aucun matériel : plus *scalable* ;)
 
 ## Tutoriel
-### Mettons nous en situation
+### Pour cela, mettons nous en situation
 ![step 1](ad-block-tut_step1.gif)
-Vous attendez le métro, et une pub vient pourvoir *aux nouvelles attentes des usagers* en vous délivrant ses 700W de flash lumineux dans la gueule : non-sollicité, inratable, et il en vient de tous les cotés. Dans l'espoir d'y échapper, vous vous mettez à regarder le sol, dernier espace encore vierge de messages abrutissants. Pour le moment.
+Vous attendez le métro, et une pub vient pourvoir *aux nouvelles attentes des usagers* en vous délivrant ses 700W de flash lumineux dans la gueule : non-sollicité mais inratable, et il en vient de tous les cotés. Dans l'espoir d'y échapper, vous vous mettez à regarder le sol, dernier espace encore vierge de messages abrutissants. Pour le moment.
 
 ### Option 1 : Sortez couvert
 ![step 2](ad-block-tut_step2.gif)
@@ -21,7 +21,7 @@ Vous n'auriez pas un parapluie sur vous par hasard ? Les petits parapluies plian
 
 ### Faites passer le message
 ![step 5](ad-block-tut_step5.gif)
-Mettre sont corps en opposition pour protéger les autres d'une agression, symboliquement c'est beau, non ? :') Profitez de l'occasion pour ouvrir la conversation sur le sujet !
+Mettre son corps en opposition pour protéger les autres d'une agression, symboliquement c'est beau, non ? :') Profitez de l'occasion pour ouvrir la conversation sur le sujet !
 
 ### Limites
 ![step 6](ad-block-tut_step6.gif)
