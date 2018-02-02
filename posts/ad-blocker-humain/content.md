@@ -32,7 +32,7 @@ Une fois le métro arrivé, on ne peut pas demander aux bloqueurs de pub de gard
 
 ### Quelques lectures
 * [stop-pub.video - Appel à mobilisation le 3 février 2018](https://stop-pub.video)
-* [Manifeste contre le système publicitaire](http://antipub.org/asso/manifeste-contre-le-systeme-publicitaire/)
+* [pétition contre les écrans publicitaires dans les gares SNCF](https://petition.antipub.org/petition/5/)
 * Sur Lyon : [Collectif Plein La Vue](http://pleinlavue.org)
 * Sur le Web, le meilleur Ad&Tracker Blocker : [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) (je partage que le lien pour l'extension Firefox, et non Chrome : à quoi ça sert d'essayer de bloquer les trackers quand votre navigateur est lui-même construit par le plus grand vendeur de pub du web ?)
 * Si vous avez un peu de temps : il y a de ça quelques années, j'avais tenté de [penser un système alternatif à la pub pour partager l'information sur les ressources dans une société connectée](http://maxlath.eu/articles/paper-ethical-marketing/) [en]
