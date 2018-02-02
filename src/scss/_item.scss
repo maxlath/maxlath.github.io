@@ -1,3 +1,10 @@
 main.item{
   text-align: left;
 }
+
+#ad-blocker-humain{
+  #lectures + ul, #lectures + ul li{
+    list-style-type: initial;
+    margin-left: 0.5em;
+  }
+}

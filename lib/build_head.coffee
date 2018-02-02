@@ -72,7 +72,7 @@ module.exports = (data)->
   sub = cleanSub or subtitle
   desc = cleanDesc or description
 
-  if sub? and desc? then description = "#{sub} | #{desc}"
+  if sub? and desc? and sub isnt desc then description = "#{sub} | #{desc}"
   else description = sub or desc
 
   if description?
