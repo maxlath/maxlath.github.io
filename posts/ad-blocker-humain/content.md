@@ -19,17 +19,16 @@ Vous avez quelques minutes à attendre sur ce quai, et il se trouve que **l'endr
 ![step 4](ad-block-tut_step4.gif)
 Vous n'auriez pas un parapluie sur vous par hasard ? Les petits parapluies pliants qu'on peut garder dans son sac font parfaitement l'affaire, l'important c'est de prendre de la place.
 
-### Faites passer le message
+### Faites passer le message !
 ![step 5](ad-block-tut_step5.gif)
 Mettre son corps en opposition pour protéger les autres d'une agression, symboliquement c'est beau, non ? :') Profitez de l'occasion pour ouvrir la conversation sur le sujet !
+
+Je suis curieux de voir jusqu'où ce type d'action peut aller : imaginons que tout le monde s'y mette et que les exploitants commencent à considérer cela comme un vrai problème, comment réagiront-ils ? Verra-t-on pousser sur ces écrans des petits pics comme on repousse les pigéons et les SDFs ? Sera-t-on verbalisé pour stationnement gênant la récolte attentionnelle ? Pour le savoir, il n'y a qu'un moyen : essayer !
 
 ### Limites
 ![step 6](ad-block-tut_step6.gif)
 
 Une fois le métro arrivé, on ne peut pas demander aux bloqueurs de pub de garder leur poste (on va pas y passer la journée...), les flashs anxiogènes reprennent : c'est la plus grosse limite de ce système, c'est du très temporaire... Pour du plus long terme, il n'y a que l'action politique : le contrat sur les écrans dans le métro de Lyon est signé pour 7 ans donc ça risque d'être compliqué à faire sauter, mais **pour éviter que ces abominations arrivent à la surface, ça se joue maintenant** avec la concertation sur le Règlement Local de Publicité : **c'est le moment de [signez la pétition](http://pleinlavue.org/)** et d'**[écrire à nos élus](http://pleinlavue.frama.io/generateur-d-email/)** !
-
-### Réaction
-Je suis curieux de voir jusqu'où ce type d'action peut aller : imaginons que tout le monde s'y mette et que les exploitants commencent à considérer cela comme un vrai problème, comment réagiront-ils ? Verra-t-on pousser sur ces écrans des petits pics comme on repousse les pigéons et les SDFs ? Sera-t-on verbalisé pour stationnement gênant la récolte attentionnelle ? Pour le savoir, il n'y a qu'un moyen : faites tourner !
 
 ### Quelques lectures
 * [stop-pub.video - Appel à mobilisation le 3 février 2018](https://stop-pub.video)
