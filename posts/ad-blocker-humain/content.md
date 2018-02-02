@@ -9,7 +9,7 @@ Vous attendez le métro, et une pub vient pourvoir *aux nouvelles attentes des u
 ### Option 1 : Sortez couvert
 ![step 2](ad-block-tut_step2.gif)
 * **Avantage** : réduit les maux de tête
-* **Inconvénient** : on voit quand même vachement moins bien avec des lunettes de soleil en intérieur, et ya toujours ce p**** d'écran qui scintille. Sauf à vous équipez de [lunettes spécialement prévu à cet effet](https://www.youtube.com/watch?v=JI8AMRbqY6w).
+* **Inconvénient** : on voit quand même vachement moins bien avec des lunettes de soleil en intérieur, et ya toujours ce p\*\*\*\*\* d'écran qui scintille. Sauf à vous équiper de [lunettes spécialement prévues à cet effet](https://www.youtube.com/watch?v=JI8AMRbqY6w).
 
 ### Option 2 : L'Ad-Blocker Humain
 ![step 3](ad-block-tut_step3.gif)
