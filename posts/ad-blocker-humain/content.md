@@ -4,14 +4,14 @@ Depuis quelque temps, les quais de métros de Lyon (et d'ailleurs) sont envahis 
 ## Tutoriel
 ### Mettons nous en situation
 ![step 1](ad-block-tut_step1.gif)
-Vous attendez le métro, et une pub vient pourvoir *aux nouvelles attentes des usagers* en vous délivrant ses 700W de flash lumineux dans la gueule : non-sollicité, inratable, et il en vient de tous les cotés. Dans l'espoir d'y échapper, vous vous mettez à regarder le sol, dernière espace encore vierge de messages abrutissants. Pour le moment.
+Vous attendez le métro, et une pub vient pourvoir *aux nouvelles attentes des usagers* en vous délivrant ses 700W de flash lumineux dans la gueule : non-sollicité, inratable, et il en vient de tous les cotés. Dans l'espoir d'y échapper, vous vous mettez à regarder le sol, dernier espace encore vierge de messages abrutissants. Pour le moment.
 
-### Sortez couvert
+### Option 1 : Sortez couvert
 ![step 2](ad-block-tut_step2.gif)
 * **Avantage** : réduit les maux de tête
 * **Inconvénient** : on voit quand même vachement moins bien avec des lunettes de soleil en intérieur, et ya toujours ce p**** d'écran qui scintille. Sauf à vous équipez de [lunettes spécialement prévu à cet effet](https://www.youtube.com/watch?v=JI8AMRbqY6w).
 
-### L'Ad-Blocker Humain
+### Option 2 : L'Ad-Blocker Humain
 ![step 3](ad-block-tut_step3.gif)
 Vous avez quelques minutes à attendre sur ce quai, et il se trouve que **l'endroit où l'on voit le moins ces maudits écrans c'est en ce mettant juste devant !** Autre intéret, et non des moindres : en mettant ainsi votre corps en opposition, vous jouer le rôle de **bloqueur de pub pour les autres !**
 
@@ -26,11 +26,11 @@ Mettre sont corps en opposition pour protéger les autres d'une agression, symbo
 ### Limites
 ![step 6](ad-block-tut_step6.gif)
 
-Une fois le métro arrivé, on ne peut pas demander aux bloqueurs de pub de garder leur poste (on va pas y passer la journée...), les flashs anxiogènes reprennent : c'est la plus grosse limite de ce système, c'est du très temporaire... Pour du plus long terme, il n'y a que l'action politique : le contrat sur les écrans dans le métro de Lyon est signé pour 7 ans donc ça risque d'être compliqué à faire sauter, mais pour pas que ces abominations arrivent à la surface, **ça se joue maintenant** avec la concertation sur le Règlement Local de Publicité : **c'est le moment de [signez la pétition](http://pleinlavue.org/)** et d'**[écrire à nos élus](http://pleinlavue.frama.io/generateur-d-email/)** !
+Une fois le métro arrivé, on ne peut pas demander aux bloqueurs de pub de garder leur poste (on va pas y passer la journée...), les flashs anxiogènes reprennent : c'est la plus grosse limite de ce système, c'est du très temporaire... Pour du plus long terme, il n'y a que l'action politique : le contrat sur les écrans dans le métro de Lyon est signé pour 7 ans donc ça risque d'être compliqué à faire sauter, mais **pour éviter que ces abominations arrivent à la surface, ça se joue maintenant** avec la concertation sur le Règlement Local de Publicité : **c'est le moment de [signez la pétition](http://pleinlavue.org/)** et d'**[écrire à nos élus](http://pleinlavue.frama.io/generateur-d-email/)** !
 
-### Lectures
+### Quelques lectures
 * [stop-pub.video - Appel à mobilisation le 3 février 2018](https://stop-pub.video)
 * [Manifeste contre le système publicitaire](http://antipub.org/asso/manifeste-contre-le-systeme-publicitaire/)
 * Sur Lyon : [Collectif Plein La Vue](http://pleinlavue.org)
-* Sur le Web, le meilleur Ad&Tracker Blocker : [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) (je partage que le lien Firefox et non Chrome : ça sert à rien de bloquer les trackers sur un navigateur construit par le plus grand vendeur de pub du web, si ?)
+* Sur le Web, le meilleur Ad&Tracker Blocker : [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) (je partage que le lien pour l'extension Firefox, et non Chrome : à quoi ça sert d'essayer de bloquer les trackers quand votre navigateur est lui-même construit par le plus grand vendeur de pub du web ?)
 * Si vous avez un peu de temps : il y a de ça quelques années, j'avais tenté de [penser un système alternatif à la pub pour partager l'information sur les ressources dans une société connectée](http://maxlath.eu/articles/paper-ethical-marketing/) [en]
