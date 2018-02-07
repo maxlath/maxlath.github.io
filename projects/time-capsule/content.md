@@ -95,7 +95,7 @@ Cette page se ré-ouvrira dès lors à cette périodicité jusqu'à la fin des t
 <h3>Pourquoi en auriez-vous besoin ?</h3>
 <ul class="bullet-list">
   <li>Avez-vous un dossier de marque-pages garni de 10 000 choses-que-vous-devez-absolument-garder-à-l'esprit mais que vous ne ré-ouvrez en fait jamais une fois ajouté ? Maintenant, si vous ne revenez pas à ces pages, ces pages reviennent à vous !</li>
-  <li><strong>Marche très bien pour explorer un nouveau domaine</strong> : découvrir un domain, un sujet, commence souvent par ouvrir beaucoup de liens, qui pour la plupart ne font pas sens pour le moment, mais feront probablement sens dans quelques mois (ça m'a beaucoup aidé dans mon apprentissage du développement web).</li>
+  <li><strong>Marche très bien pour explorer un nouveau domaine</strong> : découvrir un domaine, un sujet, commence souvent par ouvrir beaucoup de liens, qui pour la plupart ne font pas sens pour le moment, mais feront probablement sens dans quelques mois (ça m'a beaucoup aidé dans mon apprentissage du développement web).</li>
   <li>
     Marche très bien comme <strong>memo/alarme</strong>: "Pas le temps maintenant de m'occuper de [insérer la tâche sur laquelle vous souhaitez procrastiner], mais il me faudrait y repenser dans X heures/jours/etc."
   </li>
@@ -103,7 +103,7 @@ Cette page se ré-ouvrira dès lors à cette périodicité jusqu'à la fin des t
 
 <h3>Top fonctionnalités</h3>
 <ul class="bullet-list">
-  <li><strong>Périodicité ultra personnalisable</strong>: si les boutons proposez ne sont pas suffisant, cliquez sur la popup (pour qu'elle ait le focus) et commencez à taper le nombre précis de minutes/heures/jours/etc que vous souhaitez, suivie de la lettre correspondante à cette unité de temps (une aide devrait s'afficher pour vous y aider).</li>
+  <li><strong>Périodicité ultra personnalisable</strong>: si les boutons proposés ne sont pas suffisant, cliquez sur la popup (pour qu'elle ait le focus) et commencez à taper le nombre précis de minutes/heures/jours/etc que vous souhaitez, suivi de la lettre correspondante à cette unité de temps (une aide devrait s'afficher pour vous y aider).</li>
   <li><strong>Intégré aux marque-pages du navigateur</strong>, ce qui offre de multiples avantages :
     <ul>
       <li>Les pages que vous marquez ainsi apparaitront quand vous rechercherez une page depuis la barre d'adresse (si vous avez activé la fonctionnalité de suggestion de marque page de votre navigateur)</li>
