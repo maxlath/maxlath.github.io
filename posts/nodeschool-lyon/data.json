@@ -3,7 +3,7 @@
   "title": "NodeSchool Lyon",
   "subtitle": null,
   "description": "we are doing a NodeSchool every Tuesday at La M[Y]NE, join us!",
-  "image": "http://nodeschool.io/lyon/img/lyonbg-logo-medium.jpg",
+  "image": "/assets/img/lyonbg-logo-medium.jpg",
   "imageLink": "http://nodeschool.io/lyon",
   "date": "2015-10-20T17:25:37.117Z",
   "parent": "posts",
