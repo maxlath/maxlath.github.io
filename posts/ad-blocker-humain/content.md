@@ -30,6 +30,9 @@ Mettre son corps en opposition pour protéger les autres d'une agression, symbol
 
 Je suis curieux de voir jusqu'où ce type d'action peut aller : imaginons que tout le monde s'y mette et que les exploitants commencent à considérer cela comme un vrai problème, comment réagiront-ils ? Verra-t-on pousser sur ces écrans des petits pics comme on repousse les pigéons et les SDFs ? Sera-t-on verbalisé pour stationnement gênant la récolte attentionnelle ? Pour le savoir, il n'y a qu'un moyen : essayer !
 
+[Mise à jour 17/06/2018] ça commence à prendre !! :) action de [Stop Pub Video - Le mouvement](https://www.facebook.com/Stop-Pub-Video-Le-mouvement-2060452440887836/)
+![action stop pub video](/assets/img/stop_pub_video.jpg)
+
 ### Limites
 ![step 6](ad-block-tut_step6.gif)
 
@@ -41,7 +44,6 @@ Une fois le métro arrivé, on ne peut pas demander aux bloqueurs de pub de gard
 * Sur Lyon : [Collectif Plein La Vue](http://pleinlavue.org)
 * Sur le Web, le meilleur Ad&Tracker Blocker : [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) (je partage que le lien pour l'extension Firefox, et non Chrome : à quoi ça sert d'essayer de bloquer les trackers quand votre navigateur est lui-même construit par le plus grand vendeur de pub du web ?)
 * Si vous avez un peu de temps : il y a de ça quelques années, j'avais tenté de [penser un système alternatif à la pub pour partager l'information sur les ressources dans une société connectée](http://maxlath.eu/articles/paper-ethical-marketing/) [en]
-
 
 <hr>
 <h3><a name="EN" href="#EN">EN</a></h3>
@@ -72,6 +74,9 @@ You wouldn't have an umbrella with you by any chance? Small collapsible umbrella
 Using your body to protect others from an aggression, isn't that symbolically powerful? :') Take the chance to open the conversation on that issue!
 
 I would be curious to see where this kind of action could go: imagine if everyone was starting to do that and that attention farmers started to consider it a real issue, how would they react? Will we see small picks grow on those screens, like the ones used to push back pigeons and homeless people? Will we get fined for parking obstructing attention harvesting? There is just one way to know: try!
+
+[Mise à jour 17/06/2018] it starting to take off!! action by [Stop Pub Video - Le mouvement](https://www.facebook.com/Stop-Pub-Video-Le-mouvement-2060452440887836/)
+![action stop pub video](/assets/img/stop_pub_video.jpg)
 
 ### Limits
 ![step 6](ad-block-tut_step6.gif)
