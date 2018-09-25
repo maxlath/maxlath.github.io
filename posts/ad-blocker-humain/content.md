@@ -18,7 +18,7 @@ Vous attendez le métro, et une pub vient pourvoir *aux nouvelles attentes des u
 
 ### Option 2 : L'Ad-Blocker Humain
 ![step 3](ad-block-tut_step3.gif)
-Vous avez quelques minutes à attendre sur ce quai, et il se trouve que **l'endroit où l'on voit le moins ces maudits écrans c'est en ce mettant juste devant !** Autre intéret, et non des moindres : en mettant ainsi votre corps en opposition, vous jouer le rôle de **bloqueur de pub pour les autres !**
+Vous avez quelques minutes à attendre sur ce quai, et il se trouve que **l'endroit où l'on voit le moins ces maudits écrans c'est en se mettant juste devant !** Autre intéret, et non des moindres : en mettant ainsi votre corps en opposition, vous jouer le rôle de **bloqueur de pub pour les autres !**
 
 ### Prendre de la place
 ![step 4](ad-block-tut_step4.gif)
