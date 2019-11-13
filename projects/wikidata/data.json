@@ -9,6 +9,6 @@
   "parent": "projects",
   "partials": [],
   "format": "markdown",
-  "tags": ["wikidata", "openknowledge", "js", "cli"],
+  "tags": ["wikidata", "openknowledge", "js", "cli", "linkedopendata"],
   "lang": "en"
 }
