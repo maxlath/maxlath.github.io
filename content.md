@@ -5,6 +5,7 @@
   <main>
     <!-- TABS --><!-- TABS -->
     <div id="about">
+      <img id="pic" src="/assets/img/hiker_full_mozaik_triangle.jpg" />
       <a href="#about" name="#about"><h1>maxlath</h1></a>
       <!-- ABOUT --><!-- ABOUT -->
     </div>
