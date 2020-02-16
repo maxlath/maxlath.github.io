@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
+# Zsh is require to make ** globs work recursively
 set -e
 
 git push origin src
