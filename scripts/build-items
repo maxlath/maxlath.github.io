@@ -1,33 +1,35 @@
-#!/usr/bin/env coffee
+#!/usr/bin/env node
+const [ fast ] = process.argv.slice(2)
 
-[ fast ] = process.argv.slice(2)
+const { sectionsList, contentFile } = require('config')
+const buildItem = require('../lib/build_item')
+const _ = require('../lib/utils')
+const matchALazyFolder = require('../lib/match_a_lazy_folder')
+const walkSectionsFiles = require('../lib/walk_sections_files')
 
-{ sectionsList, contentFile } = require 'config'
-buildItem = require '../lib/build_item'
-_ = require '../lib/utils'
-matchALazyFolder = require '../lib/match_a_lazy_folder'
-walkSectionsFiles = require '../lib/walk_sections_files'
+const buildItems = () => walkSectionsFiles(function (file) {
+  // only builds items in a folder with a contentFile
+  if (!isContentFile(file)) { return }
 
-buildItems = ->
-  walkSectionsFiles (file)->
-    # only builds items in a folder with a contentFile
-    unless isContentFile file then return
+  const itemFolderPath = getFolderPath(file)
 
-    itemFolderPath = getFolderPath file
+  // filtering folders in remaining sections
+  if (matchALazyFolder(itemFolderPath)) {
+    return ignoring(itemFolderPath)
+  } else {
+    return buildItem(itemFolderPath)
+  }
+})
 
-    # filtering folders in remaining sections
-    if matchALazyFolder itemFolderPath
-      ignoring itemFolderPath
-    else
-      buildItem itemFolderPath
-
-ignoring = (folder)->
-  _.warn 'ignoring lazy folder', folder
+var ignoring = folder => {
+  _.warn('ignoring lazy folder', folder)
   return false
+}
 
-isContentFile = (file)-> file.split('/').slice(-1)[0] is contentFile
-getFolderPath = (file)-> file.split('/')[0...-1].join('/')
+var isContentFile = file => file.split('/').slice(-1)[0] === contentFile
+var getFolderPath = file => file.split('/').slice(0, -1).join('/')
 
 buildItems()
-if fast then _.warn 'fast mode: not compiling rss'
-else setTimeout _.persistData, 10000
+if (fast) {
+  _.warn('fast mode: not compiling rss')
+} else { setTimeout(_.persistData, 10000) }

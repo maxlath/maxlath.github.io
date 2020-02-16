@@ -1,7 +1,6 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 live-server &
 ./scripts/watch-lists &
 ./scripts/watch-css &
 ./scripts/watch-items &
-./scripts/watch-html &
-coffee -cw -o assets/js src/coffee/index.coffee &
+./scripts/watch-html

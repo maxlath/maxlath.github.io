@@ -1,4 +1,4 @@
-assets/js/tags_grap
+*.min.*
 assets/css/bundle.min.css
 assets/font/fontello.eot
 assets/font/fontello.svg
@@ -11,7 +11,6 @@ src/css/fontello-*
 brouillons
 node_modules
 TODO.md
-assets/js/tags_graph.js
 fontello*
 full_data.json
 slides/.gitignore
@@ -34,7 +33,6 @@ articles/**/*html
 !articles/**/partials/*html
 
 assets/css/bundle.css
-assets/js/index.js
 src/css/main.css
 
 tags/graph.json

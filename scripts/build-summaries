@@ -1,2 +1,2 @@
-#!/usr/bin/env sh
-coffee ./articles/paper-ethical-marketing/build_summaries.coffee
+#!/usr/bin/env bash
+node ./articles/paper-ethical-marketing/build_summaries.js

@@ -1,5 +1,6 @@
-#!/usr/bin/env zsh
-# start by building
+#!/usr/bin/env bash
+
+# Start by building
 ./scripts/build-lists
 # then watch
 # echo "starting to watch: $pattern -> build-lists"

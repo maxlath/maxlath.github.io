@@ -1,1 +1,2 @@
+#!/usr/bin/env bash
 ./scripts/build-items && ./scripts/build-lists

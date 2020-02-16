@@ -1,26 +1,26 @@
-#!/usr/bin/env coffee
-require 'colors'
-cb = require('copy-paste').copy
-request = require 'request'
-fs = require 'fs'
-[ url, name... ] = process.argv.slice(2)
+#!/usr/bin/env node
+require('colors')
+const cb = require('copy-paste').copy
+const request = require('request')
+let fs = require('fs')
+let [url, ...name] = process.argv.slice(2)
 name = name.join('-')
-_ = require '../lib/utils'
-fs = require 'fs'
+const _ = require('../lib/utils')
+fs = require('fs')
 
+if (url == null) throw new Error('missing url')
+if (name == null) throw new Error('missing name')
 
-unless url? then throw new Error('missing url')
-unless name? then throw new Error('missing name')
+const getImgUrl = name => {
+  if (!/\./.test(name)) name = name + '.jpg'
+  return `/assets/img/${name}`
+}
 
-getImgUrl = (name)->
-  unless /\./.test name then name = name + '.jpg'
-  "/assets/img/#{name}"
+const newUrl = getImgUrl(name)
+const path = `.${newUrl}`
 
-newUrl = getImgUrl name
-path = ".#{newUrl}"
+request.get(url)
+.pipe(fs.createWriteStream(path))
 
-request.get url
-.pipe fs.createWriteStream(path)
-
-cb newUrl
-console.log 'file copied, url added to clipboard'.green, newUrl
+cb(newUrl)
+console.log('file copied, url added to clipboard'.green, newUrl)

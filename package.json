@@ -23,7 +23,6 @@
     "watch-items": "./scripts/watch-items",
     "watch-lists": "./scripts/watch-lists",
     "watch-css": "./scripts/watch-css",
-    "watch-js": "coffee -o assets/js -cw src/coffee",
     "watch": "./scripts/watch",
     "deploy": "./scripts/deploy"
   },
@@ -32,7 +31,6 @@
     "app-root-path": "^1.0.0",
     "autoprefixer": "~6.5.0",
     "clean-css": "^3.4.19",
-    "coffee-script": "^1.10.0",
     "config": "^1.31.0",
     "copy-paste": "^1.1.4",
     "escape-html": "^1.0.3",

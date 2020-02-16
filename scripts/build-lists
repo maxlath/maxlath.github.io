@@ -1,48 +1,48 @@
-#!/usr/bin/env coffee
+#!/usr/bin/env node
+const buildList = require('../lib/build_list')
+const { updateFile } = require('../lib/update_part')
+const buildIndex = require('../lib/build_index')
+const buildHead = require('../lib/build_head')
+const wrapList = require('../lib/wrap_list')
+const _ = require('../lib/utils')
+const { sections, sectionsList } = require('config')
+const marked = require('marked')
+const buildTagsList = require('../lib/build_tags_list')
 
-buildList = require '../lib/build_list'
-{ updateFile } = require '../lib/update_part'
-buildIndex = require '../lib/build_index'
-buildHead = require '../lib/build_head'
-wrapList = require '../lib/wrap_list'
-_ = require '../lib/utils'
-{ sections, sectionsList } = require 'config'
-marked = require 'marked'
-buildTagsList = require '../lib/build_tags_list'
+const [ fast ] = process.argv.slice(2)
+if (fast) _.warn('fast mode: not compiling tags')
 
-[ fast ] = process.argv.slice(2)
-if fast then _.warn 'fast mode: not compiling tags'
+const itemsListsContent = sectionsList
+  .map(section => {
+    // build list
+    const html = buildList(section)
+    const data = _.getFolderData(section)
+    // build sub indexes / SIDE EFFECT /
+    buildIndex(section, html)
+    // wrap lists for main index
+    return wrapList(html, 2, data, `/${section}`)
+  }).join('\n')
 
-itemsListsContent = sectionsList
-  .map (section)->
-    # build list
-    html = buildList section
-    data = _.getFolderData section
-    # build sub indexes / SIDE EFFECT /
-    buildIndex section, html
-    # wrap lists for main index
-    return wrapList html, 2, data, "/#{section}"
-  .join '\n'
+const tagsListHtml = fast ? null : buildTagsList()
 
-unless fast then tagsListHtml = buildTagsList()
+// HOME
+let index = _.readFileSync('./content.md')
+const tabs = _.readFileSync('./partials/tabs.html')
+const links = _.readFileSync('./partials/links.md')
+const about = _.readFileSync('./partials/about.md')
+const data = _.getFolderData('.')
+const head = buildHead(data)
+// add wrap lists to main index
+index = updateFile(index, head, 'head')
+index = updateFile(index, tabs, 'tabs')
+index = updateFile(index, itemsListsContent, 'itemslists')
+if (!fast) { index = updateFile(index, tagsListHtml, 'tags') }
+index = updateFile(index, links, 'links')
+index = updateFile(index, about, 'about', true)
 
-# HOME
-index = _.readFileSync './content.md'
-tabs = _.readFileSync './partials/tabs.html'
-links = _.readFileSync './partials/links.md'
-about = _.readFileSync './partials/about.md'
-data = _.getFolderData '.'
-head = buildHead data
-# add wrap lists to main index
-index = updateFile index, head, 'head'
-index = updateFile index, tabs, 'tabs'
-index = updateFile index, itemsListsContent, 'itemslists'
-unless fast then index = updateFile index, tagsListHtml, 'tags'
-index = updateFile index, links, 'links'
-index = updateFile index, about, 'about', true
-
-if index.length > 0
-  console.log 'writing home index.html'
-  _.writeFile './index.html', index
-else
-  console.log 'updated index is empty'.red
+if (index.length > 0) {
+  console.log('writing home index.html')
+  _.writeFile('./index.html', index)
+} else {
+  console.log('updated index is empty'.red)
+}

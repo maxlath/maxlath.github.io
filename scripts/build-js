@@ -1,2 +1,2 @@
-coffee -o assets/js -c src/coffee
+#!/usr/bin/env bash
 uglifyjs --compress --mangle -- assets/js/tags_graph.js > assets/js/tags_graph.min.js

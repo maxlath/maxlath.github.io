@@ -1,8 +1,8 @@
-#!/usr/bin/env coffee
-# Example
-# ./scripts/scaffold-item articles wikidata-and-the-apt-get-of-things
-# ./scripts/scaffold-item articles/paper-ethical-marketing part-1
-scaffoldItem = require '../lib/scaffold_item'
-scaffoldItem.apply null, process.argv.slice(2)
-# Exit once the clibpboard actions are done
-setTimeout process.exit.bind(process), 1000
+#!/usr/bin/env node
+// Example
+// ./scripts/scaffold-item articles wikidata-and-the-apt-get-of-things
+// ./scripts/scaffold-item articles/paper-ethical-marketing part-1
+const scaffoldItem = require('../lib/scaffold_item')
+scaffoldItem.apply(null, process.argv.slice(2))
+// Exit once the clibpboard actions are done
+setTimeout(process.exit.bind(process), 1000)

@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 # start by building
 ./scripts/build-items
 # then watch

@@ -1,61 +1,67 @@
-#!/usr/bin/env coffee
+#!/usr/bin/env node
+const root = process.cwd()
 
-root = process.cwd()
+const data = require('../full_data')
+const _ = require('../lib/utils')
 
-data = require '../full_data'
-_ = require '../lib/utils'
-
-arr = []
-for k, v of data
-  arr.push
-    key: k
-    date: v.date
+let arr = []
+for (const k in data) {
+  const v = data[k]
+  arr.push({
+    key: k,
+    date: v.date,
     value: v
+  })
+}
 
-arr = _.sortBy arr, 'date'
+arr = _.sortBy(arr, 'date')
 
-RSS = require 'rss'
+const RSS = require('rss')
 
-categories = _(data)
-  .map _.property('tags')
+const categories = _(data)
+  .map(_.property('tags'))
   .flatten()
   .compact()
   .uniq()
   .value()
 
-year = new Date().toISOString().split('-')[0]
+const year = (new Date()).toISOString().split('-')[0]
 
-feed = new RSS
-  title: 'Maxime Lathuilière Web Hub'
-  description: 'Where I post and link to stuffs'
-  feed_url: 'http://maxlath.eu/rss.xml'
-  site_url: 'http://maxlath.eu'
-  image_url: 'http://maxlath.eu/assets/img/120-maxlath.jpg'
-  # docs: 'http://maxlath.eu/rss/docs.html'
-  managingEditor: 'Maxime Lathuilière'
-  webMaster: 'Maxime Lathuilière'
-  copyright:  "#{year} Maxime Lathuilière"
-  language: 'en'
-  categories: categories
-  # pubDate: new Date()
-  ttl: 24*60
+const feed = new RSS({
+  title: 'Maxime Lathuilière Web Hub',
+  description: 'Where I post and link to stuffs',
+  feed_url: 'http://maxlath.eu/rss.xml',
+  site_url: 'http://maxlath.eu',
+  image_url: 'http://maxlath.eu/assets/img/120-maxlath.jpg',
+  // docs: 'http://maxlath.eu/rss/docs.html'
+  managingEditor: 'Maxime Lathuilière',
+  webMaster: 'Maxime Lathuilière',
+  copyright: `${year} Maxime Lathuilière`,
+  language: 'en',
+  categories,
+  // pubDate: new Date()
+  ttl: 24 * 60
+})
 
-for el in arr
-  { key, value } = el
-  { title, description, cleanDesc, guid, tags, date, parent } = value
-  # filter-out articles sub parts
-  if parent in ['articles', 'posts', 'projects']
-    feed.item
-      title:  title
-      description: cleanDesc or description
-      # guid: guid
-      url: "http://maxlath.eu/#{key}/"
-      categories: tags
-      date: date
+for (const el of arr) {
+  const { key, value } = el
+  const { title, description, cleanDesc, guid, tags, date, parent } = value
+  // filter-out articles sub parts
+  if (['articles', 'posts', 'projects'].includes(parent)) {
+    feed.item({
+      title,
+      description: cleanDesc || description,
+      // guid: guid
+      url: `http://maxlath.eu/${key}/`,
+      categories: tags,
+      date
+    })
+  }
+}
 
-# console.log Object.keys(data)
+// console.log Object.keys(data)
 
-xml = feed.xml {indent: true}
+const xml = feed.xml({ indent: true })
 
-# console.log xml
-_.writeFile './rss.xml', xml
+// console.log xml
+_.writeFile('./rss.xml', xml)
