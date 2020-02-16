@@ -12,7 +12,6 @@ getElementData = (elName)->
   return el
 
 elementsList.forEach (elName)-> elements[elName] = getElementData elName
-console.log('elements', window.elements = elements)
 
 margin = 100
 updateTabsPosition = (e)->
