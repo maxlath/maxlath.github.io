@@ -19,7 +19,7 @@
     "build-rss": "./scripts/build-rss",
     "build": "./scripts/build",
     "build-fast": "./scripts/build fast",
-    "build-summaries": "./scripts/build-summaries",
+    "build-summaries": "./articles/paper-ethical-marketing/build_summaries.js",
     "watch-items": "./scripts/watch-items",
     "watch-lists": "./scripts/watch-lists",
     "watch-css": "./scripts/watch-css",

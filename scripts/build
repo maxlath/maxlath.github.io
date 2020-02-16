@@ -6,6 +6,8 @@ set -e
 ./scripts/build-items $1
 ./scripts/build-lists $1
 
+./articles/paper-ethical-marketing/build_summaries.js
+
 # Compile only when build is run without option: especially "fast"
 [ -z $1 ] && ./scripts/build-rss
 

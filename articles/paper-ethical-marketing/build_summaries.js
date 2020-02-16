@@ -1,11 +1,11 @@
+#!/usr/bin/env node
 const __ = require('config').universalPath
 const _ = __.require('lib', 'utils')
 
 const parts = [1, 2, 3].map(num => {
-  let path
   const name = `part-${num}`
   const part = require(`./${name}/structure`)
-  part.path = (path = `${__dirname}/${name}`)
+  const path = part.path = `${__dirname}/${name}`
   part.data = _.getFolderData(path)
   part.num = num
   return part
