@@ -26,7 +26,6 @@
     "watch": "./scripts/watch",
     "deploy": "./scripts/deploy"
   },
-  "dependencies": {},
   "devDependencies": {
     "app-root-path": "^1.0.0",
     "autoprefixer": "~6.5.0",
@@ -38,12 +37,12 @@
     "lodash": "^3.10.1",
     "marked": "^0.8.0",
     "mkdirp": "^0.5.1",
-    "node-sass": "^4.13.1",
     "onchange": "^2.5.0",
     "postcss-cli": "^7.1.0",
     "readdir-recursive": "0.0.4",
     "request": "^2.88.0",
     "rss": "^1.2.1",
+    "sass": "^1.49.8",
     "uglifyjs": "^2.4.11"
   }
 }

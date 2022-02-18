@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: row;
   a{
-    @include text-hover($light-blue)
+    @include text-hover($light-blue);
     text-align: center;
     span{
       font-weight: bold;
