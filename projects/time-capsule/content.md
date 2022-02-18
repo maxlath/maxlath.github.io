@@ -51,7 +51,7 @@ It will then re-open at this periodicity until the end of times. Or until you un
   <li>Comes with (poor) time-traveling jokes</li>
 </ul>
 
-Sending links to your past self isn't possible yet, but could come in a future version. It might be a premium feature reserved to <a href="https://liberapay.com/maxlath" title="Make recurrent donations on Liberapay">generous donators</a>.
+Sending links to your past self isn't possible yet, but could come as a premium feature in a future version.
 
 <h3>Advices to keep it sane</h3>
 <ul class="bullet-list">
@@ -116,7 +116,7 @@ Cette page se ré-ouvrira dès lors à cette périodicité jusqu'à la fin des t
   <li>Vient avec son lot de blagues (déplorables) sur les voyages temporels.</li>
 </ul>
 
-Envoyer des liens à votre vous passé n'est malheureusement pas encore possible, mais pourrait être ajouté dans une version future. Ce serait alors probablement une fonctionnalité réservé aux <a href="https://liberapay.com/maxlath" title="Faire un don récurrent sur Liberapay">généreux donateurs</a>.
+Envoyer des liens à votre vous passé n'est malheureusement pas encore possible, mais pourrait être ajouté comme fonctionnalité premium dans une version future.
 
 <h3>Conseils pour garder ce mechanisme dans des proportions supportable</h3>
 <ul class="bullet-list">
