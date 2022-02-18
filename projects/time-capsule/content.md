@@ -67,7 +67,7 @@ Sending links to your past self isn't possible yet, but could come as a premium 
 <img src="https://i.ytimg.com/vi/B8zNLceCQXY/maxresdefault.jpg" alt="time vortex">
 
 <a name="FR" href="#FR">
-  <img src="https://github.com/maxlath/time-capsule/raw/master/img/banners/time-capsule-on-dark-sky-with-title-and-subtitle.jpg">
+  <img src="https://raw.githubusercontent.com/maxlath/time-capsule/master/img/banners/time-capsule-on-dark-sky-with-title-and-subtitle.jpg">
   <h3>Time Capsule [FR]</h3>
 </a>
 La personne la plus à même de vous envoyer des liens correspondants à vos intérets est une autre version de vous même voyageant dans le temps : <strong>créez une capsule temporelle en choisissant quand la page web actuelle devrait être réouverte</strong>; cette page sera alors ajouté aux marque-pages et programmée pour être ré-ouverte quelque part dans le futur, selon la périodicité choisie, que ce soit une heure, un jour, un mois, une année, ou une décennie !
