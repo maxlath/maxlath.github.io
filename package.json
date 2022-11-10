@@ -15,6 +15,7 @@
     "build-items": "./scripts/build-items",
     "build-lists": "./scripts/build-lists",
     "build-css": "./scripts/build-css",
+    "build-html": "./scripts/build-html",
     "build-js": "./scripts/build-js",
     "build-rss": "./scripts/build-rss",
     "build": "./scripts/build",
