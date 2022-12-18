@@ -1,7 +1,5 @@
 <a class="email" href="mailto:max<at>maxlath.eu?subject=Hi!" title="Email"><i class="fa fa-envelope"></i><span>Email</span></a>
 <a class="mastodon" href="http://mastodon.social/@maxlath" title="Mastodon" target="_blank" rel="me"><img src="/assets/img/mastodon-inverted-2.svg"><span>Mastodon</span></a>
-<!-- Do not set the title to "Twitter" has ad blockers might hide it -->
-<a class="twitter" href="https://twitter.com/maxlath" title="Twitter Feed" target="_blank" rel="me"><i class="fa fa-twitter"></i><span>Twitter</span></a>
 <a class="inventory" href="https://inventaire.io/inventory/max" title="Inventaire" target="_blank"><i class="fa fa-book"></i><span>Inventory</span></a>
 <a class="wikidata" href="https://www.wikidata.org/wiki/Special:Contributions/maxlath" title="Wikidata" target="_blank"><i class="fa fa-barcode"></i><span>Wikidata</span></a>
 <a class="wikipedia" href="https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Contributions/maxlath" title="Wikipedia" target="_blank"><i class="fa fa-wikipedia-w"></i><span>Wikipedia</span></a>
