@@ -8,7 +8,9 @@ The best person to send you links matching your interests is a time-traveling ve
 
 It will then re-open at this periodicity until the end of times. Or until you un-bookmark it.
 
-<img src="https://cloud.githubusercontent.com/assets/1596934/26828135/5223ec72-4ac0-11e7-9099-85bd92414565.gif" alt="popup select demo">
+<video controls alt="demo">
+  <source src="https://github.com/maxlath/time-capsule/raw/main/screencasts/time_capsule_2023_demo.mp4" type="video/mp4">
+</video>
 
 <h3>Extension available on:</h3>
 <div class="marketplaces">
@@ -74,7 +76,9 @@ La personne la plus à même de vous envoyer des liens correspondants à vos int
 
 Cette page se ré-ouvrira dès lors à cette périodicité jusqu'à la fin des temps ! Ou jusqu'à ce que vous désactiviez le marque-page.
 
-<img src="https://cloud.githubusercontent.com/assets/1596934/26828135/5223ec72-4ac0-11e7-9099-85bd92414565.gif" alt="popup select demo">
+<video controls alt="demo">
+  <source src="https://github.com/maxlath/time-capsule/raw/main/screencasts/time_capsule_2023_demo.mp4" type="video/mp4">
+</video>
 
 <h3>Extension disponible sur:</h3>
 <div class="marketplaces">
