@@ -3,11 +3,11 @@
 set -e
 
 git push origin src
-git checkout -B master
+git checkout -B main
 mkdir -p assets/css
 npm run build
 git add index.html rss.xml tags/index.html tags/graph.json tags/**/*html projects/**/*html posts/**/*html articles/**/*html assets/css/bundle.css -f
 git commit -m 'updated build'
-git push origin --force master
+git push origin --force main
 git checkout src
 mkdir -p assets/css

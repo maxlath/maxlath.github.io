@@ -3,7 +3,7 @@
   "title": "Time Capsule",
   "subtitle": "A browser addon to share links with your future self",
   "description": "The best person to send you links matching your interest is a time travelling version of yourself. Be kind, return the favor to your future self! Sending links to your past self isn't possible yet, but could come in a future version",
-  "image": "https://raw.githubusercontent.com/maxlath/time-capsule/master/img/banners/time-capsule-on-dark-sky-with-title-and-subtitle.jpg",
+  "image": "https://raw.githubusercontent.com/maxlath/time-capsule/main/img/banners/time-capsule-on-dark-sky-with-title-and-subtitle.jpg",
   "date": "2017-04-03T23:05:03.271Z",
   "parent": "projects",
   "partials": [],
