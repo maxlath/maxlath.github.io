@@ -70,21 +70,18 @@ li{
     color: darken($previewHeaderColor, 50%);
   }
   .details{
-    opacity: 0;
-    @include transition(opacity);
     @include display-flex(column, center, center);
-    color: white;
     max-width: 100%;
-    @include display-flex(row, baseline, space-between);
     font-size: 0.7em;
-    color: rgba(white, 0.5);
-  }
-  .preview-tags{
-    margin-left: 0.4em;
-    text-align: left;
+    color: white;
   }
   .date{
-    flex: 0 0 auto;
-    padding-right: 0.4em;
+    margin: auto 0.2em 0 0.2em;
+    text-align: center;
+    font-weight: bold;
+  }
+  .preview-tags{
+    margin: 0 0.2em;
+    text-align: center;
   }
 }
