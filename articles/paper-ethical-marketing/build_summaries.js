@@ -27,7 +27,7 @@ var recursiveBuild = (child) => {
   return `<li class='deep-${level}'>${innerHtml}</li>`
 }
 
-const romanFigures = ['I', 'II', 'III']
+const romanFigures = [ 'I', 'II', 'III' ]
 
 const buildSummary = (part) => {
   const { children, path, data, num } = part

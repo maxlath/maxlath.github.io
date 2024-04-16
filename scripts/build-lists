@@ -36,7 +36,7 @@ const head = buildHead(data)
 index = updateFile(index, head, 'head')
 index = updateFile(index, tabs, 'tabs')
 index = updateFile(index, itemsListsContent, 'itemslists')
-if (!fast) { index = updateFile(index, tagsListHtml, 'tags') }
+if (!fast) { index = updateFile(index, tagsListHtml, 'tags') }
 index = updateFile(index, links, 'links')
 index = updateFile(index, about, 'about', true)
 
