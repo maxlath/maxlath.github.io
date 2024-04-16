@@ -6,6 +6,7 @@
   "cleanDesc": null,
   "image": "/assets/img/podcast_projets_libres.webp",
   "imageLink": "https://podcast.projets-libres.org/@projetslibres/episodes/devenir-le-bibliothecaire-de-son-reseau-inventaireio-mlathuiliere-inventaireio",
+  "showImageInContent": false,
   "date": "2024-04-16T14:45:37Z",
   "parent": "posts",
   "partials": [],
