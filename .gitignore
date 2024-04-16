@@ -25,14 +25,8 @@ src/css/fontello.css
 # commit only for deployment on master (using -f)
 index.html
 rss.xml
-tags/**/*html
-projects/**/*html
-!projects/inventaire/index.html
-posts/**/*html
-articles/**/*html
-!articles/**/partials/*html
-
+tags
+*html
 assets/css/bundle.css
 src/css/main.css
 
-tags/graph.json
