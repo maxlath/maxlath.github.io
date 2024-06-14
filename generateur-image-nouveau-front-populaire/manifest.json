@@ -1,0 +1,25 @@
+{
+  "short_name": "Nouveau Front Populaire Generator",
+  "name": "Générateur de photo de profile Nouveau Front Populaire",
+  "icons": [
+    {
+      "src": "nouveau-front-populaire-icon.64.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "nouveau-front-populaire-icon.192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "nouveau-front-populaire-icon.512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
