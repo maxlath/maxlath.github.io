@@ -15,53 +15,38 @@ footer{
       margin: 0.2em;
       @include display-flex(column, center, center);
       text-decoration: none;
+      color: $linksColor;
       .fa{
-        font-size: 3em;
+        font-size: 3rem;
+      }
+      svg{
+        height: 3rem;
+        scale: 2.5;
+        fill: $linksColor;
       }
       span{
         font-weight: bold;
         white-space: nowrap;
       }
-      color: $linksColor;
       @include transition(color);
-      &.mastodon{
-        img{
-          height: 3.5em;
-          background-color: $linksColor;
-          @include transition(background-color);
-        }
-      }
       &:hover{
         &.inventory{ color: #FFD402; }
         &.liberapay{ color: #F6C915; }
         &.email{ color: #39B54A; }
-        &.twitter{ color: #55ACEE; }
         &.wikidata{ color: #990000; }
+        &.soundcloud{ color: #ff5500; }
         &.wikipedia{ color: #B3B4B6; }
         &.commons{ color: #00649A; }
         &.openstreetmap{ color: #9BCE81; }
         &.github{ color: #333333; }
         &.npm{ color: #C12127; }
-        &.transifex{ color: #125A8C; }
-        &.framasphere{ color: #999999; }
-        &.linkedin{ color: #1C87BD; }
         &.stackoverflow{ color: #F48024; }
         &.mastodon{
-          color: #2b90d9;
-          img{
-            background-color: #2b90d9;
+          color: #6364ff;
+          svg{
+            fill: #6364ff;
           }
         }
-        // GROW ICONS
-        // .fa, span{
-          // @include transition(font-size, 0.4s);
-        // }
-        // .fa{
-        //   font-size: 4em;
-        // }
-        // span{
-        //   font-size: 1.4em;
-        // }
       }
     }
     /*Small screens*/
