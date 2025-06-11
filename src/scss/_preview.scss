@@ -15,7 +15,7 @@ li{
   &:hover{
     .preview-header{
       opacity: 1;
-      background-color: rgba(black, 0.95);
+      background-color: rgba(black, 0.7);
     }
     .details{
       opacity: 1;
@@ -42,7 +42,7 @@ li{
   @include transition(opacity);
   opacity: 0.8;
   color: $previewHeaderColor;
-  background-color: rgba(black, 0.8);
+  background-color: rgba(black, 0.5);
   .core{
     padding: 0.5em;
     @include display-flex(column, center, flex-end);
@@ -63,11 +63,11 @@ li{
   .subtitle{
     font-weight: bold;
     font-size: 0.8em;
-    color: darken($previewHeaderColor, 30%);
+    // color: darken($previewHeaderColor, 30%);
   }
   .description{
     font-size: 0.8em;
-    color: darken($previewHeaderColor, 50%);
+    // color: darken($previewHeaderColor, 50%);
   }
   .details{
     @include display-flex(column, center, center);

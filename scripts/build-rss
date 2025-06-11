@@ -30,10 +30,10 @@ const year = (new Date()).toISOString().split('-')[0]
 const feed = new RSS({
   title: 'Maxime Lathuilière Web Hub',
   description: 'Where I post and link to stuffs',
-  feed_url: 'http://maxlath.eu/rss.xml',
-  site_url: 'http://maxlath.eu',
-  image_url: 'http://maxlath.eu/assets/img/120-maxlath.jpg',
-  // docs: 'http://maxlath.eu/rss/docs.html'
+  feed_url: 'https://maxlath.eu/rss.xml',
+  site_url: 'https://maxlath.eu',
+  image_url: 'https://maxlath.eu/assets/img/120-maxlath.jpg',
+  // docs: 'https://maxlath.eu/rss/docs.html'
   managingEditor: 'Maxime Lathuilière',
   webMaster: 'Maxime Lathuilière',
   copyright: `${year} Maxime Lathuilière`,
@@ -52,7 +52,7 @@ for (const el of arr) {
       title,
       description: cleanDesc || description,
       // guid: guid
-      url: `http://maxlath.eu/${key}/`,
+      url: `https://maxlath.eu/${key}/`,
       categories: tags,
       date
     })

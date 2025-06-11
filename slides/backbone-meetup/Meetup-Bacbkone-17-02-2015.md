@@ -5,7 +5,7 @@
 --
 
 #### Meetup Backbone 17/02/2015
-[Maxime Lathuilière](http://maxlath.eu)
+[Maxime Lathuilière](https://maxlath.eu)
 [@maxlath](https://twitter.com/maxlath)
 
 retour sur la génèse d'[Inventaire](https://inventaire.io)
@@ -25,7 +25,7 @@ repenser le marketing dans l'intéret des consommateurs/citoyens
 
 --
 
-mémoire: [maxlath.eu/paper-ethical-marketing](http://maxlath.eu/paper-ethical-marketing/)
+mémoire: [maxlath.eu/paper-ethical-marketing](https://maxlath.eu/paper-ethical-marketing/)
 
 
 Note: quelques mots sur mon parcours: master en management / mémoire de fin d'étude
@@ -103,7 +103,7 @@ l'économie collaborative/horizontale comme laboratoire de transaction avec éch
 --
 
 
-article: [maxlath.eu/p2p-rm](http://maxlath.eu/p2p-rm/)
+article: [maxlath.eu/p2p-rm](https://maxlath.eu/p2p-rm/)
 
 Note: contourner le problème du manque d'incentive tant que pas d'usage
 
@@ -591,7 +591,7 @@ If you like it put a PR on it: [github.com/maxlath/inventaire](https://github.co
 
 --
 
-[Maxime Lathuilière](http://maxlath.eu) - [@maxlath](https://twitter.com/maxlath)
+[Maxime Lathuilière](https://maxlath.eu) - [@maxlath](https://twitter.com/maxlath)
 
 [Inventaire.io](https://inventaire.io) - [@inventaire_io](https://twitter.com/inventaire_io)
 

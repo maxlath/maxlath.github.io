@@ -43,7 +43,7 @@ Une fois le métro arrivé, on ne peut pas demander aux bloqueurs de pub de gard
 * [pétition contre les écrans publicitaires dans les gares SNCF](https://petition.antipub.org/petition/5/)
 * Sur Lyon : [Collectif Plein La Vue](http://pleinlavue.org)
 * Sur le Web, le meilleur Ad&Tracker Blocker : [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) (je partage que le lien pour l'extension Firefox, et non Chrome : à quoi ça sert d'essayer de bloquer les trackers quand votre navigateur est lui-même construit par le plus grand vendeur de pub du web ?)
-* Si vous avez un peu de temps : il y a de ça quelques années, j'avais tenté de [penser un système alternatif à la pub pour partager l'information sur les ressources dans une société connectée](http://maxlath.eu/articles/paper-ethical-marketing/) [en]
+* Si vous avez un peu de temps : il y a de ça quelques années, j'avais tenté de [penser un système alternatif à la pub pour partager l'information sur les ressources dans une société connectée](https://maxlath.eu/articles/paper-ethical-marketing/) [en]
 
 <hr>
 <h3><a name="EN" href="#EN">EN</a></h3>
@@ -85,4 +85,4 @@ Once the metro arrived, we can't ask human ad blockers to keep their position al
 
 ### Some readings
 * On the web, the best Ad&Tracker Blocker: [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) (I'm only sharing the Firefox link, and not Chrome: what's the point of blocking trackers when your browser is built by the biggest ad business on the web?)
-* If you have a bit of time: some years ago, I tried to [think an alternative system to advertisement to publish information on resources in a connected society](http://maxlath.eu/articles/paper-ethical-marketing/)
+* If you have a bit of time: some years ago, I tried to [think an alternative system to advertisement to publish information on resources in a connected society](https://maxlath.eu/articles/paper-ethical-marketing/)

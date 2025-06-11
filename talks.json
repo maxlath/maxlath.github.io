@@ -6,7 +6,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "http://maxlath.eu/profile"
+          "href": "https://maxlath.eu/profile"
         }
       ]
     }
@@ -18,7 +18,7 @@
       "links": [
         {
           "rel": "slides",
-          "href": "http://maxlath.eu/slides/ouishare-labs-camp-3"
+          "href": "https://maxlath.eu/slides/ouishare-labs-camp-3"
         },
         {
           "rel": "video",

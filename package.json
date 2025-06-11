@@ -1,6 +1,6 @@
 {
   "name": "personal-hub",
-  "description": "A static website to publish articles, posts and other blabla about myself, hosted as a Github Page and accessible at http://maxlath.eu",
+  "description": "A static website to publish articles, posts and other blabla about myself, hosted as a Github Page and accessible at https://maxlath.eu",
   "author": "maxlath",
   "version": "0.0.1",
   "license": "AGPL-3.0",
