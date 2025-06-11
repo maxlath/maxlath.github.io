@@ -1,0 +1,6 @@
+node_modules
+.*
+draft
+pnpm-lock.yaml
+scripts
+config
