@@ -4,6 +4,8 @@ Spending an unhealthy amount of time working on a computer while listening to mu
 
 <h4 id="mitmisch-2025">MnemozikExoset @ Mitmisch Festival 2025</h4>
 
+(Dub|Psy|Fusion)Trance, (Psy)Techno, a hint of Rave
+
 <audio id="mitmisch-2025-audio" controls src="./assets/mnemozik-exoset-mitmisch-festival-2025.mp3">
   <source type="audio/mp3" />
 </audio>
@@ -11,32 +13,32 @@ Spending an unhealthy amount of time working on a computer while listening to mu
 ##### Tracklist
 
 <ul class="tracklist" data-audio-id="mitmisch-2025-audio">
-  <li><button><span class="timestamp">0:00:00</span> Electronik Orkestar - Arabian Night</button></li>
-  <li><button><span class="timestamp">0:04:15</span> Electronik Orkestar - Turkish Song</button></li>
-  <li><button><span class="timestamp">0:07:52</span> Watt The Fox - Taksim</button></li>
-  <li><button><span class="timestamp">0:11:20</span> Watt The Fox - Madness</button></li>
-  <li><button><span class="timestamp">0:13:20</span> Space Raverz - Cosmik Walker</button></li>
-  <li><button><span class="timestamp">0:19:30</span> Tetra Hydro K - Hadra AlterVision</button></li>
-  <li><button><span class="timestamp">0:24:08</span> Tetra Hydro K feat. KILLA P - Wah Gwaan !</button></li>
-  <li><button><span class="timestamp">0:26:50</span> Watt The Fox - Consciousness (Miles From Mars Remix)</button></li>
-  <li><button><span class="timestamp">0:31:00</span> DJ Europarking - Penniless Tonight [UFO12] [RECUT]</button></li>
-  <li><button><span class="timestamp">0:33:30</span> DJ Europarking aka Dollkraut - 20inch Chrome [UFO7]</button></li>
-  <li><button><span class="timestamp">0:35:55</span> 3Form - Cosmos</button></li>
-  <li><button><span class="timestamp">0:39:20</span> Dantra - Wonder</button></li>
-  <li><button><span class="timestamp">0:45:25</span> Jerome Isma-Ae - Hold That Sucker Down (Jerome Isma-Ae's 10 Year Anniversary Mix)</button></li>
-  <li><button><span class="timestamp">0:47:37</span> Perceval - Croisade</button></li>
-  <li><button><span class="timestamp">0:50:34</span> Guigoo - Farfaders (Mat Weasel & Guigoo)- Tapis Volant</button></li>
-  <li><button><span class="timestamp">0:53:40</span> Velcro - Parasites [ZOUAW 03]</button></li>
-  <li><button><span class="timestamp">1:00:55</span> Dacru Records - XSI - Nightmare (Talamasca vs XSI ft Lucid Remix)</button></li>
-  <li><button><span class="timestamp">1:06:55</span> Reverence - Paranormal Attack - The Pill (Reverence Remix)</button></li>
-  <li><button><span class="timestamp">1:11:50</span> Leandre Lethö - Acid Beat</button></li>
-  <li><button><span class="timestamp">1:17:50</span> YSErecordings - Static Movement vs Dohak - Spaceship (Dual Core Remix)</button></li>
-  <li><button><span class="timestamp">1:24:20</span> Stryker, Javier Bussola - Psychedelic Doctor</button></li>
-  <li><button><span class="timestamp">1:31:25</span> Arkham Knights - Closing In (Extended Mix)</button></li>
-  <li><button><span class="timestamp">1:37:45</span> Arkham Knights - The Vision</button></li>
-  <li><button><span class="timestamp">1:40:50</span> Tetra Hydro K - Charcuterie Monin</button></li>
-  <li><button><span class="timestamp">1:44:20</span> Watt The Fox feat. Ludo Ji - Neo Drum Talk - Trans-Organica</button></li>
-  <li><button><span class="timestamp">1:51:03</span> Terrafractyl - Chromatic Fanatic</button></li>
+  <li><button><span class="timestamp">0:00:00</span> Electronik Orkestar - Arabian Night</button><a class="source" href="https://soundcloud.com/electronik-orkestar/arabian-night?in=electronik-orkestar/sets/f5ep" rel="noopener">soundcloud</a></li>
+  <li><button><span class="timestamp">0:04:15</span> Electronik Orkestar - Turkish Song</button><a class="source" href="https://soundcloud.com/electronik-orkestar/turkish-song?in=electronik-orkestar/sets/f5ep" rel="noopener">soundcloud</a></li>
+  <li><button><span class="timestamp">0:07:52</span> Watt The Fox - Taksim</button><a class="source" href="https://soundcloud.com/wattthefox/watt-the-fox-taksim" rel="noopener">soundcloud</a></li>
+  <li><button><span class="timestamp">0:11:20</span> Watt The Fox - Madness</button><a class="source" href="https://soundcloud.com/wattthefox/watt-the-fox-madness" rel="noopener">soundcloud</a></li>
+  <li><button><span class="timestamp">0:13:20</span> Space Raverz - Cosmik Walker</button><a class="source" href="https://soundcloud.com/spaceraverz/cosmik-walker" rel="noopener">soundcloud</a></li>
+  <li><button><span class="timestamp">0:19:30</span> Tetra Hydro K - Hadra AlterVision</button><a class="source" href="https://www.youtube.com/watch?v=gjxXKyIvtes" rel="noopener">youtube</a></li>
+  <li><button><span class="timestamp">0:24:08</span> Tetra Hydro K feat. KILLA P - Wah Gwaan !</button><a class="source" href="https://www.youtube.com/watch?v=9Lrxnkwi0fA" rel="noopener">youtube</a></li>
+  <li><button><span class="timestamp">0:26:50</span> Watt The Fox - Consciousness (Miles From Mars Remix)</button><a class="source" href="https://soundcloud.com/milesfromars/consciousness-miles-from-mars-remix" rel="noopener">soundcloud</a></li>
+  <li><button><span class="timestamp">0:31:00</span> DJ Europarking - Penniless Tonight [UFO12] [RECUT]</button><a class="source" href="https://www.youtube.com/watch?v=Kf023oDcwr8" rel="noopener">youtube</a></li>
+  <li><button><span class="timestamp">0:33:30</span> DJ Europarking aka Dollkraut - 20inch Chrome [UFO7]</button><a class="source" href="https://www.youtube.com/watch?v=JHHAoCsHu4c" rel="noopener">youtube</a></li>
+  <li><button><span class="timestamp">0:35:55</span> 3Form - Cosmos</button><a class="source" href="https://www.youtube.com/watch?v=ulfa-PwXP-g" rel="noopener">youtube</a></li>
+  <li><button><span class="timestamp">0:39:20</span> Dantra - Wonder</button><a class="source" href="https://www.youtube.com/watch?v=Ae1hEKUJTiY" rel="noopener">youtube</a></li>
+  <li><button><span class="timestamp">0:45:25</span> Jerome Isma-Ae - Hold That Sucker Down</button><a class="source" href="https://www.youtube.com/watch?v=qo7bP4_fTBI" rel="noopener">youtube</a></li>
+  <li><button><span class="timestamp">0:47:37</span> Perceval - Croisade</button><a class="source" href="https://soundcloud.com/seigneurperceval/croisade" rel="noopener">soundcloud</a></li>
+  <li><button><span class="timestamp">0:50:34</span> Guigoo - Farfaders (Mat Weasel & Guigoo)- Tapis Volant</button><a class="source" href="https://soundcloud.com/guigoo-official/farfaders-mat-weasel-guigoo-tapis-volant" rel="noopener">soundcloud</a></li>
+  <li><button><span class="timestamp">0:53:40</span> Velcro - Parasites [ZOUAW 03]</button><a class="source" href="https://soundcloud.com/velcroo/velcro-parasites-soon-on-zouaw-03" rel="noopener">soundcloud</a></li>
+  <li><button><span class="timestamp">1:00:55</span> Dacru Records - XSI - Nightmare (Talamasca vs XSI ft Lucid Remix)</button><a class="source" href="https://www.youtube.com/watch?v=WAdjmTNE4AE" rel="noopener">youtube</a></li>
+  <li><button><span class="timestamp">1:06:55</span> Reverence - Paranormal Attack - The Pill (Reverence Remix)</button><a class="source" href="https://www.youtube.com/watch?v=flYSXfdXH28" rel="noopener">youtube</a></li>
+  <li><button><span class="timestamp">1:11:50</span> Leandre Lethö - Acid Beat</button><a class="source" href="https://soundcloud.com/leandreletho/acid-beat-mp3" rel="noopener">soundcloud</a></li>
+  <li><button><span class="timestamp">1:17:50</span> YSErecordings - Static Movement vs Dohak - Spaceship (Dual Core Remix)</button><a class="source" href="https://www.youtube.com/watch?v=eUc8hw8zQLw" rel="noopener">youtube</a></li>
+  <li><button><span class="timestamp">1:24:20</span> Stryker, Javier Bussola - Psychedelic Doctor</button><a class="source" href="https://www.youtube.com/watch?v=Zioovfq9EIY" rel="noopener">youtube</a></li>
+  <li><button><span class="timestamp">1:31:25</span> Arkham Knights - Closing In (Extended Mix)</button><a class="source" href="https://www.youtube.com/watch?v=yyNjI20ohck" rel="noopener">youtube</a></li>
+  <li><button><span class="timestamp">1:37:45</span> Arkham Knights - The Vision</button><a class="source" href="https://www.youtube.com/watch?v=9miAl4bxr5g" rel="noopener">youtube</a></li>
+  <li><button><span class="timestamp">1:40:50</span> Tetra Hydro K - Charcuterie Monin</button><a class="source" href="https://soundcloud.com/tetra-hydro-k/charcuterie-monin?in=tetra-hydro-k/sets/odyssee-747476023" rel="noopener">soundcloud</a></li>
+  <li><button><span class="timestamp">1:44:20</span> Watt The Fox feat. Ludo Ji - Neo Drum Talk - Trans-Organica</button><a class="source" href="https://www.youtube.com/watch?v=iFu1kyKU6sQ" rel="noopener">youtube</a></li>
+  <li><button><span class="timestamp">1:51:03</span> Terrafractyl - Chromatic Fanatic</button><a class="source" href="https://www.youtube.com/watch?v=ADOO3Fa4TvI" rel="noopener">youtube</a></li>
 </ul>
 
 <script type="module">
@@ -78,7 +80,7 @@ Spending an unhealthy amount of time working on a computer while listening to mu
   }
 
   function getTimestamp (el) {
-    return Array.from(el.children).find(el => el.className === 'timestamp').innerText
+    return el.querySelector('.timestamp').innerText
   }
 
   const secondsPerMinute = 60
@@ -108,18 +110,20 @@ Spending an unhealthy amount of time working on a computer while listening to mu
     Array.from(document.querySelectorAll('audio')).forEach(audioEl => {
       const { id, currentTime } = audioEl
       const currentTimestamp = getTimestampFromTime(currentTime)
-      const tracksButtons = Array.from(document.querySelectorAll(`ul[data-audio-id="${id}"] button`))
-      const previouslyPlaying = tracksButtons.find(el => el.classList.contains('playing'))
-      const nextTrackButton = tracksButtons.find(el => {
+      const tracks = Array.from(document.querySelectorAll(`ul[data-audio-id="${id}"] li`))
+      const previouslyPlayingTrackLi = tracks.find(el => el.classList.contains('playing'))
+      console.log('🚀 ~ Array.from ~ tracks:', tracks)
+      const nextTrackLi = tracks.find(el => {
         const timestamp = getTimestamp(el)
+        console.log('🚀 ~ Array.from ~ timestamp:', timestamp)
         return timestamp > currentTimestamp
       })
-      const currentTrackButton = nextTrackButton.closest('li').previousElementSibling.childNodes[0]
-      if (previouslyPlaying == null) {
-        currentTrackButton.classList.add('playing')
-      } else if (previouslyPlaying !== currentTrackButton) {
-        currentTrackButton.classList.add('playing')
-        previouslyPlaying.classList.remove('playing')
+      const currentTrackLi = nextTrackLi.previousElementSibling
+      if (previouslyPlayingTrackLi == null) {
+        currentTrackLi.classList.add('playing')
+      } else if (previouslyPlayingTrackLi !== currentTrackLi) {
+        currentTrackLi.classList.add('playing')
+        previouslyPlayingTrackLi.classList.remove('playing')
       }
     })
   }
@@ -131,10 +135,18 @@ Spending an unhealthy amount of time working on a computer while listening to mu
   audio{
     width: 100%;
   }
+  h5{
+    margin-bottom: 0.5rem;
+  }
   .tracklist li{
     border-top: 1px solid #aaff00dd;
     border-left: 1px solid #aaff00dd;
     border-right: 1px solid #aaff00dd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    transition: background-color 0.2s ease;
   }
   .tracklist li:first-child{
     border-top-left-radius: 3px;
@@ -145,18 +157,14 @@ Spending an unhealthy amount of time working on a computer while listening to mu
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
   }
-  h5{
-    margin-bottom: 0.5rem;
-  }
   .tracklist button{
     color: #448;
     width: 100%;
     text-align: start;
     padding: 0.3rem 0.4rem 0.4rem 0.4rem;
-    transition: background-color 0.2s ease;
     user-select: text;
   }
-  .tracklist button:hover{
+  .tracklist li:hover{
     background-color: #aaff0055;
   }
   .timestamp{
@@ -168,5 +176,14 @@ Spending an unhealthy amount of time working on a computer while listening to mu
   }
   .playing{
     background-color: #aaff00dd;
+  }
+  a.source{
+    padding: 0.1rem 0.3rem;
+    background-color: #888;
+    color: white !important;
+    margin-left: auto;
+    margin-right: 0.3rem;
+    font-size: 0.9rem;
+    border-radius: 2px;
   }
 </style>
