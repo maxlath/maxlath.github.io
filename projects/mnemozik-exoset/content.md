@@ -112,10 +112,8 @@ Spending an unhealthy amount of time working on a computer while listening to mu
       const currentTimestamp = getTimestampFromTime(currentTime)
       const tracks = Array.from(document.querySelectorAll(`ul[data-audio-id="${id}"] li`))
       const previouslyPlayingTrackLi = tracks.find(el => el.classList.contains('playing'))
-      console.log('🚀 ~ Array.from ~ tracks:', tracks)
       const nextTrackLi = tracks.find(el => {
         const timestamp = getTimestamp(el)
-        console.log('🚀 ~ Array.from ~ timestamp:', timestamp)
         return timestamp > currentTimestamp
       })
       const currentTrackLi = nextTrackLi.previousElementSibling
