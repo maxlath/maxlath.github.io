@@ -36,12 +36,12 @@ Je suis curieux de voir jusqu'où ce type d'action peut aller : imaginons que to
 ### Limites
 ![step 6](ad-block-tut_step6.gif)
 
-Une fois le métro arrivé, on ne peut pas demander aux bloqueurs de pub de garder leur poste (on va pas y passer la journée...), les flashs anxiogènes reprennent : c'est la plus grosse limite de ce système, c'est du très temporaire... Pour du plus long terme, il n'y a que l'action politique : le contrat sur les écrans dans le métro de Lyon est signé pour 7 ans donc ça risque d'être compliqué à faire sauter, mais **pour éviter que ces abominations arrivent à la surface, ça se joue maintenant** avec la concertation sur le Règlement Local de Publicité : **c'est le moment de [signez la pétition](http://pleinlavue.org/)** et d'**[écrire à nos élus](http://pleinlavue.frama.io/generateur-d-email/)** !
+Une fois le métro arrivé, on ne peut pas demander aux bloqueurs de pub de garder leur poste (on va pas y passer la journée...), les flashs anxiogènes reprennent : c'est la plus grosse limite de ce système, c'est du très temporaire... Pour du plus long terme, il n'y a que l'action politique : le contrat sur les écrans dans le métro de Lyon est signé pour 7 ans donc ça risque d'être compliqué à faire sauter, mais **pour éviter que ces abominations arrivent à la surface, ça se joue maintenant** avec la concertation sur le Règlement Local de Publicité : **c'est le moment de [signez la pétition](https://web.archive.org/web/20190104021837/http://pleinlavue.org/)** et d'**[écrire à nos élus](http://pleinlavue.frama.io/generateur-d-email/)** !
 
 ### Quelques lectures
 * [stop-pub.video - Appel à mobilisation le 3 février 2018](https://stop-pub.video)
 * [pétition contre les écrans publicitaires dans les gares SNCF](https://petition.antipub.org/petition/5/)
-* Sur Lyon : [Collectif Plein La Vue](http://pleinlavue.org)
+* Sur Lyon : [Collectif Plein La Vue](https://web.archive.org/web/20190104021837/http://pleinlavue.org/)
 * Sur le Web, le meilleur Ad&Tracker Blocker : [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) (je partage que le lien pour l'extension Firefox, et non Chrome : à quoi ça sert d'essayer de bloquer les trackers quand votre navigateur est lui-même construit par le plus grand vendeur de pub du web ?)
 * Si vous avez un peu de temps : il y a de ça quelques années, j'avais tenté de [penser un système alternatif à la pub pour partager l'information sur les ressources dans une société connectée](https://maxlath.eu/articles/paper-ethical-marketing/) [en]
 
@@ -81,7 +81,7 @@ I would be curious to see where this kind of action could go: imagine if everyon
 ### Limits
 ![step 6](ad-block-tut_step6.gif)
 
-Once the metro arrived, we can't ask human ad blockers to keep their position all day, and those damn aggressive, anxiety-inducing flashes restart: that's the biggest limit of this solution, it's a very temporary one... For long term solutions, only political struggle can work: the contract for those screens in the metro of Lyon is signed for 7 years so that's gonna be hard to bust, but **to avoid that those abominations crawl to the surface, the time to act is now** as the *Règlement Local de Publicité* [local advertisement law] is being "discussed" publically: it's time to **[sign the petition](http://pleinlavue.org/)** and to **[write our representatives](http://pleinlavue.frama.io/generateur-d-email/)**!
+Once the metro arrived, we can't ask human ad blockers to keep their position all day, and those damn aggressive, anxiety-inducing flashes restart: that's the biggest limit of this solution, it's a very temporary one... For long term solutions, only political struggle can work: the contract for those screens in the metro of Lyon is signed for 7 years so that's gonna be hard to bust, but **to avoid that those abominations crawl to the surface, the time to act is now** as the *Règlement Local de Publicité* [local advertisement law] is being "discussed" publically: it's time to **[sign the petition](https://web.archive.org/web/20190104021837/http://pleinlavue.org//)** and to **[write our representatives](http://pleinlavue.frama.io/generateur-d-email/)**!
 
 ### Some readings
 * On the web, the best Ad&Tracker Blocker: [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) (I'm only sharing the Firefox link, and not Chrome: what's the point of blocking trackers when your browser is built by the biggest ad business on the web?)
