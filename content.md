@@ -18,7 +18,7 @@
   <small>
     <a href="https://maxlath.eu/rss.xml" type="application/rss+xml"><i class="fa fa-rss"></i> RSS feed</a>
     &nbsp;-&nbsp;
-    <a href="https://github.com/maxlath/maxlath.github.io" target="_blank">This website source code</a>
+    <a href="https://codeberg.org/maxlath/maxlath.eu" target="_blank">This website source code</a>
   </small>
 </footer>
 <script src="/assets/js/index.js"></script>
