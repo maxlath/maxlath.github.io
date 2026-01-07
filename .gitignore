@@ -31,3 +31,7 @@ assets/css/bundle.css
 src/css/main.css
 
 *.mp3
+
+# Do not track deploy script to keep rsync command private
+scripts/deploy
+
