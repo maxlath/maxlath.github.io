@@ -31,7 +31,7 @@
     "app-root-path": "^1.0.0",
     "autoprefixer": "~6.5.0",
     "clean-css": "^3.4.19",
-    "config": "^1.31.0",
+    "config": "^4.1.1",
     "copy-paste": "^1.1.4",
     "escape-html": "^1.0.3",
     "live-server": "^0.8.2",
